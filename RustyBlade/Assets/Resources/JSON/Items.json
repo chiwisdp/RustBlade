@@ -1,0 +1,28 @@
+[
+    {
+      "objectSlug": "sword",
+      "itemName": "Sword",
+      "description": "A long, sharp blade.",
+      "itemType": "Weapon",
+      "actionName": "Equip",
+      "itemModifier": 0,
+      "Stats": [
+        {
+          "StatType": "Power",
+          "BaseValue": 25,
+          "StatName": "Power"
+        },
+        {
+          "StatType": "Toughness",
+          "BaseValue": 4,
+          "StatName": "Tougness"
+        },
+        {
+          "StatType": "AttackSpeed",
+          "BaseValue": 4,
+          "StatName": "Atk Spd"
+        }
+      ]
+    }
+  ]
+  
