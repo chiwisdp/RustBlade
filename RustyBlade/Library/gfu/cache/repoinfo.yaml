@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2018-08-15T21:01:38.077+09:00
+  lastUpdatedAtString: 2018-08-15T22:04:19.041+09:00
   initializedAtString: 2018-08-15T20:59:51.564+09:00
   currentGitRemote:
     name: origin
@@ -24,14 +24,14 @@ MonoBehaviour:
     token: 
   currentGitBranch:
     name: battleProto
-    tracking: 
+    tracking: origin/battleProto
   currentConfigBranch:
     name: battleProto
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/chiwisdp/RustBlade.git
+    trackingBranch: battleProto
   currentConfigRemote:
     name: origin
     url: https://github.com/chiwisdp/RustBlade.git
-  currentHead: a9aa628
+  currentHead: 9c35af4

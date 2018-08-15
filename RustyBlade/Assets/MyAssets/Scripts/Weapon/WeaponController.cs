@@ -6,7 +6,6 @@ public class WeaponController : MonoBehaviour {
 	public GameObject _playerHand;
 	public GameObject EquippedWeapon {get; set;}
 	IWeapon _equippedItem;
-	// Use this for initialization
 	CharacterStats _charStats;
 	void Start(){
 		_charStats = GetComponent<PlayerStatsController>().characterStats;
