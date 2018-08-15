@@ -8,10 +8,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 1265399648, guid: 68c7e4565cde54155bb78d8e935f1dd4, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: GitHub.Unity:GitHub.Unity:GitLocksCache
+  m_EditorClassIdentifier: 
   cacheType: 6
-  lastUpdatedAtString: 2018-08-15T20:51:38.325+09:00
-  initializedAtString: 2018-08-15T20:51:38.325+09:00
+  lastUpdatedAtString: 2018-08-15T21:39:50.123+09:00
+  initializedAtString: 2018-08-15T20:59:52.330+09:00
   gitLocks: []

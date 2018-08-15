@@ -8,12 +8,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 1109517887, guid: 68c7e4565cde54155bb78d8e935f1dd4, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: GitHub.Unity:GitHub.Unity:RepositoryInfoCache
+  m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2018-08-15T20:51:38.305+09:00
-  initializedAtString: 2018-08-15T20:51:38.305+09:00
+  lastUpdatedAtString: 2018-08-15T21:01:38.077+09:00
+  initializedAtString: 2018-08-15T20:59:51.564+09:00
   currentGitRemote:
     name: origin
     url: https://github.com/chiwisdp/RustBlade.git
@@ -23,15 +23,15 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: master
-    tracking: origin/master
+    name: battleProto
+    tracking: 
   currentConfigBranch:
-    name: master
+    name: battleProto
     remote:
-      name: origin
-      url: https://github.com/chiwisdp/RustBlade.git
-    trackingBranch: master
+      name: 
+      url: 
+    trackingBranch: 
   currentConfigRemote:
     name: origin
     url: https://github.com/chiwisdp/RustBlade.git
-  currentHead: 083e1bd
+  currentHead: a9aa628

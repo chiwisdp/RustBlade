@@ -8,13 +8,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 0}
+  m_Script: {fileID: 1666186674, guid: 68c7e4565cde54155bb78d8e935f1dd4, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: GitHub.Unity:GitHub.Unity:BranchesCache
+  m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2018-08-15T20:51:36.635+09:00
-  initializedAtString: 2018-08-15T20:51:36.593+09:00
+  lastUpdatedAtString: 2018-08-15T21:06:33.981+09:00
+  initializedAtString: 2018-08-15T21:00:19.412+09:00
   localBranches:
+  - name: battleProto
+    tracking: 
   - name: master
     tracking: origin/master
   remoteBranches:
@@ -32,8 +34,14 @@ MonoBehaviour:
     token: 
   localConfigBranches:
     keys:
+    - battleProto
     - master
     values:
+    - name: battleProto
+      remote:
+        name: 
+        url: 
+      trackingBranch: 
     - name: master
       remote:
         name: origin

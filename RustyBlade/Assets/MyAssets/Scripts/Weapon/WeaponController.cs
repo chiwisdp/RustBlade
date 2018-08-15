@@ -10,6 +10,7 @@ public class WeaponController : MonoBehaviour {
 	CharacterStats _charStats;
 	void Start(){
 		_charStats = GetComponent<PlayerStatsController>().characterStats;
+		Debug.Log(_charStats);
 	}
 	public void EquipItem (Item _itemToEquip) {
 		if(EquippedWeapon!= null)

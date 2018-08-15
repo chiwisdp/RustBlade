@@ -363,6 +363,33 @@
  <Reference Include="Newtonsoft.Json">
  <HintPath>C:/Users/chiwi/OneDrive/Documents/RustBlade/RustyBlade/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
  </Reference>
+ <Reference Include="AsyncBridge.Net35">
+ <HintPath>C:/Users/chiwi/OneDrive/Documents/RustBlade/RustyBlade/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll</HintPath>
+ </Reference>
+ <Reference Include="GitHub.Api">
+ <HintPath>C:/Users/chiwi/OneDrive/Documents/RustBlade/RustyBlade/Assets/Plugins/GitHub/Editor/GitHub.Api.dll</HintPath>
+ </Reference>
+ <Reference Include="GitHub.Logging">
+ <HintPath>C:/Users/chiwi/OneDrive/Documents/RustBlade/RustyBlade/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
+ </Reference>
+ <Reference Include="GitHub.Unity">
+ <HintPath>C:/Users/chiwi/OneDrive/Documents/RustBlade/RustyBlade/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>C:/Users/chiwi/OneDrive/Documents/RustBlade/RustyBlade/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Posix">
+ <HintPath>C:/Users/chiwi/OneDrive/Documents/RustBlade/RustyBlade/Assets/Plugins/GitHub/Editor/Mono.Posix.dll</HintPath>
+ </Reference>
+ <Reference Include="ReadOnlyCollectionsInterfaces">
+ <HintPath>C:/Users/chiwi/OneDrive/Documents/RustBlade/RustyBlade/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll</HintPath>
+ </Reference>
+ <Reference Include="sfw.net">
+ <HintPath>C:/Users/chiwi/OneDrive/Documents/RustBlade/RustyBlade/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading">
+ <HintPath>C:/Users/chiwi/OneDrive/Documents/RustBlade/RustyBlade/Assets/Plugins/GitHub/Editor/System.Threading.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Users/chiwi/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
  </Reference>
@@ -377,33 +404,6 @@
  </Reference>
  <Reference Include="UnityEngine.StandardEvents">
  <HintPath>C:/Users/chiwi/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll</HintPath>
- </Reference>
- <Reference Include="AsyncBridge.Net35">
- <HintPath>C:/Users/chiwi/OneDrive/Documents/RustBlade/RustyBlade/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll</HintPath>
- </Reference>
- <Reference Include="GitHub.Api">
- <HintPath>C:/Users/chiwi/OneDrive/Documents/RustBlade/RustyBlade/Assets/Plugins/GitHub/Editor/GitHub.Api.dll</HintPath>
- </Reference>
- <Reference Include="GitHub.Unity">
- <HintPath>C:/Users/chiwi/OneDrive/Documents/RustBlade/RustyBlade/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
- </Reference>
- <Reference Include="sfw.net">
- <HintPath>C:/Users/chiwi/OneDrive/Documents/RustBlade/RustyBlade/Assets/Plugins/GitHub/Editor/sfw.net.dll</HintPath>
- </Reference>
- <Reference Include="ICSharpCode.SharpZipLib">
- <HintPath>C:/Users/chiwi/OneDrive/Documents/RustBlade/RustyBlade/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll</HintPath>
- </Reference>
- <Reference Include="System.Threading">
- <HintPath>C:/Users/chiwi/OneDrive/Documents/RustBlade/RustyBlade/Assets/Plugins/GitHub/Editor/System.Threading.dll</HintPath>
- </Reference>
- <Reference Include="GitHub.Logging">
- <HintPath>C:/Users/chiwi/OneDrive/Documents/RustBlade/RustyBlade/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
- </Reference>
- <Reference Include="ReadOnlyCollectionsInterfaces">
- <HintPath>C:/Users/chiwi/OneDrive/Documents/RustBlade/RustyBlade/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll</HintPath>
- </Reference>
- <Reference Include="Mono.Posix">
- <HintPath>C:/Users/chiwi/OneDrive/Documents/RustBlade/RustyBlade/Assets/Plugins/GitHub/Editor/Mono.Posix.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Editor/Data/MonoBleedingEdge/lib/mono/2.0-api/mscorlib.dll</HintPath>

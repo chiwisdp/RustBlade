@@ -15,6 +15,7 @@ public class PlayerStatsController : MonoBehaviour {
         PlayerLevel = GetComponent<PlayerLevel>();
         this.currentHealth = this.maxHealth;
         characterStats = new CharacterStats(10, 10, 10);
+        Debug.Log(characterStats);
     }
 
 
