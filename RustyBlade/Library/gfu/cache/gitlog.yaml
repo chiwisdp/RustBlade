@@ -12,9 +12,51 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-08-15T22:04:19.966+09:00
-  initializedAtString: 2018-08-15T21:00:15.682+09:00
+  lastUpdatedAtString: 2018-08-19T22:39:37.413+09:00
+  initializedAtString: 2018-08-19T22:39:37.413+09:00
   log:
+  - commitID: 1fb913511484ac5d07403fbd1a96d54b9e2662c3
+    mergeA: 
+    mergeB: 
+    authorName: chiwisdp
+    authorEmail: daniel@craterhouse.com
+    commitEmail: daniel@craterhouse.com
+    commitName: chiwisdp
+    summary: test3
+    description: test3
+    timeString: 2018-08-15T22:05:04.000+09:00
+    commitTimeString: 2018-08-15T22:05:04.000+09:00
+    changes:
+    - path: RustyBlade\Assets\MyAssets\Scripts\Weapon\WeaponController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Scripts\Weapon\WeaponController.cs
+      projectPath: Assets\MyAssets\Scripts\Weapon\WeaponController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\37\37b07131a37f1bf47a7ecee2ae173710
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\37\37b07131a37f1bf47a7ecee2ae173710
+      projectPath: Library\metadata\37\37b07131a37f1bf47a7ecee2ae173710
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 9c35af42789dad8e0efc3b5bcb9c6af7895fa3cd
     mergeA: 
     mergeB: 

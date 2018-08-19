@@ -9,7 +9,7 @@
       "Stats": [
         {
           "StatType": "Power",
-          "BaseValue": 25,
+          "BaseValue": 10,
           "StatName": "Power"
         },
         {

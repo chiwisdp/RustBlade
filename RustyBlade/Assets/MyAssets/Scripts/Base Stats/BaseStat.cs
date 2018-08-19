@@ -49,6 +49,7 @@ public class BaseStat
         this.FinalValue = 0;
         this.BaseAdditives.ForEach(x => this.FinalValue += x.BonusValue);
         this.FinalValue += BaseValue;
+        Debug.Log("FinalValue "+FinalValue);
         return FinalValue;
     }
 

@@ -35,10 +35,11 @@ public class WeaponController : MonoBehaviour {
 	}
 	private int CalculateDamage()
     {
-        int damageToDeal = (_charStats.GetStat(BaseStat.BaseStatType.Power).GetCalculatedStatValue() * 2)
-            + Random.Range(2, 8);
+		//OLD equation   int damageToDeal = (_charStats.GetStat(BaseStat.BaseStatType.Power).GetCalculatedStatValue() * 2)+ Random.Range(2, 8);
+        int damageToDeal = (_charStats.GetStat(BaseStat.BaseStatType.Power).GetCalculatedStatValue())
+            + Random.Range(0, 3);
         damageToDeal += CalculateCrit(damageToDeal);
-       // Debug.Log("Damage dealt: " + damageToDeal);
+        Debug.Log("Damage dealt: " + damageToDeal + "  "+( _charStats.GetStat(BaseStat.BaseStatType.Power).GetCalculatedStatValue()));
         return damageToDeal;
     }
     private int CalculateCrit(int damage)

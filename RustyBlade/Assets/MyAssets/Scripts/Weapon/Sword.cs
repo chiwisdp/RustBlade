@@ -29,7 +29,7 @@ public class Sword : MonoBehaviour, IWeapon {
 		if(other.tag == "Enemy")
 		{
 			//SwordRecoil();
-			other.GetComponent<IEnemy>().TakeDamage(base_dmg);
+			other.GetComponent<IEnemy>().TakeDamage(CurrentDamage);
 		}
 	}
 	void SwordRecoil(){

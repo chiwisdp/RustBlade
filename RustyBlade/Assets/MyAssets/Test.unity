@@ -1922,7 +1922,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be7d194217e4ed4d95d90c1aeb4fcc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 5
+  maxHealth: 30
   power: 5
   toughness: 5
 --- !u!1001 &2036361686
