@@ -24,13 +24,13 @@ public class PlayerStatsController : MonoBehaviour {
         currentHealth -= amount;
         if (currentHealth <= 0)
             Die();
-        UIEventHandler.HealthChanged(this.currentHealth, this.maxHealth);
+        //UIEventHandler.HealthChanged(this.currentHealth, this.maxHealth);
     }
 
     private void Die()
     {
         Debug.Log("Player dead. Reset health.");
         this.currentHealth = this.maxHealth;
-        UIEventHandler.HealthChanged(this.currentHealth, this.maxHealth);
+        //UIEventHandler.HealthChanged(this.currentHealth, this.maxHealth);
     }
 }

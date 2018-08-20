@@ -12,9 +12,118 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-08-19T22:39:37.413+09:00
+  lastUpdatedAtString: 2018-08-20T21:42:04.687+09:00
   initializedAtString: 2018-08-19T22:39:37.413+09:00
   log:
+  - commitID: 1ec4e9433b49b3e27af596be63cd8091af67ac5f
+    mergeA: 
+    mergeB: 
+    authorName: chiwisdp
+    authorEmail: daniel@craterhouse.com
+    commitEmail: daniel@craterhouse.com
+    commitName: chiwisdp
+    summary: '8/19/2018 : Moded dmg algorithm'
+    description: '8/19/2018 : Moded dmg algorithm'
+    timeString: 2018-08-19T22:52:57.000+09:00
+    commitTimeString: 2018-08-19T22:52:57.000+09:00
+    changes:
+    - path: RustyBlade\Assets\MyAssets\Scripts\Base Stats\BaseStat.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Scripts\Base
+        Stats\BaseStat.cs
+      projectPath: Assets\MyAssets\Scripts\Base Stats\BaseStat.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\MyAssets\Scripts\Weapon\Sword.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Scripts\Weapon\Sword.cs
+      projectPath: Assets\MyAssets\Scripts\Weapon\Sword.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\MyAssets\Scripts\Weapon\WeaponController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Scripts\Weapon\WeaponController.cs
+      projectPath: Assets\MyAssets\Scripts\Weapon\WeaponController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\MyAssets\Test.unity
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Test.unity
+      projectPath: Assets\MyAssets\Test.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\Resources\JSON\Items.json
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\Resources\JSON\Items.json
+      projectPath: Assets\Resources\JSON\Items.json
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\CurrentLayout.dwlt
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\expandedItems
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\0b\0bd73b91d0d30db48b05051cbcdd6d24
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\0b\0bd73b91d0d30db48b05051cbcdd6d24
+      projectPath: Library\metadata\0b\0bd73b91d0d30db48b05051cbcdd6d24
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\37\37b07131a37f1bf47a7ecee2ae173710
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\37\37b07131a37f1bf47a7ecee2ae173710
+      projectPath: Library\metadata\37\37b07131a37f1bf47a7ecee2ae173710
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\65\6538d47cbc74d5b4aa1eeef79ad66ec4
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\65\6538d47cbc74d5b4aa1eeef79ad66ec4
+      projectPath: Library\metadata\65\6538d47cbc74d5b4aa1eeef79ad66ec4
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\e3\e3eeddcafe437d944be6666f2a91307d
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\e3\e3eeddcafe437d944be6666f2a91307d
+      projectPath: Library\metadata\e3\e3eeddcafe437d944be6666f2a91307d
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 1fb913511484ac5d07403fbd1a96d54b9e2662c3
     mergeA: 
     mergeB: 
