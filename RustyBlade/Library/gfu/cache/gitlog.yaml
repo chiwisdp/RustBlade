@@ -12,9 +12,105 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-08-20T21:42:04.687+09:00
-  initializedAtString: 2018-08-19T22:39:37.413+09:00
+  lastUpdatedAtString: 2018-08-27T23:31:12.810+09:00
+  initializedAtString: 2018-08-27T21:12:51.737+09:00
   log:
+  - commitID: f61b945ac05a70ea94ab3540385f22cac5f95f19
+    mergeA: 
+    mergeB: 
+    authorName: chiwisdp
+    authorEmail: daniel@craterhouse.com
+    commitEmail: daniel@craterhouse.com
+    commitName: chiwisdp
+    summary: '8/20: Start of basic enemy'
+    description: '8/20: Start of basic enemy'
+    timeString: 2018-08-20T22:29:18.000+09:00
+    commitTimeString: 2018-08-20T22:29:18.000+09:00
+    changes:
+    - path: RustyBlade\Assets\MyAssets\Scripts\Enemies\TestEnemy\BasicEnemy.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Scripts\Enemies\TestEnemy\BasicEnemy.cs
+      projectPath: Assets\MyAssets\Scripts\Enemies\TestEnemy\BasicEnemy.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\MyAssets\Scripts\PlayerMovement\PlayerStatsController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Scripts\PlayerMovement\PlayerStatsController.cs
+      projectPath: Assets\MyAssets\Scripts\PlayerMovement\PlayerStatsController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\MyAssets\Test.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Test.meta
+      projectPath: Assets\MyAssets\Test.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\MyAssets\Test.unity
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Test.unity
+      projectPath: Assets\MyAssets\Test.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\MyAssets\Test\NavMesh.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Test\NavMesh.asset
+      projectPath: Assets\MyAssets\Test\NavMesh.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\MyAssets\Test\NavMesh.asset.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Test\NavMesh.asset.meta
+      projectPath: Assets\MyAssets\Test\NavMesh.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Library\InspectorExpandedItems.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\1b\1be7d194217e4ed4d95d90c1aeb4fcc6
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\1b\1be7d194217e4ed4d95d90c1aeb4fcc6
+      projectPath: Library\metadata\1b\1be7d194217e4ed4d95d90c1aeb4fcc6
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\fd\fdab3c85519b65444844e73181b0a818
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\fd\fdab3c85519b65444844e73181b0a818
+      projectPath: Library\metadata\fd\fdab3c85519b65444844e73181b0a818
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\ProjectSettings\TagManager.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\ProjectSettings\TagManager.asset
+      projectPath: ProjectSettings\TagManager.asset
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 1ec4e9433b49b3e27af596be63cd8091af67ac5f
     mergeA: 
     mergeB: 

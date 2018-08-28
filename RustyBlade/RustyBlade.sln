@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RustyBlade", "Assembly-CSharp.csproj", "{22935EE9-CEC7-D3A5-71C9-E15787DB7040}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{22935EE9-CEC7-D3A5-71C9-E15787DB7040}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RustyBlade", "Assembly-CSharp-Editor.csproj", "{8DF5AC32-55D6-8CF6-7ED5-8DC47CF713A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{8DF5AC32-55D6-8CF6-7ED5-8DC47CF713A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
