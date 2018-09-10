@@ -58,8 +58,6 @@ namespace KinematicCharacterController.Examples
         public Vector3 Gravity = new Vector3(0, -30f, 0);
         public Transform MeshRoot;
         public Transform CameraFollowPoint;
-        public float dashSpeed = 50f;
-        public float dashTime = .1f;
 
         public CharacterState CurrentCharacterState { get; private set; }
 
@@ -269,6 +267,7 @@ namespace KinematicCharacterController.Examples
                             Vector3 inputRight = Vector3.Cross(_moveInputVector, Motor.CharacterUp);
                             Vector3 reorientedInput = Vector3.Cross(effectiveGroundNormal, inputRight).normalized * _moveInputVector.magnitude;
                             targetMovementVelocity = reorientedInput * MaxStableMoveSpeed;
+                            
                             // Smooth movement Velocity
                             currentVelocity = Vector3.Lerp(currentVelocity, targetMovementVelocity, 1 - Mathf.Exp(-StableMovementSharpness * deltaTime));
                         }

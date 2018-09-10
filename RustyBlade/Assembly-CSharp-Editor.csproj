@@ -55,6 +55,12 @@
   <ItemGroup>
      <Compile Include="Assets\KinematicCharacterController\Core\Editor\KinematicCharacterMotorEditor.cs" />
      <Compile Include="Assets\KinematicCharacterController\Core\Editor\ReadOnlyPropertyDrawer.cs" />
+     <Compile Include="Assets\KinematicCharacterController\Examples\Scripts\Editor\PauseStateHandler.cs" />
+     <Compile Include="Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage example\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs" />
+     <Compile Include="Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage example\NavMeshComponents\Editor\NavMeshLinkEditor.cs" />
+     <Compile Include="Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage example\NavMeshComponents\Editor\NavMeshModifierEditor.cs" />
+     <Compile Include="Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage example\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs" />
+     <Compile Include="Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage example\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs" />
      <Compile Include="Assets\Polyquest Worlds Full Pack Vol.1\shaders\Editor\PolyboxShaderGUI.cs" />
      <Compile Include="Assets\PostProcessing\Editor\Attributes\PostProcessingModelEditorAttribute.cs" />
      <Compile Include="Assets\PostProcessing\Editor\Models\AmbientOcclusionModelEditor.cs" />
@@ -362,6 +368,9 @@
  </Reference>
  <Reference Include="Newtonsoft.Json">
  <HintPath>C:/Users/chiwi/OneDrive/Documents/RustBlade/RustyBlade/Assets/JsonDotNet/Assemblies/Standalone/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="ConsoleE">
+ <HintPath>C:/Users/chiwi/OneDrive/Documents/RustBlade/RustyBlade/Assets/Plugins/ConsoleE/Editor/ConsoleE.dll</HintPath>
  </Reference>
  <Reference Include="AsyncBridge.Net35">
  <HintPath>C:/Users/chiwi/OneDrive/Documents/RustBlade/RustyBlade/Assets/Plugins/GitHub/Editor/AsyncBridge.Net35.dll</HintPath>

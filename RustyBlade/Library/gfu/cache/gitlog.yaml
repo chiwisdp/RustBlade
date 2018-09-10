@@ -12,9 +12,3046 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-08-27T23:31:12.810+09:00
-  initializedAtString: 2018-08-27T21:12:51.737+09:00
+  lastUpdatedAtString: 2018-09-10T23:04:16.399+09:00
+  initializedAtString: 2018-09-10T21:53:36.351+09:00
   log:
+  - commitID: 984512343fb717926207f6a58715bd4d4cb7d217
+    mergeA: 
+    mergeB: 
+    authorName: chiwisdp
+    authorEmail: daniel@craterhouse.com
+    commitEmail: daniel@craterhouse.com
+    commitName: chiwisdp
+    summary: unity update
+    description: unity update
+    timeString: 2018-09-04T10:48:13.000+09:00
+    commitTimeString: 2018-09-04T10:48:13.000+09:00
+    changes:
+    - path: RustyBlade\Assembly-CSharp-Editor.csproj
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assembly-CSharp-Editor.csproj
+      projectPath: Assembly-CSharp-Editor.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assembly-CSharp.csproj
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\CurrentLayout.dwlt
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\ScriptMapper
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\ScriptMapper
+      projectPath: Library\ScriptMapper
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\ShaderCache.db
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\ShaderCache.db
+      projectPath: Library\ShaderCache.db
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\expandedItems
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\12\12fd8a0055b84bb59e84c9835a37e333
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\12\12fd8a0055b84bb59e84c9835a37e333
+      projectPath: Library\metadata\12\12fd8a0055b84bb59e84c9835a37e333
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\1c\1c6d1fbb51834b64847b1b73a75bfc77
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\1c\1c6d1fbb51834b64847b1b73a75bfc77
+      projectPath: Library\metadata\1c\1c6d1fbb51834b64847b1b73a75bfc77
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\32\32188fd89022c154c81befa2f0e00be0
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\32\32188fd89022c154c81befa2f0e00be0
+      projectPath: Library\metadata\32\32188fd89022c154c81befa2f0e00be0
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\3a\3a84de5cd0624681b6b6dcd8921d912a
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\3a\3a84de5cd0624681b6b6dcd8921d912a
+      projectPath: Library\metadata\3a\3a84de5cd0624681b6b6dcd8921d912a
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\40\405b9b51bb344a128608d968297df79c
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\40\405b9b51bb344a128608d968297df79c
+      projectPath: Library\metadata\40\405b9b51bb344a128608d968297df79c
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\41\4113173d5e95493ab8765d7b08371de4
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\41\4113173d5e95493ab8765d7b08371de4
+      projectPath: Library\metadata\41\4113173d5e95493ab8765d7b08371de4
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\4a\4a3ecb1425d14502837abea459cf2b70
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\4a\4a3ecb1425d14502837abea459cf2b70
+      projectPath: Library\metadata\4a\4a3ecb1425d14502837abea459cf2b70
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
+      projectPath: Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+      projectPath: Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
+      projectPath: Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\57\5782f9e9e6e0bb94bac99aeea24814fc
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\57\5782f9e9e6e0bb94bac99aeea24814fc
+      projectPath: Library\metadata\57\5782f9e9e6e0bb94bac99aeea24814fc
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\5f\5f32cd94baa94578a686d4b9d6b660f7
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\5f\5f32cd94baa94578a686d4b9d6b660f7
+      projectPath: Library\metadata\5f\5f32cd94baa94578a686d4b9d6b660f7
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\6a\6a10b2909283487f913b00d94cd3faf5
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\6a\6a10b2909283487f913b00d94cd3faf5
+      projectPath: Library\metadata\6a\6a10b2909283487f913b00d94cd3faf5
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\76\7668179ede524d6396c8b7d84461ea29
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\76\7668179ede524d6396c8b7d84461ea29
+      projectPath: Library\metadata\76\7668179ede524d6396c8b7d84461ea29
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
+      projectPath: Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\84\844f815391db42d49455cbf1a7bfc434
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\84\844f815391db42d49455cbf1a7bfc434
+      projectPath: Library\metadata\84\844f815391db42d49455cbf1a7bfc434
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\87\870353891bb340e2b2a9c8707e7419ba
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\87\870353891bb340e2b2a9c8707e7419ba
+      projectPath: Library\metadata\87\870353891bb340e2b2a9c8707e7419ba
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\ad\adebbd281f1a4ef3a30be7f21937e02f
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\ad\adebbd281f1a4ef3a30be7f21937e02f
+      projectPath: Library\metadata\ad\adebbd281f1a4ef3a30be7f21937e02f
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\b5\b5da970776034f77a070d99423d68791
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\b5\b5da970776034f77a070d99423d68791
+      projectPath: Library\metadata\b5\b5da970776034f77a070d99423d68791
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\d2\d2170503dc57f492481ebe9334c68fcc
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\d2\d2170503dc57f492481ebe9334c68fcc
+      projectPath: Library\metadata\d2\d2170503dc57f492481ebe9334c68fcc
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\d3\d33d54853fd0f48e0ac8a63ea91e6626
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\d3\d33d54853fd0f48e0ac8a63ea91e6626
+      projectPath: Library\metadata\d3\d33d54853fd0f48e0ac8a63ea91e6626
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\dc\dc443db3e92b4983b9738c1131f555cb
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\dc\dc443db3e92b4983b9738c1131f555cb
+      projectPath: Library\metadata\dc\dc443db3e92b4983b9738c1131f555cb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\e4\e4bfeabebc5114952a57d908ff706b7e
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\e4\e4bfeabebc5114952a57d908ff706b7e
+      projectPath: Library\metadata\e4\e4bfeabebc5114952a57d908ff706b7e
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\e4\e4f4cf1b9b434137a499903a7a1d651a
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\e4\e4f4cf1b9b434137a499903a7a1d651a
+      projectPath: Library\metadata\e4\e4f4cf1b9b434137a499903a7a1d651a
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\ea\ead147da21254ff9a0a936bdd75e1680
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\ea\ead147da21254ff9a0a936bdd75e1680
+      projectPath: Library\metadata\ea\ead147da21254ff9a0a936bdd75e1680
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\ed\ed7343f30e3843b3afda8f8b02669cea
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\ed\ed7343f30e3843b3afda8f8b02669cea
+      projectPath: Library\metadata\ed\ed7343f30e3843b3afda8f8b02669cea
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
+      projectPath: Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\f7\f70555f144d8491a825f0804e09c671c
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\f7\f70555f144d8491a825f0804e09c671c
+      projectPath: Library\metadata\f7\f70555f144d8491a825f0804e09c671c
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\f7\f7b54ff4a43d4fcf81b4538b678e0bcc
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\f7\f7b54ff4a43d4fcf81b4538b678e0bcc
+      projectPath: Library\metadata\f7\f7b54ff4a43d4fcf81b4538b678e0bcc
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\obj\Debug\Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\obj\Debug\Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+      originalPath: 
+      status: 3
+      staged: 0
+  - commitID: 5e9c7268b91e150aec3c2a64f441e0101fb3da84
+    mergeA: 
+    mergeB: 
+    authorName: chiwisdp
+    authorEmail: daniel@craterhouse.com
+    commitEmail: daniel@craterhouse.com
+    commitName: chiwisdp
+    summary: 8/27 - first pass enemy
+    description: 8/27 - first pass enemy
+    timeString: 2018-08-28T09:42:36.000+09:00
+    commitTimeString: 2018-08-28T09:42:36.000+09:00
+    changes:
+    - path: RustyBlade\Assembly-CSharp-Editor.csproj
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assembly-CSharp-Editor.csproj
+      projectPath: Assembly-CSharp-Editor.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assembly-CSharp.csproj
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster.meta
+      projectPath: Assets\FantasyMonster.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton.meta
+      projectPath: Assets\FantasyMonster\Skeleton.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Ani.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Ani.meta
+      projectPath: Assets\FantasyMonster\Skeleton\Ani.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Materials.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Materials.meta
+      projectPath: Assets\FantasyMonster\Skeleton\Ani\Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Materials\skeleton_D.mat
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Materials\skeleton_D.mat
+      projectPath: Assets\FantasyMonster\Skeleton\Ani\Materials\skeleton_D.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Materials\skeleton_D.mat.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Materials\skeleton_D.mat.meta
+      projectPath: Assets\FantasyMonster\Skeleton\Ani\Materials\skeleton_D.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Attack.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Attack.FBX
+      projectPath: Assets\FantasyMonster\Skeleton\Ani\Skeleton@Attack.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Attack.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Attack.FBX.meta
+      projectPath: Assets\FantasyMonster\Skeleton\Ani\Skeleton@Attack.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Damage.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Damage.FBX
+      projectPath: Assets\FantasyMonster\Skeleton\Ani\Skeleton@Damage.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Damage.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Damage.FBX.meta
+      projectPath: Assets\FantasyMonster\Skeleton\Ani\Skeleton@Damage.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Death.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Death.FBX
+      projectPath: Assets\FantasyMonster\Skeleton\Ani\Skeleton@Death.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Death.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Death.FBX.meta
+      projectPath: Assets\FantasyMonster\Skeleton\Ani\Skeleton@Death.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Idle.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Idle.FBX
+      projectPath: Assets\FantasyMonster\Skeleton\Ani\Skeleton@Idle.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Idle.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Idle.FBX.meta
+      projectPath: Assets\FantasyMonster\Skeleton\Ani\Skeleton@Idle.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Knockback.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Knockback.FBX
+      projectPath: Assets\FantasyMonster\Skeleton\Ani\Skeleton@Knockback.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Knockback.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Knockback.FBX.meta
+      projectPath: Assets\FantasyMonster\Skeleton\Ani\Skeleton@Knockback.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Run.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Run.FBX
+      projectPath: Assets\FantasyMonster\Skeleton\Ani\Skeleton@Run.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Run.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Run.FBX.meta
+      projectPath: Assets\FantasyMonster\Skeleton\Ani\Skeleton@Run.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Skill.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Skill.FBX
+      projectPath: Assets\FantasyMonster\Skeleton\Ani\Skeleton@Skill.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Skill.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Skill.FBX.meta
+      projectPath: Assets\FantasyMonster\Skeleton\Ani\Skeleton@Skill.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Stand.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Stand.FBX
+      projectPath: Assets\FantasyMonster\Skeleton\Ani\Skeleton@Stand.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Stand.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Stand.FBX.meta
+      projectPath: Assets\FantasyMonster\Skeleton\Ani\Skeleton@Stand.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Walk.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Walk.FBX
+      projectPath: Assets\FantasyMonster\Skeleton\Ani\Skeleton@Walk.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Walk.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Walk.FBX.meta
+      projectPath: Assets\FantasyMonster\Skeleton\Ani\Skeleton@Walk.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Character.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Character.meta
+      projectPath: Assets\FantasyMonster\Skeleton\Character.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Character\Materials.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Character\Materials.meta
+      projectPath: Assets\FantasyMonster\Skeleton\Character\Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Character\Materials\skeleton_D.mat
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Character\Materials\skeleton_D.mat
+      projectPath: Assets\FantasyMonster\Skeleton\Character\Materials\skeleton_D.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Character\Materials\skeleton_D.mat.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Character\Materials\skeleton_D.mat.meta
+      projectPath: Assets\FantasyMonster\Skeleton\Character\Materials\skeleton_D.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Character\Skeleton@Skin.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Character\Skeleton@Skin.FBX
+      projectPath: Assets\FantasyMonster\Skeleton\Character\Skeleton@Skin.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Character\Skeleton@Skin.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Character\Skeleton@Skin.FBX.meta
+      projectPath: Assets\FantasyMonster\Skeleton\Character\Skeleton@Skin.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Texture.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Texture.meta
+      projectPath: Assets\FantasyMonster\Skeleton\Texture.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Texture\Skeleton_D.tif
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Texture\Skeleton_D.tif
+      projectPath: Assets\FantasyMonster\Skeleton\Texture\Skeleton_D.tif
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Texture\Skeleton_D.tif.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Texture\Skeleton_D.tif.meta
+      projectPath: Assets\FantasyMonster\Skeleton\Texture\Skeleton_D.tif.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\MyAssets\Scripts\Enemies\TestEnemy\Chase.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Scripts\Enemies\TestEnemy\Chase.cs
+      projectPath: Assets\MyAssets\Scripts\Enemies\TestEnemy\Chase.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\MyAssets\Scripts\Enemies\TestEnemy\Chase.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Scripts\Enemies\TestEnemy\Chase.cs.meta
+      projectPath: Assets\MyAssets\Scripts\Enemies\TestEnemy\Chase.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\MyAssets\Scripts\Enemies\TestEnemy\Skeleton.controller
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Scripts\Enemies\TestEnemy\Skeleton.controller
+      projectPath: Assets\MyAssets\Scripts\Enemies\TestEnemy\Skeleton.controller
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\MyAssets\Scripts\Enemies\TestEnemy\Skeleton.controller.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Scripts\Enemies\TestEnemy\Skeleton.controller.meta
+      projectPath: Assets\MyAssets\Scripts\Enemies\TestEnemy\Skeleton.controller.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack.meta
+      projectPath: Assets\RPG Character Animation Pack.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Attack-Kick-L1.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Attack-Kick-L1.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Attack-Kick-L1.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Attack-Kick-L1.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Attack-Kick-L1.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Attack-Kick-L1.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Attack-Kick-R1.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Attack-Kick-R1.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Attack-Kick-R1.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Attack-Kick-R1.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Attack-Kick-R1.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Attack-Kick-R1.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Attack-L3.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Attack-L3.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Attack-L3.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Attack-L3.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Attack-L3.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Attack-L3.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Attack-R3.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Attack-R3.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Attack-R3.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Attack-R3.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Attack-R3.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Attack-R3.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Death1.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Death1.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Death1.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Death1.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Death1.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Death1.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Fall.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Fall.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Fall.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Fall.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Fall.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Fall.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-B1.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-B1.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-B1.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-B1.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-B1.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-B1.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-F1.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-F1.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-F1.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-F1.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-F1.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-F1.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-F2.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-F2.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-F2.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-F2.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-F2.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-F2.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-L1.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-L1.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-L1.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-L1.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-L1.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-L1.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-R1.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-R1.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-R1.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-R1.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-R1.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-GetHit-R1.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Idle.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Idle.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Idle.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Idle.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Idle.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Idle.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Jump.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Jump.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Jump.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Jump.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Jump.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Jump.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Roll-Backward.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Roll-Backward.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Roll-Backward.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Roll-Backward.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Roll-Backward.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Roll-Backward.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Roll-Forward.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Roll-Forward.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Roll-Forward.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Roll-Forward.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Roll-Forward.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Roll-Forward.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Roll-Left.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Roll-Left.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Roll-Left.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Roll-Left.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Roll-Left.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Roll-Left.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Roll-Right.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Roll-Right.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Roll-Right.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Roll-Right.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Roll-Right.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Roll-Right.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Run-Forward.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Run-Forward.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Run-Forward.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Run-Forward.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Run-Forward.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Run-Forward.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Backward-Left.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Backward-Left.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Backward-Left.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Backward-Left.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Backward-Left.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Backward-Left.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Backward-Right.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Backward-Right.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Backward-Right.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Backward-Right.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Backward-Right.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Backward-Right.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Backward.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Backward.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Backward.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Backward.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Backward.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Backward.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Forward-Left.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Forward-Left.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Forward-Left.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Forward-Left.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Forward-Left.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Forward-Left.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Forward-Right.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Forward-Right.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Forward-Right.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Forward-Right.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Forward-Right.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Forward-Right.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Forward.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Forward.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Forward.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Forward.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Forward.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Forward.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Left.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Left.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Left.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Left.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Left.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Left.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Right.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Right.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Right.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Right.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Right.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Strafe-Right.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Stunned.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Stunned.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Stunned.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Stunned.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Stunned.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Stunned.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Walk-Slow.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Walk-Slow.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Walk-Slow.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Walk-Slow.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Walk-Slow.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Walk-Slow.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Walk.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Walk.FBX
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Walk.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Walk.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Walk.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Animations\Unarmed\RPG-Character@Unarmed-Walk.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Code.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Code.meta
+      projectPath: Assets\RPG Character Animation Pack\Code.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Code\CameraController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Code\CameraController.cs
+      projectPath: Assets\RPG Character Animation Pack\Code\CameraController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Code\CameraController.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Code\CameraController.cs.meta
+      projectPath: Assets\RPG Character Animation Pack\Code\CameraController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Code\RPGCharacterControllerFREE.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Code\RPGCharacterControllerFREE.cs
+      projectPath: Assets\RPG Character Animation Pack\Code\RPGCharacterControllerFREE.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Code\RPGCharacterControllerFREE.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Code\RPGCharacterControllerFREE.cs.meta
+      projectPath: Assets\RPG Character Animation Pack\Code\RPGCharacterControllerFREE.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Code\RPGCharacterGUI.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Code\RPGCharacterGUI.cs
+      projectPath: Assets\RPG Character Animation Pack\Code\RPGCharacterGUI.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Code\RPGCharacterGUI.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Code\RPGCharacterGUI.cs.meta
+      projectPath: Assets\RPG Character Animation Pack\Code\RPGCharacterGUI.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Camera.prefab
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Camera.prefab
+      projectPath: Assets\RPG Character Animation Pack\Elements\Camera.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Camera.prefab.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Camera.prefab.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Camera.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Controller.psd
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Controller.psd
+      projectPath: Assets\RPG Character Animation Pack\Elements\Controller.psd
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Controller.psd.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Controller.psd.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Controller.psd.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Controls.psd
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Controls.psd
+      projectPath: Assets\RPG Character Animation Pack\Elements\Controls.psd
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Controls.psd.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Controls.psd.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Controls.psd.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Controls2.psd
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Controls2.psd
+      projectPath: Assets\RPG Character Animation Pack\Elements\Controls2.psd
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Controls2.psd.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Controls2.psd.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Controls2.psd.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ControlsCamera.psd
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ControlsCamera.psd
+      projectPath: Assets\RPG Character Animation Pack\Elements\ControlsCamera.psd
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ControlsCamera.psd.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ControlsCamera.psd.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ControlsCamera.psd.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ControlsCamera2.psd
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ControlsCamera2.psd
+      projectPath: Assets\RPG Character Animation Pack\Elements\ControlsCamera2.psd
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ControlsCamera2.psd.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ControlsCamera2.psd.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ControlsCamera2.psd.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Grid.mat
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Grid.mat
+      projectPath: Assets\RPG Character Animation Pack\Elements\Grid.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Grid.mat.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Grid.mat.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Grid.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Grid.psd
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Grid.psd
+      projectPath: Assets\RPG Character Animation Pack\Elements\Grid.psd
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Grid.psd.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Grid.psd.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Grid.psd.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Scripts.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\Bloom.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Scripts\Bloom.cs
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\Bloom.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\Bloom.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Scripts\Bloom.cs.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\Bloom.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\ImageEffectBase.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Scripts\ImageEffectBase.cs
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\ImageEffectBase.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\ImageEffectBase.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Scripts\ImageEffectBase.cs.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\ImageEffectBase.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\ImageEffects.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Scripts\ImageEffects.cs
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\ImageEffects.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\ImageEffects.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Scripts\ImageEffects.cs.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\ImageEffects.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\PostEffectsBase.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Scripts\PostEffectsBase.cs
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\PostEffectsBase.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\PostEffectsBase.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Scripts\PostEffectsBase.cs.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\PostEffectsBase.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\PostEffectsHelper.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Scripts\PostEffectsHelper.cs
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\PostEffectsHelper.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\PostEffectsHelper.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Scripts\PostEffectsHelper.cs.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\PostEffectsHelper.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\Quads.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Scripts\Quads.cs
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\Quads.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\Quads.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Scripts\Quads.cs.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\Quads.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\ScreenOverlay.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Scripts\ScreenOverlay.cs
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\ScreenOverlay.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\ScreenOverlay.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Scripts\ScreenOverlay.cs.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\ScreenOverlay.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\ScreenSpaceAmbientObscurance.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\Triangles.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Scripts\Triangles.cs
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\Triangles.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\Triangles.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Scripts\Triangles.cs.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Scripts\Triangles.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\BlendModesOverlay.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\BlendModesOverlay.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\BlendModesOverlay.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\BlendModesOverlay.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\BlendModesOverlay.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\BlendModesOverlay.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\BlurEffectConeTaps.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\BlurEffectConeTaps.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\BlurEffectConeTaps.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\BlurEffectConeTaps.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\BlurEffectConeTaps.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\BlurEffectConeTaps.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\CameraMotionBlur.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\CameraMotionBlur.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\CameraMotionBlur.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\CameraMotionBlur.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\CameraMotionBlur.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\CameraMotionBlur.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\CameraMotionBlurDX11.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\CameraMotionBlurDX11.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\CameraMotionBlurDX11.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\CameraMotionBlurDX11.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\CameraMotionBlurDX11.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\CameraMotionBlurDX11.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ChromaticAberrationShader.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\ChromaticAberrationShader.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ChromaticAberrationShader.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ChromaticAberrationShader.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\ChromaticAberrationShader.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ChromaticAberrationShader.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrection3DLut.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrection3DLut.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrection3DLut.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrection3DLut.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrection3DLut.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrection3DLut.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrectionCurves.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrectionCurves.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrectionCurves.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrectionCurves.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrectionCurves.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrectionCurves.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrectionEffect.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrectionEffect.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrectionEffect.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrectionEffect.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrectionEffect.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrectionEffect.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrectionSelective.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrectionSelective.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrectionSelective.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrectionSelective.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrectionSelective.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ColorCorrectionSelective.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ContrastComposite.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\ContrastComposite.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ContrastComposite.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ContrastComposite.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\ContrastComposite.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ContrastComposite.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ConvertDepth.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\ConvertDepth.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ConvertDepth.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ConvertDepth.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\ConvertDepth.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ConvertDepth.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\CreaseApply.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\CreaseApply.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\CreaseApply.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\CreaseApply.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\CreaseApply.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\CreaseApply.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\EdgeDetectNormals.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\EdgeDetectNormals.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\EdgeDetectNormals.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\EdgeDetectNormals.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\EdgeDetectNormals.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\EdgeDetectNormals.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\FisheyeShader.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\FisheyeShader.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\FisheyeShader.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\FisheyeShader.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\FisheyeShader.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\FisheyeShader.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\GlobalFog.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\GlobalFog.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\GlobalFog.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\GlobalFog.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\GlobalFog.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\GlobalFog.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\GrayscaleEffect.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\GrayscaleEffect.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\GrayscaleEffect.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\GrayscaleEffect.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\GrayscaleEffect.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\GrayscaleEffect.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\MotionBlur.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\MotionBlur.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\MotionBlur.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\MotionBlur.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\MotionBlur.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\MotionBlur.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\MotionBlurClear.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\MotionBlurClear.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\MotionBlurClear.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\MotionBlurClear.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\MotionBlurClear.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\MotionBlurClear.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\NoiseAndGrain.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\NoiseAndGrain.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\NoiseAndGrain.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\NoiseAndGrain.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\NoiseAndGrain.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\NoiseAndGrain.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\NoiseAndGrainDX11.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\NoiseAndGrainDX11.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\NoiseAndGrainDX11.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\NoiseAndGrainDX11.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\NoiseAndGrainDX11.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\NoiseAndGrainDX11.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\NoiseEffectShaderRGB.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\NoiseEffectShaderRGB.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\NoiseEffectShaderRGB.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\NoiseEffectShaderRGB.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\NoiseEffectShaderRGB.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\NoiseEffectShaderRGB.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\NoiseEffectShaderYUV.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\NoiseEffectShaderYUV.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\NoiseEffectShaderYUV.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\NoiseEffectShaderYUV.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\NoiseEffectShaderYUV.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\NoiseEffectShaderYUV.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\PrepareSunShaftsBlur.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\PrepareSunShaftsBlur.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\PrepareSunShaftsBlur.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\PrepareSunShaftsBlur.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\PrepareSunShaftsBlur.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\PrepareSunShaftsBlur.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\RadialBlur.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\RadialBlur.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\RadialBlur.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\RadialBlur.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\RadialBlur.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\RadialBlur.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\SSAOShader.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\SSAOShader.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\SSAOShader.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\SSAOShader.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\SSAOShader.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\SSAOShader.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\SepiaToneEffect.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\SepiaToneEffect.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\SepiaToneEffect.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\SepiaToneEffect.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\SepiaToneEffect.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\SepiaToneEffect.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ShowAlphaChannel.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\ShowAlphaChannel.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ShowAlphaChannel.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ShowAlphaChannel.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\ShowAlphaChannel.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\ShowAlphaChannel.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\SimpleClear.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\SimpleClear.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\SimpleClear.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\SimpleClear.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\SimpleClear.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\SimpleClear.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\SunShaftsComposite.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\SunShaftsComposite.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\SunShaftsComposite.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\SunShaftsComposite.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\SunShaftsComposite.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\SunShaftsComposite.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\Tonemapper.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\Tonemapper.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\Tonemapper.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\Tonemapper.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\Tonemapper.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\Tonemapper.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\TwirlEffect.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\TwirlEffect.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\TwirlEffect.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\TwirlEffect.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\TwirlEffect.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\TwirlEffect.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\VignettingShader.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\VignettingShader.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\VignettingShader.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\VignettingShader.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\VignettingShader.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\VignettingShader.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\VortexEffect.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\VortexEffect.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\VortexEffect.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\VortexEffect.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\VortexEffect.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\VortexEffect.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\DLAA.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\DLAA.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\DLAA.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\DLAA.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\DLAA.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\DLAA.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\FXAA2.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\FXAA2.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\FXAA2.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\FXAA2.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\FXAA2.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\FXAA2.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\NFAA.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\NFAA.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\NFAA.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\NFAA.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\NFAA.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\NFAA.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\SSAA.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\SSAA.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\SSAA.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\SSAA.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\SSAA.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_Antialiasing\SSAA.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\Blend.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\Blend.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\Blend.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\Blend.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\Blend.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\Blend.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\frag_ao.cginc
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\frag_ao.cginc
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\frag_ao.cginc
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\frag_ao.cginc.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\ImageEffects\Shaders\frag_ao.cginc.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\ImageEffects\Shaders\frag_ao.cginc.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Materials.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Materials.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Materials\Stage.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Materials\Stage.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Materials\Stage.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Materials\Stage\Rock.mat
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Materials\Stage\Rock.mat
+      projectPath: Assets\RPG Character Animation Pack\Elements\Materials\Stage\Rock.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Materials\Stage\Rock.mat.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Materials\Stage\Rock.mat.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Materials\Stage\Rock.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Materials\Stage\Stage.mat
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Materials\Stage\Stage.mat
+      projectPath: Assets\RPG Character Animation Pack\Elements\Materials\Stage\Stage.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Materials\Stage\Stage.mat.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Materials\Stage\Stage.mat.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Materials\Stage\Stage.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Materials\Stage\Tree.mat
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Materials\Stage\Tree.mat
+      projectPath: Assets\RPG Character Animation Pack\Elements\Materials\Stage\Tree.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Materials\Stage\Tree.mat.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Materials\Stage\Tree.mat.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Materials\Stage\Tree.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Models.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Models.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Models.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Models\Stage.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Models\Stage.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Models\Stage.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Models\Stage\Rock.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Models\Stage\Rock.FBX
+      projectPath: Assets\RPG Character Animation Pack\Elements\Models\Stage\Rock.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Models\Stage\Rock.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Models\Stage\Rock.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Models\Stage\Rock.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Models\Stage\Stage.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Models\Stage\Stage.FBX
+      projectPath: Assets\RPG Character Animation Pack\Elements\Models\Stage\Stage.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Models\Stage\Stage.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Models\Stage\Stage.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Models\Stage\Stage.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Models\Stage\Tree-Stump.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Models\Stage\Tree-Stump.FBX
+      projectPath: Assets\RPG Character Animation Pack\Elements\Models\Stage\Tree-Stump.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Models\Stage\Tree-Stump.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Models\Stage\Tree-Stump.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Models\Stage\Tree-Stump.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Models\Stage\Tree.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Models\Stage\Tree.FBX
+      projectPath: Assets\RPG Character Animation Pack\Elements\Models\Stage\Tree.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Models\Stage\Tree.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Models\Stage\Tree.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Models\Stage\Tree.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Prefabs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Prefabs.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Prefabs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Prefabs\Stage.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Prefabs\Stage.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Prefabs\Stage.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Prefabs\Stage\Level.prefab
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Prefabs\Stage\Level.prefab
+      projectPath: Assets\RPG Character Animation Pack\Elements\Prefabs\Stage\Level.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Prefabs\Stage\Level.prefab.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Prefabs\Stage\Level.prefab.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Prefabs\Stage\Level.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Prefabs\Stage\Rock.prefab
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Prefabs\Stage\Rock.prefab
+      projectPath: Assets\RPG Character Animation Pack\Elements\Prefabs\Stage\Rock.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Prefabs\Stage\Rock.prefab.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Prefabs\Stage\Rock.prefab.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Prefabs\Stage\Rock.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Prefabs\Stage\Tree-Stump.prefab
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Prefabs\Stage\Tree-Stump.prefab
+      projectPath: Assets\RPG Character Animation Pack\Elements\Prefabs\Stage\Tree-Stump.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Prefabs\Stage\Tree-Stump.prefab.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Prefabs\Stage\Tree-Stump.prefab.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Prefabs\Stage\Tree-Stump.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Target.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Target.FBX
+      projectPath: Assets\RPG Character Animation Pack\Elements\Target.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Target.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Target.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Target.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Target.mat
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Target.mat
+      projectPath: Assets\RPG Character Animation Pack\Elements\Target.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Target.mat.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Target.mat.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Target.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Target.prefab
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Target.prefab
+      projectPath: Assets\RPG Character Animation Pack\Elements\Target.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Target.prefab.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Target.prefab.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Target.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Target.psd
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Target.psd
+      projectPath: Assets\RPG Character Animation Pack\Elements\Target.psd
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Target.psd.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Target.psd.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Target.psd.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Textures.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Textures.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Textures.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Textures\Stage.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Textures\Stage.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Textures\Stage.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Textures\Stage\Rock.psd
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Textures\Stage\Rock.psd
+      projectPath: Assets\RPG Character Animation Pack\Elements\Textures\Stage\Rock.psd
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Textures\Stage\Rock.psd.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Textures\Stage\Rock.psd.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Textures\Stage\Rock.psd.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Textures\Stage\Stage.psd
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Textures\Stage\Stage.psd
+      projectPath: Assets\RPG Character Animation Pack\Elements\Textures\Stage\Stage.psd
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Textures\Stage\Stage.psd.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Textures\Stage\Stage.psd.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Textures\Stage\Stage.psd.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Textures\Stage\Tree.psd
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Textures\Stage\Tree.psd
+      projectPath: Assets\RPG Character Animation Pack\Elements\Textures\Stage\Tree.psd
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Elements\Textures\Stage\Tree.psd.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Elements\Textures\Stage\Tree.psd.meta
+      projectPath: Assets\RPG Character Animation Pack\Elements\Textures\Stage\Tree.psd.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\InputManager.zip
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\InputManager.zip
+      projectPath: Assets\RPG Character Animation Pack\InputManager.zip
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\InputManager.zip.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\InputManager.zip.meta
+      projectPath: Assets\RPG Character Animation Pack\InputManager.zip.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Materials.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Materials.meta
+      projectPath: Assets\RPG Character Animation Pack\Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Materials\RPG-Character.mat
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Materials\RPG-Character.mat
+      projectPath: Assets\RPG Character Animation Pack\Materials\RPG-Character.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Materials\RPG-Character.mat.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Materials\RPG-Character.mat.meta
+      projectPath: Assets\RPG Character Animation Pack\Materials\RPG-Character.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Models.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Models.meta
+      projectPath: Assets\RPG Character Animation Pack\Models.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Models\Characters.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Models\Characters.meta
+      projectPath: Assets\RPG Character Animation Pack\Models\Characters.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Models\Characters\RPG-Character.FBX
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Models\Characters\RPG-Character.FBX
+      projectPath: Assets\RPG Character Animation Pack\Models\Characters\RPG-Character.FBX
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Models\Characters\RPG-Character.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Models\Characters\RPG-Character.FBX.meta
+      projectPath: Assets\RPG Character Animation Pack\Models\Characters\RPG-Character.FBX.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Physic Materials.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Physic Materials.meta
+      projectPath: Assets\RPG Character Animation Pack\Physic Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Physic Materials\RPG-Character.physicmaterial
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Physic Materials\RPG-Character.physicmaterial
+      projectPath: Assets\RPG Character Animation Pack\Physic Materials\RPG-Character.physicmaterial
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Physic Materials\RPG-Character.physicmaterial.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Physic Materials\RPG-Character.physicmaterial.meta
+      projectPath: Assets\RPG Character Animation Pack\Physic Materials\RPG-Character.physicmaterial.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Prefabs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Prefabs.meta
+      projectPath: Assets\RPG Character Animation Pack\Prefabs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Prefabs\RPG-Character-Animation-Controller.controller
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Prefabs\RPG-Character-Animation-Controller.controller
+      projectPath: Assets\RPG Character Animation Pack\Prefabs\RPG-Character-Animation-Controller.controller
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Prefabs\RPG-Character-Animation-Controller.controller.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Prefabs\RPG-Character-Animation-Controller.controller.meta
+      projectPath: Assets\RPG Character Animation Pack\Prefabs\RPG-Character-Animation-Controller.controller.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Prefabs\RPG-Character-Avatar.ht
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Prefabs\RPG-Character-Avatar.ht
+      projectPath: Assets\RPG Character Animation Pack\Prefabs\RPG-Character-Avatar.ht
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Prefabs\RPG-Character-Avatar.ht.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Prefabs\RPG-Character-Avatar.ht.meta
+      projectPath: Assets\RPG Character Animation Pack\Prefabs\RPG-Character-Avatar.ht.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Prefabs\RPG-Character.prefab
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Prefabs\RPG-Character.prefab
+      projectPath: Assets\RPG Character Animation Pack\Prefabs\RPG-Character.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Prefabs\RPG-Character.prefab.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Prefabs\RPG-Character.prefab.meta
+      projectPath: Assets\RPG Character Animation Pack\Prefabs\RPG-Character.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\RPGCharacterMecanimAnimationPackReadMe.pdf
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\RPGCharacterMecanimAnimationPackReadMe.pdf
+      projectPath: Assets\RPG Character Animation Pack\RPGCharacterMecanimAnimationPackReadMe.pdf
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\RPGCharacterMecanimAnimationPackReadMe.pdf.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\RPGCharacterMecanimAnimationPackReadMe.pdf.meta
+      projectPath: Assets\RPG Character Animation Pack\RPGCharacterMecanimAnimationPackReadMe.pdf.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Scenes.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Scenes.meta
+      projectPath: Assets\RPG Character Animation Pack\Scenes.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Scenes\RPG-Character.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Scenes\RPG-Character.meta
+      projectPath: Assets\RPG Character Animation Pack\Scenes\RPG-Character.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Scenes\RPG-Character.unity
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Scenes\RPG-Character.unity
+      projectPath: Assets\RPG Character Animation Pack\Scenes\RPG-Character.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Scenes\RPG-Character.unity.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Scenes\RPG-Character.unity.meta
+      projectPath: Assets\RPG Character Animation Pack\Scenes\RPG-Character.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Scenes\RPG-Character\NavMesh.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Scenes\RPG-Character\NavMesh.asset
+      projectPath: Assets\RPG Character Animation Pack\Scenes\RPG-Character\NavMesh.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Scenes\RPG-Character\NavMesh.asset.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Scenes\RPG-Character\NavMesh.asset.meta
+      projectPath: Assets\RPG Character Animation Pack\Scenes\RPG-Character\NavMesh.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Textures.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Textures.meta
+      projectPath: Assets\RPG Character Animation Pack\Textures.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Textures\RPG-Character.psd
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Textures\RPG-Character.psd
+      projectPath: Assets\RPG Character Animation Pack\Textures\RPG-Character.psd
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\RPG Character Animation Pack\Textures\RPG-Character.psd.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\RPG
+        Character Animation Pack\Textures\RPG-Character.psd.meta
+      projectPath: Assets\RPG Character Animation Pack\Textures\RPG-Character.psd.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Library\CurrentLayout.dwlt
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\InspectorExpandedItems.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\ScriptMapper
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\ScriptMapper
+      projectPath: Library\ScriptMapper
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\12\12fd8a0055b84bb59e84c9835a37e333
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\12\12fd8a0055b84bb59e84c9835a37e333
+      projectPath: Library\metadata\12\12fd8a0055b84bb59e84c9835a37e333
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\15\15e327f750b786c46a9ec3995f60c81f
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\15\15e327f750b786c46a9ec3995f60c81f
+      projectPath: Library\metadata\15\15e327f750b786c46a9ec3995f60c81f
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\19\19e5a138c07e971438b2b18c8e716479
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\19\19e5a138c07e971438b2b18c8e716479
+      projectPath: Library\metadata\19\19e5a138c07e971438b2b18c8e716479
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\1b\1b355da31ea043feba0c03e35dd4bc62
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\1b\1b355da31ea043feba0c03e35dd4bc62
+      projectPath: Library\metadata\1b\1b355da31ea043feba0c03e35dd4bc62
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\1c\1c6d1fbb51834b64847b1b73a75bfc77
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\1c\1c6d1fbb51834b64847b1b73a75bfc77
+      projectPath: Library\metadata\1c\1c6d1fbb51834b64847b1b73a75bfc77
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\1e\1e108ae5f2133934f948edded555f03e
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\1e\1e108ae5f2133934f948edded555f03e
+      projectPath: Library\metadata\1e\1e108ae5f2133934f948edded555f03e
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\21\21eff446d50eaf44a85985cd4c0b6fa1
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\21\21eff446d50eaf44a85985cd4c0b6fa1
+      projectPath: Library\metadata\21\21eff446d50eaf44a85985cd4c0b6fa1
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\2f\2f02b8764d7e3d0478249c300d6b8b6f
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\2f\2f02b8764d7e3d0478249c300d6b8b6f
+      projectPath: Library\metadata\2f\2f02b8764d7e3d0478249c300d6b8b6f
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\32\32188fd89022c154c81befa2f0e00be0
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\32\32188fd89022c154c81befa2f0e00be0
+      projectPath: Library\metadata\32\32188fd89022c154c81befa2f0e00be0
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\38\38c8faf1788024c02930a0c68a6e0edc
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\38\38c8faf1788024c02930a0c68a6e0edc
+      projectPath: Library\metadata\38\38c8faf1788024c02930a0c68a6e0edc
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\3a\3a84de5cd0624681b6b6dcd8921d912a
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\3a\3a84de5cd0624681b6b6dcd8921d912a
+      projectPath: Library\metadata\3a\3a84de5cd0624681b6b6dcd8921d912a
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\3e\3e9a2175e0404f7ea30b2b694850bae0
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\3e\3e9a2175e0404f7ea30b2b694850bae0
+      projectPath: Library\metadata\3e\3e9a2175e0404f7ea30b2b694850bae0
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\40\405b9b51bb344a128608d968297df79c
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\40\405b9b51bb344a128608d968297df79c
+      projectPath: Library\metadata\40\405b9b51bb344a128608d968297df79c
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\41\4113173d5e95493ab8765d7b08371de4
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\41\4113173d5e95493ab8765d7b08371de4
+      projectPath: Library\metadata\41\4113173d5e95493ab8765d7b08371de4
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\46\46098a81a64a45c5b756320e10a22f13
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\46\46098a81a64a45c5b756320e10a22f13
+      projectPath: Library\metadata\46\46098a81a64a45c5b756320e10a22f13
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\4a\4a3ecb1425d14502837abea459cf2b70
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\4a\4a3ecb1425d14502837abea459cf2b70
+      projectPath: Library\metadata\4a\4a3ecb1425d14502837abea459cf2b70
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
+      projectPath: Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+      projectPath: Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\51\517af1b5b81b93b43b9745d58f017562
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\51\517af1b5b81b93b43b9745d58f017562
+      projectPath: Library\metadata\51\517af1b5b81b93b43b9745d58f017562
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
+      projectPath: Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\57\5782f9e9e6e0bb94bac99aeea24814fc
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\57\5782f9e9e6e0bb94bac99aeea24814fc
+      projectPath: Library\metadata\57\5782f9e9e6e0bb94bac99aeea24814fc
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\5a\5a4b354a3393911459ca2025410b0c02
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\5a\5a4b354a3393911459ca2025410b0c02
+      projectPath: Library\metadata\5a\5a4b354a3393911459ca2025410b0c02
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\5f\5f32cd94baa94578a686d4b9d6b660f7
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\5f\5f32cd94baa94578a686d4b9d6b660f7
+      projectPath: Library\metadata\5f\5f32cd94baa94578a686d4b9d6b660f7
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\6a\6a10b2909283487f913b00d94cd3faf5
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\6a\6a10b2909283487f913b00d94cd3faf5
+      projectPath: Library\metadata\6a\6a10b2909283487f913b00d94cd3faf5
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\6a\6a6b6bef66b30cf4da56a85e98aa9524
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\6a\6a6b6bef66b30cf4da56a85e98aa9524
+      projectPath: Library\metadata\6a\6a6b6bef66b30cf4da56a85e98aa9524
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\6e\6e2d432c5ea14e75aa3a79f90f704442
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\6e\6e2d432c5ea14e75aa3a79f90f704442
+      projectPath: Library\metadata\6e\6e2d432c5ea14e75aa3a79f90f704442
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\6e\6e86519b2ed7ece4cae901fc31de93cd
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\6e\6e86519b2ed7ece4cae901fc31de93cd
+      projectPath: Library\metadata\6e\6e86519b2ed7ece4cae901fc31de93cd
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\6f\6fe576b47d8b47688ec5d02bccd15cf9
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\6f\6fe576b47d8b47688ec5d02bccd15cf9
+      projectPath: Library\metadata\6f\6fe576b47d8b47688ec5d02bccd15cf9
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\76\7668179ede524d6396c8b7d84461ea29
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\76\7668179ede524d6396c8b7d84461ea29
+      projectPath: Library\metadata\76\7668179ede524d6396c8b7d84461ea29
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
+      projectPath: Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\84\844f815391db42d49455cbf1a7bfc434
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\84\844f815391db42d49455cbf1a7bfc434
+      projectPath: Library\metadata\84\844f815391db42d49455cbf1a7bfc434
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\85\858b7542787a1a44d917d8b76b6a9b47
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\85\858b7542787a1a44d917d8b76b6a9b47
+      projectPath: Library\metadata\85\858b7542787a1a44d917d8b76b6a9b47
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\87\870353891bb340e2b2a9c8707e7419ba
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\87\870353891bb340e2b2a9c8707e7419ba
+      projectPath: Library\metadata\87\870353891bb340e2b2a9c8707e7419ba
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\8a\8a9a760f95896c34689febc965510927
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\8a\8a9a760f95896c34689febc965510927
+      projectPath: Library\metadata\8a\8a9a760f95896c34689febc965510927
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\ad\adebbd281f1a4ef3a30be7f21937e02f
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\ad\adebbd281f1a4ef3a30be7f21937e02f
+      projectPath: Library\metadata\ad\adebbd281f1a4ef3a30be7f21937e02f
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\b2\b2bead50dbf86924f8e51f03ddbebf70
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\b2\b2bead50dbf86924f8e51f03ddbebf70
+      projectPath: Library\metadata\b2\b2bead50dbf86924f8e51f03ddbebf70
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\b5\b5da970776034f77a070d99423d68791
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\b5\b5da970776034f77a070d99423d68791
+      projectPath: Library\metadata\b5\b5da970776034f77a070d99423d68791
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\b9\b95ab00277ee47c687d710a3bb623d0a
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\b9\b95ab00277ee47c687d710a3bb623d0a
+      projectPath: Library\metadata\b9\b95ab00277ee47c687d710a3bb623d0a
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\ba\ba1fdeca76274e843a3d78b1bc348126
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\ba\ba1fdeca76274e843a3d78b1bc348126
+      projectPath: Library\metadata\ba\ba1fdeca76274e843a3d78b1bc348126
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\ba\bab6fa851cf5a1a4bba3cec5f191cb8e
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\ba\bab6fa851cf5a1a4bba3cec5f191cb8e
+      projectPath: Library\metadata\ba\bab6fa851cf5a1a4bba3cec5f191cb8e
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\d2\d2170503dc57f492481ebe9334c68fcc
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\d2\d2170503dc57f492481ebe9334c68fcc
+      projectPath: Library\metadata\d2\d2170503dc57f492481ebe9334c68fcc
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\d2\d2170503dc57f492481ebe9334c68fcc.info
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\d2\d2170503dc57f492481ebe9334c68fcc.info
+      projectPath: Library\metadata\d2\d2170503dc57f492481ebe9334c68fcc.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\d3\d33d54853fd0f48e0ac8a63ea91e6626
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\d3\d33d54853fd0f48e0ac8a63ea91e6626
+      projectPath: Library\metadata\d3\d33d54853fd0f48e0ac8a63ea91e6626
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\dc\dc443db3e92b4983b9738c1131f555cb
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\dc\dc443db3e92b4983b9738c1131f555cb
+      projectPath: Library\metadata\dc\dc443db3e92b4983b9738c1131f555cb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\e1\e1007cd261c84053beb0c3537782908d
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\e1\e1007cd261c84053beb0c3537782908d
+      projectPath: Library\metadata\e1\e1007cd261c84053beb0c3537782908d
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\e4\e4bfeabebc5114952a57d908ff706b7e
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\e4\e4bfeabebc5114952a57d908ff706b7e
+      projectPath: Library\metadata\e4\e4bfeabebc5114952a57d908ff706b7e
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\e4\e4f4cf1b9b434137a499903a7a1d651a
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\e4\e4f4cf1b9b434137a499903a7a1d651a
+      projectPath: Library\metadata\e4\e4f4cf1b9b434137a499903a7a1d651a
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\ea\ead147da21254ff9a0a936bdd75e1680
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\ea\ead147da21254ff9a0a936bdd75e1680
+      projectPath: Library\metadata\ea\ead147da21254ff9a0a936bdd75e1680
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\ed\ed7343f30e3843b3afda8f8b02669cea
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\ed\ed7343f30e3843b3afda8f8b02669cea
+      projectPath: Library\metadata\ed\ed7343f30e3843b3afda8f8b02669cea
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
+      projectPath: Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\f7\f70555f144d8491a825f0804e09c671c
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\f7\f70555f144d8491a825f0804e09c671c
+      projectPath: Library\metadata\f7\f70555f144d8491a825f0804e09c671c
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\f7\f735d317ca9afb6468c5c5ca06d9e39a
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\f7\f735d317ca9afb6468c5c5ca06d9e39a
+      projectPath: Library\metadata\f7\f735d317ca9afb6468c5c5ca06d9e39a
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\f7\f7b54ff4a43d4fcf81b4538b678e0bcc
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\f7\f7b54ff4a43d4fcf81b4538b678e0bcc
+      projectPath: Library\metadata\f7\f7b54ff4a43d4fcf81b4538b678e0bcc
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\ProjectSettings\ProjectVersion.txt
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\RustyBlade.sln
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\RustyBlade.sln
+      projectPath: RustyBlade.sln
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\obj\Debug\Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\obj\Debug\Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: f61b945ac05a70ea94ab3540385f22cac5f95f19
     mergeA: 
     mergeB: 
