@@ -18,7 +18,9 @@ public class PlayerStatsController : MonoBehaviour {
         Debug.Log(characterStats);
     }
 
-
+    public float getPlayerHealthPercentage(){
+        return ((float)this.currentHealth/(float)this.maxHealth);
+    }
     public void TakeDamage(int amount)
     {
         currentHealth -= amount;

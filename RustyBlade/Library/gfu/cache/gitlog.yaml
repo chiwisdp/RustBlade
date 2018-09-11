@@ -12,9 +12,3214 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-09-10T23:04:16.399+09:00
+  lastUpdatedAtString: 2018-09-11T22:25:18.075+09:00
   initializedAtString: 2018-09-10T21:53:36.351+09:00
   log:
+  - commitID: de240e54d96c98468474a8fbbe5a49c4ef250cda
+    mergeA: 
+    mergeB: 
+    authorName: chiwisdp
+    authorEmail: daniel@craterhouse.com
+    commitEmail: daniel@craterhouse.com
+    commitName: chiwisdp
+    summary: Upgrade unity fixed lost enenmy save
+    description: Upgrade unity fixed lost enenmy save
+    timeString: 2018-09-10T23:18:39.000+09:00
+    commitTimeString: 2018-09-10T23:18:39.000+09:00
+    changes:
+    - path: RustyBlade\Assembly-CSharp-Editor.csproj
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assembly-CSharp-Editor.csproj
+      projectPath: Assembly-CSharp-Editor.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assembly-CSharp.csproj
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Attack.FBX.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Ani\Skeleton@Attack.FBX.meta
+      projectPath: Assets\FantasyMonster\Skeleton\Ani\Skeleton@Attack.FBX.meta
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\FantasyMonster\Skeleton\Character\Materials\skeleton_D.mat
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\FantasyMonster\Skeleton\Character\Materials\skeleton_D.mat
+      projectPath: Assets\FantasyMonster\Skeleton\Character\Materials\skeleton_D.mat
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\APIReference.zip
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\APIReference.zip
+      projectPath: Assets\KinematicCharacterController\APIReference.zip
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\APIReference.zip.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\APIReference.zip.meta
+      projectPath: Assets\KinematicCharacterController\APIReference.zip.meta
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Core\BaseCharacterController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Core\BaseCharacterController.cs
+      projectPath: Assets\KinematicCharacterController\Core\BaseCharacterController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Core\KinematicCharacterMotor.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Core\KinematicCharacterMotor.cs
+      projectPath: Assets\KinematicCharacterController\Core\KinematicCharacterMotor.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Examples\Prefabs\ExampleCharacter.prefab
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Examples\Prefabs\ExampleCharacter.prefab
+      projectPath: Assets\KinematicCharacterController\Examples\Prefabs\ExampleCharacter.prefab
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Examples\Scenes\CharacterPlayground.unity
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Examples\Scenes\CharacterPlayground.unity
+      projectPath: Assets\KinematicCharacterController\Examples\Scenes\CharacterPlayground.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Examples\Scenes\CharacterPlayground_Profiles.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Examples\Scenes\CharacterPlayground_Profiles.meta
+      projectPath: Assets\KinematicCharacterController\Examples\Scenes\CharacterPlayground_Profiles.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Examples\Scenes\CharacterPlayground_Profiles\GameObject
+        Profile.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Examples\Scenes\CharacterPlayground_Profiles\GameObject
+        Profile.asset
+      projectPath: Assets\KinematicCharacterController\Examples\Scenes\CharacterPlayground_Profiles\GameObject
+        Profile.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Examples\Scenes\CharacterPlayground_Profiles\GameObject
+        Profile.asset.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Examples\Scenes\CharacterPlayground_Profiles\GameObject
+        Profile.asset.meta
+      projectPath: Assets\KinematicCharacterController\Examples\Scenes\CharacterPlayground_Profiles\GameObject
+        Profile.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Examples\Scripts\Editor.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Examples\Scripts\Editor.meta
+      projectPath: Assets\KinematicCharacterController\Examples\Scripts\Editor.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Examples\Scripts\Editor\PauseStateHandler.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Examples\Scripts\Editor\PauseStateHandler.cs
+      projectPath: Assets\KinematicCharacterController\Examples\Scripts\Editor\PauseStateHandler.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Examples\Scripts\Editor\PauseStateHandler.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Examples\Scripts\Editor\PauseStateHandler.cs.meta
+      projectPath: Assets\KinematicCharacterController\Examples\Scripts\Editor\PauseStateHandler.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Examples\Scripts\ExampleCharacterController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Examples\Scripts\ExampleCharacterController.cs
+      projectPath: Assets\KinematicCharacterController\Examples\Scripts\ExampleCharacterController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough.meta
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\1-
+        Player Camera Character Setup.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup\Scene.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\1-
+        Player Camera Character Setup\Scene.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup\Scene.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup\Scene\WalkthroughScene1.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\1-
+        Player Camera Character Setup\Scene\WalkthroughScene1.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup\Scene\WalkthroughScene1.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup\Scene\WalkthroughScene1.unity
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\1-
+        Player Camera Character Setup\Scene\WalkthroughScene1.unity
+      projectPath: Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup\Scene\WalkthroughScene1.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup\Scene\WalkthroughScene1.unity.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\1-
+        Player Camera Character Setup\Scene\WalkthroughScene1.unity.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup\Scene\WalkthroughScene1.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup\Scene\WalkthroughScene1\LightingData.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\1-
+        Player Camera Character Setup\Scene\WalkthroughScene1\LightingData.asset
+      projectPath: Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup\Scene\WalkthroughScene1\LightingData.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup\Scene\WalkthroughScene1\LightingData.asset.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\1-
+        Player Camera Character Setup\Scene\WalkthroughScene1\LightingData.asset.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup\Scene\WalkthroughScene1\LightingData.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup\Scene\WalkthroughScene1\ReflectionProbe-0.exr
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\1-
+        Player Camera Character Setup\Scene\WalkthroughScene1\ReflectionProbe-0.exr
+      projectPath: Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup\Scene\WalkthroughScene1\ReflectionProbe-0.exr
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup\Scene\WalkthroughScene1\ReflectionProbe-0.exr.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\1-
+        Player Camera Character Setup\Scene\WalkthroughScene1\ReflectionProbe-0.exr.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup\Scene\WalkthroughScene1\ReflectionProbe-0.exr.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup\Scripts.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\1-
+        Player Camera Character Setup\Scripts.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup\Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup\Scripts\MyCharacterController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\1-
+        Player Camera Character Setup\Scripts\MyCharacterController.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup\Scripts\MyCharacterController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup\Scripts\MyCharacterController.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\1-
+        Player Camera Character Setup\Scripts\MyCharacterController.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup\Scripts\MyCharacterController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup\Scripts\MyPlayer.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\1-
+        Player Camera Character Setup\Scripts\MyPlayer.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup\Scripts\MyPlayer.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup\Scripts\MyPlayer.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\1-
+        Player Camera Character Setup\Scripts\MyPlayer.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\1- Player Camera
+        Character Setup\Scripts\MyPlayer.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\10- Multiple
+        movement states setup.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\10-
+        Multiple movement states setup.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\10- Multiple movement
+        states setup.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\10- Multiple
+        movement states setup\Scene.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\10-
+        Multiple movement states setup\Scene.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\10- Multiple movement
+        states setup\Scene.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\10- Multiple
+        movement states setup\Scene\WalkthroughScene10.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\10-
+        Multiple movement states setup\Scene\WalkthroughScene10.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\10- Multiple movement
+        states setup\Scene\WalkthroughScene10.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\10- Multiple
+        movement states setup\Scene\WalkthroughScene10.unity
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\10-
+        Multiple movement states setup\Scene\WalkthroughScene10.unity
+      projectPath: Assets\KinematicCharacterController\Walkthrough\10- Multiple movement
+        states setup\Scene\WalkthroughScene10.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\10- Multiple
+        movement states setup\Scene\WalkthroughScene10.unity.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\10-
+        Multiple movement states setup\Scene\WalkthroughScene10.unity.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\10- Multiple movement
+        states setup\Scene\WalkthroughScene10.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\10- Multiple
+        movement states setup\Scene\WalkthroughScene10\LightingData.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\10-
+        Multiple movement states setup\Scene\WalkthroughScene10\LightingData.asset
+      projectPath: Assets\KinematicCharacterController\Walkthrough\10- Multiple movement
+        states setup\Scene\WalkthroughScene10\LightingData.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\10- Multiple
+        movement states setup\Scene\WalkthroughScene10\LightingData.asset.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\10-
+        Multiple movement states setup\Scene\WalkthroughScene10\LightingData.asset.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\10- Multiple movement
+        states setup\Scene\WalkthroughScene10\LightingData.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\10- Multiple
+        movement states setup\Scene\WalkthroughScene10\ReflectionProbe-0.exr
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\10-
+        Multiple movement states setup\Scene\WalkthroughScene10\ReflectionProbe-0.exr
+      projectPath: Assets\KinematicCharacterController\Walkthrough\10- Multiple movement
+        states setup\Scene\WalkthroughScene10\ReflectionProbe-0.exr
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\10- Multiple
+        movement states setup\Scene\WalkthroughScene10\ReflectionProbe-0.exr.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\10-
+        Multiple movement states setup\Scene\WalkthroughScene10\ReflectionProbe-0.exr.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\10- Multiple movement
+        states setup\Scene\WalkthroughScene10\ReflectionProbe-0.exr.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\10- Multiple
+        movement states setup\Scripts.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\10-
+        Multiple movement states setup\Scripts.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\10- Multiple movement
+        states setup\Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\10- Multiple
+        movement states setup\Scripts\MyCharacterController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\10-
+        Multiple movement states setup\Scripts\MyCharacterController.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\10- Multiple movement
+        states setup\Scripts\MyCharacterController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\10- Multiple
+        movement states setup\Scripts\MyCharacterController.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\10-
+        Multiple movement states setup\Scripts\MyCharacterController.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\10- Multiple movement
+        states setup\Scripts\MyCharacterController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\10- Multiple
+        movement states setup\Scripts\MyPlayer.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\10-
+        Multiple movement states setup\Scripts\MyPlayer.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\10- Multiple movement
+        states setup\Scripts\MyPlayer.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\10- Multiple
+        movement states setup\Scripts\MyPlayer.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\10-
+        Multiple movement states setup\Scripts\MyPlayer.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\10- Multiple movement
+        states setup\Scripts\MyPlayer.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\11- Charging
+        state.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\11-
+        Charging state.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\11- Charging state.meta
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\11- Charging
+        state\Scene.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\11-
+        Charging state\Scene.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\11- Charging state\Scene.meta
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\11- Charging
+        state\Scene\WalkthroughScene11.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\11-
+        Charging state\Scene\WalkthroughScene11.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\11- Charging state\Scene\WalkthroughScene11.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\11- Charging
+        state\Scene\WalkthroughScene11.unity
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\11-
+        Charging state\Scene\WalkthroughScene11.unity
+      projectPath: Assets\KinematicCharacterController\Walkthrough\11- Charging state\Scene\WalkthroughScene11.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\11- Charging
+        state\Scene\WalkthroughScene11.unity.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\11-
+        Charging state\Scene\WalkthroughScene11.unity.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\11- Charging state\Scene\WalkthroughScene11.unity.meta
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\11- Charging
+        state\Scene\WalkthroughScene11\LightingData.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\11-
+        Charging state\Scene\WalkthroughScene11\LightingData.asset
+      projectPath: Assets\KinematicCharacterController\Walkthrough\11- Charging state\Scene\WalkthroughScene11\LightingData.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\11- Charging
+        state\Scene\WalkthroughScene11\LightingData.asset.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\11-
+        Charging state\Scene\WalkthroughScene11\LightingData.asset.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\11- Charging state\Scene\WalkthroughScene11\LightingData.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\11- Charging
+        state\Scene\WalkthroughScene11\ReflectionProbe-0.exr
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\11-
+        Charging state\Scene\WalkthroughScene11\ReflectionProbe-0.exr
+      projectPath: Assets\KinematicCharacterController\Walkthrough\11- Charging state\Scene\WalkthroughScene11\ReflectionProbe-0.exr
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\11- Charging
+        state\Scene\WalkthroughScene11\ReflectionProbe-0.exr.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\11-
+        Charging state\Scene\WalkthroughScene11\ReflectionProbe-0.exr.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\11- Charging state\Scene\WalkthroughScene11\ReflectionProbe-0.exr.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\12- NoClip
+        state.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\12-
+        NoClip state.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\12- NoClip state.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\12- NoClip
+        state\Scene.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\12-
+        NoClip state\Scene.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\12- NoClip state\Scene.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\12- NoClip
+        state\Scene\WalkthroughScene12.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\12-
+        NoClip state\Scene\WalkthroughScene12.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\12- NoClip state\Scene\WalkthroughScene12.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\12- NoClip
+        state\Scene\WalkthroughScene12.unity
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\12-
+        NoClip state\Scene\WalkthroughScene12.unity
+      projectPath: Assets\KinematicCharacterController\Walkthrough\12- NoClip state\Scene\WalkthroughScene12.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\12- NoClip
+        state\Scene\WalkthroughScene12.unity.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\12-
+        NoClip state\Scene\WalkthroughScene12.unity.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\12- NoClip state\Scene\WalkthroughScene12.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\12- NoClip
+        state\Scene\WalkthroughScene12\LightingData.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\12-
+        NoClip state\Scene\WalkthroughScene12\LightingData.asset
+      projectPath: Assets\KinematicCharacterController\Walkthrough\12- NoClip state\Scene\WalkthroughScene12\LightingData.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\12- NoClip
+        state\Scene\WalkthroughScene12\LightingData.asset.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\12-
+        NoClip state\Scene\WalkthroughScene12\LightingData.asset.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\12- NoClip state\Scene\WalkthroughScene12\LightingData.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\12- NoClip
+        state\Scene\WalkthroughScene12\ReflectionProbe-0.exr
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\12-
+        NoClip state\Scene\WalkthroughScene12\ReflectionProbe-0.exr
+      projectPath: Assets\KinematicCharacterController\Walkthrough\12- NoClip state\Scene\WalkthroughScene12\ReflectionProbe-0.exr
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\12- NoClip
+        state\Scene\WalkthroughScene12\ReflectionProbe-0.exr.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\12-
+        NoClip state\Scene\WalkthroughScene12\ReflectionProbe-0.exr.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\12- NoClip state\Scene\WalkthroughScene12\ReflectionProbe-0.exr.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\12- NoClip
+        state\Scripts.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\12-
+        NoClip state\Scripts.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\12- NoClip state\Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\12- NoClip
+        state\Scripts\MyCharacterController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\12-
+        NoClip state\Scripts\MyCharacterController.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\12- NoClip state\Scripts\MyCharacterController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\12- NoClip
+        state\Scripts\MyCharacterController.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\12-
+        NoClip state\Scripts\MyCharacterController.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\12- NoClip state\Scripts\MyCharacterController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\12- NoClip
+        state\Scripts\MyPlayer.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\12-
+        NoClip state\Scripts\MyPlayer.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\12- NoClip state\Scripts\MyPlayer.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\12- NoClip
+        state\Scripts\MyPlayer.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\12-
+        NoClip state\Scripts\MyPlayer.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\12- NoClip state\Scripts\MyPlayer.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\13- Swimming
+        state.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\13-
+        Swimming state.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\13- Swimming state.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\13- Swimming
+        state\Scene.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\13-
+        Swimming state\Scene.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\13- Swimming state\Scene.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\13- Swimming
+        state\Scene\WalkthroughScene13.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\13-
+        Swimming state\Scene\WalkthroughScene13.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\13- Swimming state\Scene\WalkthroughScene13.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\13- Swimming
+        state\Scene\WalkthroughScene13.unity
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\13-
+        Swimming state\Scene\WalkthroughScene13.unity
+      projectPath: Assets\KinematicCharacterController\Walkthrough\13- Swimming state\Scene\WalkthroughScene13.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\13- Swimming
+        state\Scene\WalkthroughScene13.unity.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\13-
+        Swimming state\Scene\WalkthroughScene13.unity.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\13- Swimming state\Scene\WalkthroughScene13.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\13- Swimming
+        state\Scene\WalkthroughScene13\LightingData.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\13-
+        Swimming state\Scene\WalkthroughScene13\LightingData.asset
+      projectPath: Assets\KinematicCharacterController\Walkthrough\13- Swimming state\Scene\WalkthroughScene13\LightingData.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\13- Swimming
+        state\Scene\WalkthroughScene13\LightingData.asset.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\13-
+        Swimming state\Scene\WalkthroughScene13\LightingData.asset.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\13- Swimming state\Scene\WalkthroughScene13\LightingData.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\13- Swimming
+        state\Scene\WalkthroughScene13\ReflectionProbe-0.exr
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\13-
+        Swimming state\Scene\WalkthroughScene13\ReflectionProbe-0.exr
+      projectPath: Assets\KinematicCharacterController\Walkthrough\13- Swimming state\Scene\WalkthroughScene13\ReflectionProbe-0.exr
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\13- Swimming
+        state\Scene\WalkthroughScene13\ReflectionProbe-0.exr.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\13-
+        Swimming state\Scene\WalkthroughScene13\ReflectionProbe-0.exr.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\13- Swimming state\Scene\WalkthroughScene13\ReflectionProbe-0.exr.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\13- Swimming
+        state\Scripts.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\13-
+        Swimming state\Scripts.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\13- Swimming state\Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\13- Swimming
+        state\Scripts\MyCharacterController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\13-
+        Swimming state\Scripts\MyCharacterController.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\13- Swimming state\Scripts\MyCharacterController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\13- Swimming
+        state\Scripts\MyCharacterController.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\13-
+        Swimming state\Scripts\MyCharacterController.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\13- Swimming state\Scripts\MyCharacterController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\13- Swimming
+        state\Scripts\MyPlayer.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\13-
+        Swimming state\Scripts\MyPlayer.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\13- Swimming state\Scripts\MyPlayer.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\13- Swimming
+        state\Scripts\MyPlayer.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\13-
+        Swimming state\Scripts\MyPlayer.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\13- Swimming state\Scripts\MyPlayer.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\14- Climbing
+        Ladders.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\14-
+        Climbing Ladders.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\14- Climbing Ladders.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\14- Climbing
+        Ladders\Scene.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\14-
+        Climbing Ladders\Scene.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\14- Climbing Ladders\Scene.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\14- Climbing
+        Ladders\Scene\WalkthroughScene14.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\14-
+        Climbing Ladders\Scene\WalkthroughScene14.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\14- Climbing Ladders\Scene\WalkthroughScene14.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\14- Climbing
+        Ladders\Scene\WalkthroughScene14.unity
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\14-
+        Climbing Ladders\Scene\WalkthroughScene14.unity
+      projectPath: Assets\KinematicCharacterController\Walkthrough\14- Climbing Ladders\Scene\WalkthroughScene14.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\14- Climbing
+        Ladders\Scene\WalkthroughScene14.unity.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\14-
+        Climbing Ladders\Scene\WalkthroughScene14.unity.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\14- Climbing Ladders\Scene\WalkthroughScene14.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\14- Climbing
+        Ladders\Scene\WalkthroughScene14\LightingData.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\14-
+        Climbing Ladders\Scene\WalkthroughScene14\LightingData.asset
+      projectPath: Assets\KinematicCharacterController\Walkthrough\14- Climbing Ladders\Scene\WalkthroughScene14\LightingData.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\14- Climbing
+        Ladders\Scene\WalkthroughScene14\LightingData.asset.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\14-
+        Climbing Ladders\Scene\WalkthroughScene14\LightingData.asset.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\14- Climbing Ladders\Scene\WalkthroughScene14\LightingData.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\14- Climbing
+        Ladders\Scene\WalkthroughScene14\ReflectionProbe-0.exr
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\14-
+        Climbing Ladders\Scene\WalkthroughScene14\ReflectionProbe-0.exr
+      projectPath: Assets\KinematicCharacterController\Walkthrough\14- Climbing Ladders\Scene\WalkthroughScene14\ReflectionProbe-0.exr
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\14- Climbing
+        Ladders\Scene\WalkthroughScene14\ReflectionProbe-0.exr.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\14-
+        Climbing Ladders\Scene\WalkthroughScene14\ReflectionProbe-0.exr.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\14- Climbing Ladders\Scene\WalkthroughScene14\ReflectionProbe-0.exr.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\14- Climbing
+        Ladders\Scripts.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\14-
+        Climbing Ladders\Scripts.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\14- Climbing Ladders\Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\14- Climbing
+        Ladders\Scripts\MyCharacterController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\14-
+        Climbing Ladders\Scripts\MyCharacterController.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\14- Climbing Ladders\Scripts\MyCharacterController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\14- Climbing
+        Ladders\Scripts\MyCharacterController.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\14-
+        Climbing Ladders\Scripts\MyCharacterController.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\14- Climbing Ladders\Scripts\MyCharacterController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\14- Climbing
+        Ladders\Scripts\MyLadder.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\14-
+        Climbing Ladders\Scripts\MyLadder.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\14- Climbing Ladders\Scripts\MyLadder.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\14- Climbing
+        Ladders\Scripts\MyLadder.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\14-
+        Climbing Ladders\Scripts\MyLadder.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\14- Climbing Ladders\Scripts\MyLadder.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\14- Climbing
+        Ladders\Scripts\MyPlayer.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\14-
+        Climbing Ladders\Scripts\MyPlayer.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\14- Climbing Ladders\Scripts\MyPlayer.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\14- Climbing
+        Ladders\Scripts\MyPlayer.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\14-
+        Climbing Ladders\Scripts\MyPlayer.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\14- Climbing Ladders\Scripts\MyPlayer.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animation.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidCrouch.fbx
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animation\HumanoidCrouch.fbx
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidCrouch.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidCrouch.fbx.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animation\HumanoidCrouch.fbx.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidCrouch.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidIdle.fbx
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animation\HumanoidIdle.fbx
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidIdle.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidIdle.fbx.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animation\HumanoidIdle.fbx.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidIdle.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidIdleJumpUp.fbx
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animation\HumanoidIdleJumpUp.fbx
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidIdleJumpUp.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidIdleJumpUp.fbx.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animation\HumanoidIdleJumpUp.fbx.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidIdleJumpUp.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidJumpAndFall.fbx
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animation\HumanoidJumpAndFall.fbx
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidJumpAndFall.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidJumpAndFall.fbx.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animation\HumanoidJumpAndFall.fbx.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidJumpAndFall.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidMidAir.fbx
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animation\HumanoidMidAir.fbx
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidMidAir.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidMidAir.fbx.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animation\HumanoidMidAir.fbx.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidMidAir.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidRun.fbx
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animation\HumanoidRun.fbx
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidRun.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidRun.fbx.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animation\HumanoidRun.fbx.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidRun.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidRunTurn.fbx
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animation\HumanoidRunTurn.fbx
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidRunTurn.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidRunTurn.fbx.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animation\HumanoidRunTurn.fbx.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidRunTurn.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidRunTurnSharp.fbx
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animation\HumanoidRunTurnSharp.fbx
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidRunTurnSharp.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidRunTurnSharp.fbx.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animation\HumanoidRunTurnSharp.fbx.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidRunTurnSharp.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidStandTurn.fbx
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animation\HumanoidStandTurn.fbx
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidStandTurn.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidStandTurn.fbx.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animation\HumanoidStandTurn.fbx.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidStandTurn.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidWalk.fbx
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animation\HumanoidWalk.fbx
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidWalk.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidWalk.fbx.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animation\HumanoidWalk.fbx.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidWalk.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidWalkTurn.fbx
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animation\HumanoidWalkTurn.fbx
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidWalkTurn.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidWalkTurn.fbx.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animation\HumanoidWalkTurn.fbx.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidWalkTurn.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidWalkTurnSharp.fbx
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animation\HumanoidWalkTurnSharp.fbx
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidWalkTurnSharp.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidWalkTurnSharp.fbx.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animation\HumanoidWalkTurnSharp.fbx.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animation\HumanoidWalkTurnSharp.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animator.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animator.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animator.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animator\ThirdPersonAnimatorController.controller
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animator\ThirdPersonAnimatorController.controller
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animator\ThirdPersonAnimatorController.controller
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animator\ThirdPersonAnimatorController.controller.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Animator\ThirdPersonAnimatorController.controller.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Animator\ThirdPersonAnimatorController.controller.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Materials.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Materials.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Materials\Ethan.mat
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Materials\Ethan.mat
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Materials\Ethan.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Materials\Ethan.mat.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Materials\Ethan.mat.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Materials\Ethan.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Models.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Models.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Models.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Models\Ethan.fbx
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Models\Ethan.fbx
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Models\Ethan.fbx
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Models\Ethan.fbx.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Models\Ethan.fbx.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Models\Ethan.fbx.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Models\Materials.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Models\Materials.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Models\Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Models\Materials\EthanWhite.mat
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Models\Materials\EthanWhite.mat
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Models\Materials\EthanWhite.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Models\Materials\EthanWhite.mat.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Models\Materials\EthanWhite.mat.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Models\Materials\EthanWhite.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Prefabs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Prefabs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Prefabs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Prefabs\Ethan.prefab
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Prefabs\Ethan.prefab
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Prefabs\Ethan.prefab
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Prefabs\Ethan.prefab.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Prefabs\Ethan.prefab.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Prefabs\Ethan.prefab.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Textures.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Textures.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Textures.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Textures\EthanNormals.png
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Textures\EthanNormals.png
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Textures\EthanNormals.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Textures\EthanNormals.png.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Textures\EthanNormals.png.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Textures\EthanNormals.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Textures\EthanOcclusion.png
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Textures\EthanOcclusion.png
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Textures\EthanOcclusion.png
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Textures\EthanOcclusion.png.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\EthanCharacter\Textures\EthanOcclusion.png.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\EthanCharacter\Textures\EthanOcclusion.png.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\Scene.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\Scene.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\Scene.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\Scene\WalkthroughScene15.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\Scene\WalkthroughScene15.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\Scene\WalkthroughScene15.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\Scene\WalkthroughScene15.unity
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\Scene\WalkthroughScene15.unity
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\Scene\WalkthroughScene15.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\Scene\WalkthroughScene15.unity.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\Scene\WalkthroughScene15.unity.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\Scene\WalkthroughScene15.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\Scene\WalkthroughScene15\LightingData.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\Scene\WalkthroughScene15\LightingData.asset
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\Scene\WalkthroughScene15\LightingData.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\Scene\WalkthroughScene15\LightingData.asset.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\Scene\WalkthroughScene15\LightingData.asset.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\Scene\WalkthroughScene15\LightingData.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\Scene\WalkthroughScene15\ReflectionProbe-0.exr
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\Scene\WalkthroughScene15\ReflectionProbe-0.exr
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\Scene\WalkthroughScene15\ReflectionProbe-0.exr
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\Scene\WalkthroughScene15\ReflectionProbe-0.exr.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\Scene\WalkthroughScene15\ReflectionProbe-0.exr.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\Scene\WalkthroughScene15\ReflectionProbe-0.exr.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\Scripts.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\Scripts.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\Scripts\MyCharacterController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\Scripts\MyCharacterController.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\Scripts\MyCharacterController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\Scripts\MyCharacterController.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\Scripts\MyCharacterController.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\Scripts\MyCharacterController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\Scripts\MyPlayer.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\Scripts\MyPlayer.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\Scripts\MyPlayer.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\Scripts\MyPlayer.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\15-
+        Root motion example\Scripts\MyPlayer.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\15- Root motion
+        example\Scripts\MyPlayer.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\NavMeshComponents.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\NavMeshComponents.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\NavMeshComponents.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\NavMeshComponents\Editor.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\NavMeshComponents\Editor.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\NavMeshComponents\Editor.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\NavMeshComponents\Editor\NavMeshComponentsGUIUtility.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\NavMeshComponents\Editor\NavMeshLinkEditor.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\NavMeshComponents\Editor\NavMeshLinkEditor.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\NavMeshComponents\Editor\NavMeshLinkEditor.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\NavMeshComponents\Editor\NavMeshLinkEditor.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\NavMeshComponents\Editor\NavMeshLinkEditor.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\NavMeshComponents\Editor\NavMeshLinkEditor.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\NavMeshComponents\Editor\NavMeshModifierEditor.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\NavMeshComponents\Editor\NavMeshModifierEditor.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\NavMeshComponents\Editor\NavMeshModifierEditor.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\NavMeshComponents\Editor\NavMeshModifierEditor.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\NavMeshComponents\Editor\NavMeshModifierEditor.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\NavMeshComponents\Editor\NavMeshModifierEditor.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\NavMeshComponents\Editor\NavMeshModifierVolumeEditor.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\NavMeshComponents\Editor\NavMeshSurfaceEditor.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\NavMeshComponents\Scripts.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\NavMeshComponents\Scripts.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\NavMeshComponents\Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\NavMeshComponents\Scripts\NavMeshLink.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\NavMeshComponents\Scripts\NavMeshLink.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\NavMeshComponents\Scripts\NavMeshLink.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\NavMeshComponents\Scripts\NavMeshLink.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\NavMeshComponents\Scripts\NavMeshLink.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\NavMeshComponents\Scripts\NavMeshLink.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\NavMeshComponents\Scripts\NavMeshModifier.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\NavMeshComponents\Scripts\NavMeshModifier.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\NavMeshComponents\Scripts\NavMeshModifier.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\NavMeshComponents\Scripts\NavMeshModifier.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\NavMeshComponents\Scripts\NavMeshModifier.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\NavMeshComponents\Scripts\NavMeshModifier.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\NavMeshComponents\Scripts\NavMeshModifierVolume.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\NavMeshComponents\Scripts\NavMeshModifierVolume.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\NavMeshComponents\Scripts\NavMeshModifierVolume.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\NavMeshComponents\Scripts\NavMeshModifierVolume.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\NavMeshComponents\Scripts\NavMeshModifierVolume.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\NavMeshComponents\Scripts\NavMeshModifierVolume.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\NavMeshComponents\Scripts\NavMeshSurface.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\NavMeshComponents\Scripts\NavMeshSurface.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\NavMeshComponents\Scripts\NavMeshSurface.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\NavMeshComponents\Scripts\NavMeshSurface.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\NavMeshComponents\Scripts\NavMeshSurface.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\NavMeshComponents\Scripts\NavMeshSurface.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\Scene.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\Scene.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\Scene.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\Scene\WalkthroughScene16.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\Scene\WalkthroughScene16.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\Scene\WalkthroughScene16.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\Scene\WalkthroughScene16.unity
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\Scene\WalkthroughScene16.unity
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\Scene\WalkthroughScene16.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\Scene\WalkthroughScene16.unity.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\Scene\WalkthroughScene16.unity.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\Scene\WalkthroughScene16.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\Scene\WalkthroughScene16\LightingData.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\Scene\WalkthroughScene16\LightingData.asset
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\Scene\WalkthroughScene16\LightingData.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\Scene\WalkthroughScene16\LightingData.asset.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\Scene\WalkthroughScene16\LightingData.asset.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\Scene\WalkthroughScene16\LightingData.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\Scene\WalkthroughScene16\NavMesh-Level.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\Scene\WalkthroughScene16\NavMesh-Level.asset
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\Scene\WalkthroughScene16\NavMesh-Level.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\Scene\WalkthroughScene16\NavMesh-Level.asset.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\Scene\WalkthroughScene16\NavMesh-Level.asset.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\Scene\WalkthroughScene16\NavMesh-Level.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\Scene\WalkthroughScene16\NavMesh-NavMesh.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\Scene\WalkthroughScene16\NavMesh-NavMesh.asset
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\Scene\WalkthroughScene16\NavMesh-NavMesh.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\Scene\WalkthroughScene16\NavMesh-NavMesh.asset.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\Scene\WalkthroughScene16\NavMesh-NavMesh.asset.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\Scene\WalkthroughScene16\NavMesh-NavMesh.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\Scene\WalkthroughScene16\ReflectionProbe-0.exr
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\Scene\WalkthroughScene16\ReflectionProbe-0.exr
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\Scene\WalkthroughScene16\ReflectionProbe-0.exr
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\Scene\WalkthroughScene16\ReflectionProbe-0.exr.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\Scene\WalkthroughScene16\ReflectionProbe-0.exr.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\Scene\WalkthroughScene16\ReflectionProbe-0.exr.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\Scripts.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\Scripts.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\Scripts\MyAI.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\Scripts\MyAI.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\Scripts\MyAI.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\Scripts\MyAI.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\Scripts\MyAI.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\Scripts\MyAI.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\Scripts\MyCharacterController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\Scripts\MyCharacterController.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\Scripts\MyCharacterController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\Scripts\MyCharacterController.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\Scripts\MyCharacterController.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\Scripts\MyCharacterController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\Scripts\MyPlayer.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\Scripts\MyPlayer.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\Scripts\MyPlayer.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\16- NavMesh
+        usage example\Scripts\MyPlayer.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\16-
+        NavMesh usage example\Scripts\MyPlayer.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\16- NavMesh usage
+        example\Scripts\MyPlayer.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\17-
+        FramePerfect Rotation.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation\Scene.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\17-
+        FramePerfect Rotation\Scene.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation\Scene.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation\Scene\WalkthroughScene17.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\17-
+        FramePerfect Rotation\Scene\WalkthroughScene17.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation\Scene\WalkthroughScene17.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation\Scene\WalkthroughScene17.unity
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\17-
+        FramePerfect Rotation\Scene\WalkthroughScene17.unity
+      projectPath: Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation\Scene\WalkthroughScene17.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation\Scene\WalkthroughScene17.unity.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\17-
+        FramePerfect Rotation\Scene\WalkthroughScene17.unity.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation\Scene\WalkthroughScene17.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation\Scene\WalkthroughScene17\LightingData.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\17-
+        FramePerfect Rotation\Scene\WalkthroughScene17\LightingData.asset
+      projectPath: Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation\Scene\WalkthroughScene17\LightingData.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation\Scene\WalkthroughScene17\LightingData.asset.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\17-
+        FramePerfect Rotation\Scene\WalkthroughScene17\LightingData.asset.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation\Scene\WalkthroughScene17\LightingData.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation\Scene\WalkthroughScene17\ReflectionProbe-0.exr
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\17-
+        FramePerfect Rotation\Scene\WalkthroughScene17\ReflectionProbe-0.exr
+      projectPath: Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation\Scene\WalkthroughScene17\ReflectionProbe-0.exr
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation\Scene\WalkthroughScene17\ReflectionProbe-0.exr.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\17-
+        FramePerfect Rotation\Scene\WalkthroughScene17\ReflectionProbe-0.exr.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation\Scene\WalkthroughScene17\ReflectionProbe-0.exr.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation\Scripts.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\17-
+        FramePerfect Rotation\Scripts.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation\Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation\Scripts\MyCharacterController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\17-
+        FramePerfect Rotation\Scripts\MyCharacterController.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation\Scripts\MyCharacterController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation\Scripts\MyCharacterController.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\17-
+        FramePerfect Rotation\Scripts\MyCharacterController.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation\Scripts\MyCharacterController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation\Scripts\MyPlayer.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\17-
+        FramePerfect Rotation\Scripts\MyPlayer.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation\Scripts\MyPlayer.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation\Scripts\MyPlayer.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\17-
+        FramePerfect Rotation\Scripts\MyPlayer.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\17- FramePerfect
+        Rotation\Scripts\MyPlayer.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\2-
+        Basic Movement and Gravity.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity\Scene.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\2-
+        Basic Movement and Gravity\Scene.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity\Scene.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity\Scene\WalkthroughScene2.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\2-
+        Basic Movement and Gravity\Scene\WalkthroughScene2.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity\Scene\WalkthroughScene2.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity\Scene\WalkthroughScene2.unity
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\2-
+        Basic Movement and Gravity\Scene\WalkthroughScene2.unity
+      projectPath: Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity\Scene\WalkthroughScene2.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity\Scene\WalkthroughScene2.unity.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\2-
+        Basic Movement and Gravity\Scene\WalkthroughScene2.unity.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity\Scene\WalkthroughScene2.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity\Scene\WalkthroughScene2\LightingData.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\2-
+        Basic Movement and Gravity\Scene\WalkthroughScene2\LightingData.asset
+      projectPath: Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity\Scene\WalkthroughScene2\LightingData.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity\Scene\WalkthroughScene2\LightingData.asset.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\2-
+        Basic Movement and Gravity\Scene\WalkthroughScene2\LightingData.asset.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity\Scene\WalkthroughScene2\LightingData.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity\Scene\WalkthroughScene2\ReflectionProbe-0.exr
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\2-
+        Basic Movement and Gravity\Scene\WalkthroughScene2\ReflectionProbe-0.exr
+      projectPath: Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity\Scene\WalkthroughScene2\ReflectionProbe-0.exr
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity\Scene\WalkthroughScene2\ReflectionProbe-0.exr.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\2-
+        Basic Movement and Gravity\Scene\WalkthroughScene2\ReflectionProbe-0.exr.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity\Scene\WalkthroughScene2\ReflectionProbe-0.exr.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity\Scripts.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\2-
+        Basic Movement and Gravity\Scripts.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity\Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity\Scripts\MyCharacterController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\2-
+        Basic Movement and Gravity\Scripts\MyCharacterController.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity\Scripts\MyCharacterController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity\Scripts\MyCharacterController.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\2-
+        Basic Movement and Gravity\Scripts\MyCharacterController.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity\Scripts\MyCharacterController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity\Scripts\MyPlayer.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\2-
+        Basic Movement and Gravity\Scripts\MyPlayer.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity\Scripts\MyPlayer.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity\Scripts\MyPlayer.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\2-
+        Basic Movement and Gravity\Scripts\MyPlayer.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\2- Basic Movement
+        and Gravity\Scripts\MyPlayer.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\3- Jumping.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\3-
+        Jumping.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\3- Jumping.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scene.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\3-
+        Jumping\Scene.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scene.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scene\WalkthroughScene3.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\3-
+        Jumping\Scene\WalkthroughScene3.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scene\WalkthroughScene3.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scene\WalkthroughScene3.unity
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\3-
+        Jumping\Scene\WalkthroughScene3.unity
+      projectPath: Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scene\WalkthroughScene3.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scene\WalkthroughScene3.unity.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\3-
+        Jumping\Scene\WalkthroughScene3.unity.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scene\WalkthroughScene3.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scene\WalkthroughScene3\LightingData.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\3-
+        Jumping\Scene\WalkthroughScene3\LightingData.asset
+      projectPath: Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scene\WalkthroughScene3\LightingData.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scene\WalkthroughScene3\LightingData.asset.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\3-
+        Jumping\Scene\WalkthroughScene3\LightingData.asset.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scene\WalkthroughScene3\LightingData.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scene\WalkthroughScene3\ReflectionProbe-0.exr
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\3-
+        Jumping\Scene\WalkthroughScene3\ReflectionProbe-0.exr
+      projectPath: Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scene\WalkthroughScene3\ReflectionProbe-0.exr
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scene\WalkthroughScene3\ReflectionProbe-0.exr.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\3-
+        Jumping\Scene\WalkthroughScene3\ReflectionProbe-0.exr.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scene\WalkthroughScene3\ReflectionProbe-0.exr.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\3-
+        Jumping\Scripts.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\a-
+        Simple Jumping.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\3-
+        Jumping\Scripts\a- Simple Jumping.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\a-
+        Simple Jumping.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\a-
+        Simple Jumping\MyCharacterController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\3-
+        Jumping\Scripts\a- Simple Jumping\MyCharacterController.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\a-
+        Simple Jumping\MyCharacterController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\a-
+        Simple Jumping\MyCharacterController.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\3-
+        Jumping\Scripts\a- Simple Jumping\MyCharacterController.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\a-
+        Simple Jumping\MyCharacterController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\a-
+        Simple Jumping\MyPlayer.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\3-
+        Jumping\Scripts\a- Simple Jumping\MyPlayer.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\a-
+        Simple Jumping\MyPlayer.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\a-
+        Simple Jumping\MyPlayer.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\3-
+        Jumping\Scripts\a- Simple Jumping\MyPlayer.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\a-
+        Simple Jumping\MyPlayer.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\b-
+        Double Jumping.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\3-
+        Jumping\Scripts\b- Double Jumping.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\b-
+        Double Jumping.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\b-
+        Double Jumping\MyCharacterController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\3-
+        Jumping\Scripts\b- Double Jumping\MyCharacterController.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\b-
+        Double Jumping\MyCharacterController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\b-
+        Double Jumping\MyCharacterController.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\3-
+        Jumping\Scripts\b- Double Jumping\MyCharacterController.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\b-
+        Double Jumping\MyCharacterController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\b-
+        Double Jumping\MyPlayer.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\3-
+        Jumping\Scripts\b- Double Jumping\MyPlayer.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\b-
+        Double Jumping\MyPlayer.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\b-
+        Double Jumping\MyPlayer.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\3-
+        Jumping\Scripts\b- Double Jumping\MyPlayer.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\b-
+        Double Jumping\MyPlayer.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\c-
+        Wall Jumping.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\3-
+        Jumping\Scripts\c- Wall Jumping.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\c-
+        Wall Jumping.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\c-
+        Wall Jumping\MyCharacterController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\3-
+        Jumping\Scripts\c- Wall Jumping\MyCharacterController.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\c-
+        Wall Jumping\MyCharacterController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\c-
+        Wall Jumping\MyCharacterController.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\3-
+        Jumping\Scripts\c- Wall Jumping\MyCharacterController.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\c-
+        Wall Jumping\MyCharacterController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\c-
+        Wall Jumping\MyPlayer.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\3-
+        Jumping\Scripts\c- Wall Jumping\MyPlayer.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\c-
+        Wall Jumping\MyPlayer.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\c-
+        Wall Jumping\MyPlayer.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\3-
+        Jumping\Scripts\c- Wall Jumping\MyPlayer.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\3- Jumping\Scripts\c-
+        Wall Jumping\MyPlayer.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\4- Landing
+        and leaving ground.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\4-
+        Landing and leaving ground.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\4- Landing and
+        leaving ground.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\4- Landing
+        and leaving ground\Scene.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\4-
+        Landing and leaving ground\Scene.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\4- Landing and
+        leaving ground\Scene.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\4- Landing
+        and leaving ground\Scene\WalkthroughScene4.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\4-
+        Landing and leaving ground\Scene\WalkthroughScene4.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\4- Landing and
+        leaving ground\Scene\WalkthroughScene4.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\4- Landing
+        and leaving ground\Scene\WalkthroughScene4.unity
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\4-
+        Landing and leaving ground\Scene\WalkthroughScene4.unity
+      projectPath: Assets\KinematicCharacterController\Walkthrough\4- Landing and
+        leaving ground\Scene\WalkthroughScene4.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\4- Landing
+        and leaving ground\Scene\WalkthroughScene4.unity.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\4-
+        Landing and leaving ground\Scene\WalkthroughScene4.unity.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\4- Landing and
+        leaving ground\Scene\WalkthroughScene4.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\4- Landing
+        and leaving ground\Scene\WalkthroughScene4\LightingData.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\4-
+        Landing and leaving ground\Scene\WalkthroughScene4\LightingData.asset
+      projectPath: Assets\KinematicCharacterController\Walkthrough\4- Landing and
+        leaving ground\Scene\WalkthroughScene4\LightingData.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\4- Landing
+        and leaving ground\Scene\WalkthroughScene4\LightingData.asset.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\4-
+        Landing and leaving ground\Scene\WalkthroughScene4\LightingData.asset.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\4- Landing and
+        leaving ground\Scene\WalkthroughScene4\LightingData.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\4- Landing
+        and leaving ground\Scene\WalkthroughScene4\ReflectionProbe-0.exr
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\4-
+        Landing and leaving ground\Scene\WalkthroughScene4\ReflectionProbe-0.exr
+      projectPath: Assets\KinematicCharacterController\Walkthrough\4- Landing and
+        leaving ground\Scene\WalkthroughScene4\ReflectionProbe-0.exr
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\4- Landing
+        and leaving ground\Scene\WalkthroughScene4\ReflectionProbe-0.exr.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\4-
+        Landing and leaving ground\Scene\WalkthroughScene4\ReflectionProbe-0.exr.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\4- Landing and
+        leaving ground\Scene\WalkthroughScene4\ReflectionProbe-0.exr.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\4- Landing
+        and leaving ground\Scripts.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\4-
+        Landing and leaving ground\Scripts.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\4- Landing and
+        leaving ground\Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\4- Landing
+        and leaving ground\Scripts\MyCharacterController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\4-
+        Landing and leaving ground\Scripts\MyCharacterController.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\4- Landing and
+        leaving ground\Scripts\MyCharacterController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\4- Landing
+        and leaving ground\Scripts\MyCharacterController.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\4-
+        Landing and leaving ground\Scripts\MyCharacterController.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\4- Landing and
+        leaving ground\Scripts\MyCharacterController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\4- Landing
+        and leaving ground\Scripts\MyPlayer.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\4-
+        Landing and leaving ground\Scripts\MyPlayer.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\4- Landing and
+        leaving ground\Scripts\MyPlayer.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\4- Landing
+        and leaving ground\Scripts\MyPlayer.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\4-
+        Landing and leaving ground\Scripts\MyPlayer.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\4- Landing and
+        leaving ground\Scripts\MyPlayer.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\5-
+        Adding velocities and impulses.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses\Scene.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\5-
+        Adding velocities and impulses\Scene.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses\Scene.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses\Scene\WalkthroughScene5.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\5-
+        Adding velocities and impulses\Scene\WalkthroughScene5.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses\Scene\WalkthroughScene5.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses\Scene\WalkthroughScene5.unity
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\5-
+        Adding velocities and impulses\Scene\WalkthroughScene5.unity
+      projectPath: Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses\Scene\WalkthroughScene5.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses\Scene\WalkthroughScene5.unity.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\5-
+        Adding velocities and impulses\Scene\WalkthroughScene5.unity.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses\Scene\WalkthroughScene5.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses\Scene\WalkthroughScene5\LightingData.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\5-
+        Adding velocities and impulses\Scene\WalkthroughScene5\LightingData.asset
+      projectPath: Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses\Scene\WalkthroughScene5\LightingData.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses\Scene\WalkthroughScene5\LightingData.asset.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\5-
+        Adding velocities and impulses\Scene\WalkthroughScene5\LightingData.asset.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses\Scene\WalkthroughScene5\LightingData.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses\Scene\WalkthroughScene5\ReflectionProbe-0.exr
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\5-
+        Adding velocities and impulses\Scene\WalkthroughScene5\ReflectionProbe-0.exr
+      projectPath: Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses\Scene\WalkthroughScene5\ReflectionProbe-0.exr
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses\Scene\WalkthroughScene5\ReflectionProbe-0.exr.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\5-
+        Adding velocities and impulses\Scene\WalkthroughScene5\ReflectionProbe-0.exr.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses\Scene\WalkthroughScene5\ReflectionProbe-0.exr.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses\Scripts.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\5-
+        Adding velocities and impulses\Scripts.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses\Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses\Scripts\MyCharacterController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\5-
+        Adding velocities and impulses\Scripts\MyCharacterController.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses\Scripts\MyCharacterController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses\Scripts\MyCharacterController.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\5-
+        Adding velocities and impulses\Scripts\MyCharacterController.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses\Scripts\MyCharacterController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses\Scripts\MyPlayer.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\5-
+        Adding velocities and impulses\Scripts\MyPlayer.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses\Scripts\MyPlayer.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses\Scripts\MyPlayer.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\5-
+        Adding velocities and impulses\Scripts\MyPlayer.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\5- Adding velocities
+        and impulses\Scripts\MyPlayer.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\6- Crouching.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\6-
+        Crouching.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\6- Crouching.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\6- Crouching\Scene.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\6-
+        Crouching\Scene.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\6- Crouching\Scene.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\6- Crouching\Scene\WalkthroughScene6.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\6-
+        Crouching\Scene\WalkthroughScene6.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\6- Crouching\Scene\WalkthroughScene6.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\6- Crouching\Scene\WalkthroughScene6.unity
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\6-
+        Crouching\Scene\WalkthroughScene6.unity
+      projectPath: Assets\KinematicCharacterController\Walkthrough\6- Crouching\Scene\WalkthroughScene6.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\6- Crouching\Scene\WalkthroughScene6.unity.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\6-
+        Crouching\Scene\WalkthroughScene6.unity.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\6- Crouching\Scene\WalkthroughScene6.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\6- Crouching\Scene\WalkthroughScene6\LightingData.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\6-
+        Crouching\Scene\WalkthroughScene6\LightingData.asset
+      projectPath: Assets\KinematicCharacterController\Walkthrough\6- Crouching\Scene\WalkthroughScene6\LightingData.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\6- Crouching\Scene\WalkthroughScene6\LightingData.asset.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\6-
+        Crouching\Scene\WalkthroughScene6\LightingData.asset.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\6- Crouching\Scene\WalkthroughScene6\LightingData.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\6- Crouching\Scene\WalkthroughScene6\ReflectionProbe-0.exr
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\6-
+        Crouching\Scene\WalkthroughScene6\ReflectionProbe-0.exr
+      projectPath: Assets\KinematicCharacterController\Walkthrough\6- Crouching\Scene\WalkthroughScene6\ReflectionProbe-0.exr
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\6- Crouching\Scene\WalkthroughScene6\ReflectionProbe-0.exr.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\6-
+        Crouching\Scene\WalkthroughScene6\ReflectionProbe-0.exr.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\6- Crouching\Scene\WalkthroughScene6\ReflectionProbe-0.exr.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\6- Crouching\Scripts.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\6-
+        Crouching\Scripts.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\6- Crouching\Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\6- Crouching\Scripts\MyCharacterController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\6-
+        Crouching\Scripts\MyCharacterController.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\6- Crouching\Scripts\MyCharacterController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\6- Crouching\Scripts\MyCharacterController.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\6-
+        Crouching\Scripts\MyCharacterController.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\6- Crouching\Scripts\MyCharacterController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\6- Crouching\Scripts\MyPlayer.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\6-
+        Crouching\Scripts\MyPlayer.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\6- Crouching\Scripts\MyPlayer.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\6- Crouching\Scripts\MyPlayer.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\6-
+        Crouching\Scripts\MyPlayer.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\6- Crouching\Scripts\MyPlayer.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\7- Orienting
+        towards arbitrary up direction.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\7-
+        Orienting towards arbitrary up direction.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\7- Orienting towards
+        arbitrary up direction.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\7- Orienting
+        towards arbitrary up direction\Materials.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\7-
+        Orienting towards arbitrary up direction\Materials.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\7- Orienting towards
+        arbitrary up direction\Materials.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\7- Orienting
+        towards arbitrary up direction\Materials\No Name.mat
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\7-
+        Orienting towards arbitrary up direction\Materials\No Name.mat
+      projectPath: Assets\KinematicCharacterController\Walkthrough\7- Orienting towards
+        arbitrary up direction\Materials\No Name.mat
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\7- Orienting
+        towards arbitrary up direction\Materials\No Name.mat.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\7-
+        Orienting towards arbitrary up direction\Materials\No Name.mat.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\7- Orienting towards
+        arbitrary up direction\Materials\No Name.mat.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\7- Orienting
+        towards arbitrary up direction\Scene.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\7-
+        Orienting towards arbitrary up direction\Scene.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\7- Orienting towards
+        arbitrary up direction\Scene.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\7- Orienting
+        towards arbitrary up direction\Scene\WalkthroughScene7.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\7-
+        Orienting towards arbitrary up direction\Scene\WalkthroughScene7.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\7- Orienting towards
+        arbitrary up direction\Scene\WalkthroughScene7.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\7- Orienting
+        towards arbitrary up direction\Scene\WalkthroughScene7.unity
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\7-
+        Orienting towards arbitrary up direction\Scene\WalkthroughScene7.unity
+      projectPath: Assets\KinematicCharacterController\Walkthrough\7- Orienting towards
+        arbitrary up direction\Scene\WalkthroughScene7.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\7- Orienting
+        towards arbitrary up direction\Scene\WalkthroughScene7.unity.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\7-
+        Orienting towards arbitrary up direction\Scene\WalkthroughScene7.unity.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\7- Orienting towards
+        arbitrary up direction\Scene\WalkthroughScene7.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\7- Orienting
+        towards arbitrary up direction\Scene\WalkthroughScene7\LightingData.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\7-
+        Orienting towards arbitrary up direction\Scene\WalkthroughScene7\LightingData.asset
+      projectPath: Assets\KinematicCharacterController\Walkthrough\7- Orienting towards
+        arbitrary up direction\Scene\WalkthroughScene7\LightingData.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\7- Orienting
+        towards arbitrary up direction\Scene\WalkthroughScene7\LightingData.asset.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\7-
+        Orienting towards arbitrary up direction\Scene\WalkthroughScene7\LightingData.asset.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\7- Orienting towards
+        arbitrary up direction\Scene\WalkthroughScene7\LightingData.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\7- Orienting
+        towards arbitrary up direction\Scene\WalkthroughScene7\ReflectionProbe-0.exr
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\7-
+        Orienting towards arbitrary up direction\Scene\WalkthroughScene7\ReflectionProbe-0.exr
+      projectPath: Assets\KinematicCharacterController\Walkthrough\7- Orienting towards
+        arbitrary up direction\Scene\WalkthroughScene7\ReflectionProbe-0.exr
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\7- Orienting
+        towards arbitrary up direction\Scene\WalkthroughScene7\ReflectionProbe-0.exr.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\7-
+        Orienting towards arbitrary up direction\Scene\WalkthroughScene7\ReflectionProbe-0.exr.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\7- Orienting towards
+        arbitrary up direction\Scene\WalkthroughScene7\ReflectionProbe-0.exr.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\7- Orienting
+        towards arbitrary up direction\Scripts.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\7-
+        Orienting towards arbitrary up direction\Scripts.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\7- Orienting towards
+        arbitrary up direction\Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\7- Orienting
+        towards arbitrary up direction\Scripts\MyCharacterController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\7-
+        Orienting towards arbitrary up direction\Scripts\MyCharacterController.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\7- Orienting towards
+        arbitrary up direction\Scripts\MyCharacterController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\7- Orienting
+        towards arbitrary up direction\Scripts\MyCharacterController.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\7-
+        Orienting towards arbitrary up direction\Scripts\MyCharacterController.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\7- Orienting towards
+        arbitrary up direction\Scripts\MyCharacterController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\7- Orienting
+        towards arbitrary up direction\Scripts\MyPlayer.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\7-
+        Orienting towards arbitrary up direction\Scripts\MyPlayer.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\7- Orienting towards
+        arbitrary up direction\Scripts\MyPlayer.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\7- Orienting
+        towards arbitrary up direction\Scripts\MyPlayer.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\7-
+        Orienting towards arbitrary up direction\Scripts\MyPlayer.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\7- Orienting towards
+        arbitrary up direction\Scripts\MyPlayer.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\8- Creating
+        a moving platform.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\8-
+        Creating a moving platform.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\8- Creating a moving
+        platform.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\8- Creating
+        a moving platform\MovingPlatformTimeline.playable
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\8-
+        Creating a moving platform\MovingPlatformTimeline.playable
+      projectPath: Assets\KinematicCharacterController\Walkthrough\8- Creating a moving
+        platform\MovingPlatformTimeline.playable
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\8- Creating
+        a moving platform\MovingPlatformTimeline.playable.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\8-
+        Creating a moving platform\MovingPlatformTimeline.playable.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\8- Creating a moving
+        platform\MovingPlatformTimeline.playable.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\8- Creating
+        a moving platform\Scene.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\8-
+        Creating a moving platform\Scene.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\8- Creating a moving
+        platform\Scene.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\8- Creating
+        a moving platform\Scene\WalkthroughScene8.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\8-
+        Creating a moving platform\Scene\WalkthroughScene8.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\8- Creating a moving
+        platform\Scene\WalkthroughScene8.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\8- Creating
+        a moving platform\Scene\WalkthroughScene8.unity
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\8-
+        Creating a moving platform\Scene\WalkthroughScene8.unity
+      projectPath: Assets\KinematicCharacterController\Walkthrough\8- Creating a moving
+        platform\Scene\WalkthroughScene8.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\8- Creating
+        a moving platform\Scene\WalkthroughScene8.unity.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\8-
+        Creating a moving platform\Scene\WalkthroughScene8.unity.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\8- Creating a moving
+        platform\Scene\WalkthroughScene8.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\8- Creating
+        a moving platform\Scene\WalkthroughScene8\LightingData.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\8-
+        Creating a moving platform\Scene\WalkthroughScene8\LightingData.asset
+      projectPath: Assets\KinematicCharacterController\Walkthrough\8- Creating a moving
+        platform\Scene\WalkthroughScene8\LightingData.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\8- Creating
+        a moving platform\Scene\WalkthroughScene8\LightingData.asset.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\8-
+        Creating a moving platform\Scene\WalkthroughScene8\LightingData.asset.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\8- Creating a moving
+        platform\Scene\WalkthroughScene8\LightingData.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\8- Creating
+        a moving platform\Scene\WalkthroughScene8\ReflectionProbe-0.exr
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\8-
+        Creating a moving platform\Scene\WalkthroughScene8\ReflectionProbe-0.exr
+      projectPath: Assets\KinematicCharacterController\Walkthrough\8- Creating a moving
+        platform\Scene\WalkthroughScene8\ReflectionProbe-0.exr
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\8- Creating
+        a moving platform\Scene\WalkthroughScene8\ReflectionProbe-0.exr.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\8-
+        Creating a moving platform\Scene\WalkthroughScene8\ReflectionProbe-0.exr.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\8- Creating a moving
+        platform\Scene\WalkthroughScene8\ReflectionProbe-0.exr.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\8- Creating
+        a moving platform\Scripts.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\8-
+        Creating a moving platform\Scripts.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\8- Creating a moving
+        platform\Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\8- Creating
+        a moving platform\Scripts\MyCharacterController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\8-
+        Creating a moving platform\Scripts\MyCharacterController.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\8- Creating a moving
+        platform\Scripts\MyCharacterController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\8- Creating
+        a moving platform\Scripts\MyCharacterController.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\8-
+        Creating a moving platform\Scripts\MyCharacterController.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\8- Creating a moving
+        platform\Scripts\MyCharacterController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\8- Creating
+        a moving platform\Scripts\MyMovingPlatform.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\8-
+        Creating a moving platform\Scripts\MyMovingPlatform.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\8- Creating a moving
+        platform\Scripts\MyMovingPlatform.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\8- Creating
+        a moving platform\Scripts\MyMovingPlatform.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\8-
+        Creating a moving platform\Scripts\MyMovingPlatform.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\8- Creating a moving
+        platform\Scripts\MyMovingPlatform.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\8- Creating
+        a moving platform\Scripts\MyPlayer.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\8-
+        Creating a moving platform\Scripts\MyPlayer.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\8- Creating a moving
+        platform\Scripts\MyPlayer.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\8- Creating
+        a moving platform\Scripts\MyPlayer.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\8-
+        Creating a moving platform\Scripts\MyPlayer.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\8- Creating a moving
+        platform\Scripts\MyPlayer.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\9-
+        Custom collision filtering.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering\Scene.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\9-
+        Custom collision filtering\Scene.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering\Scene.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering\Scene\WalkthroughScene9.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\9-
+        Custom collision filtering\Scene\WalkthroughScene9.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering\Scene\WalkthroughScene9.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering\Scene\WalkthroughScene9.unity
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\9-
+        Custom collision filtering\Scene\WalkthroughScene9.unity
+      projectPath: Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering\Scene\WalkthroughScene9.unity
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering\Scene\WalkthroughScene9.unity.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\9-
+        Custom collision filtering\Scene\WalkthroughScene9.unity.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering\Scene\WalkthroughScene9.unity.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering\Scene\WalkthroughScene9\LightingData.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\9-
+        Custom collision filtering\Scene\WalkthroughScene9\LightingData.asset
+      projectPath: Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering\Scene\WalkthroughScene9\LightingData.asset
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering\Scene\WalkthroughScene9\LightingData.asset.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\9-
+        Custom collision filtering\Scene\WalkthroughScene9\LightingData.asset.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering\Scene\WalkthroughScene9\LightingData.asset.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering\Scene\WalkthroughScene9\ReflectionProbe-0.exr
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\9-
+        Custom collision filtering\Scene\WalkthroughScene9\ReflectionProbe-0.exr
+      projectPath: Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering\Scene\WalkthroughScene9\ReflectionProbe-0.exr
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering\Scene\WalkthroughScene9\ReflectionProbe-0.exr.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\9-
+        Custom collision filtering\Scene\WalkthroughScene9\ReflectionProbe-0.exr.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering\Scene\WalkthroughScene9\ReflectionProbe-0.exr.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering\Scripts.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\9-
+        Custom collision filtering\Scripts.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering\Scripts.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering\Scripts\MyCharacterController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\9-
+        Custom collision filtering\Scripts\MyCharacterController.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering\Scripts\MyCharacterController.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering\Scripts\MyCharacterController.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\9-
+        Custom collision filtering\Scripts\MyCharacterController.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering\Scripts\MyCharacterController.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering\Scripts\MyPlayer.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\9-
+        Custom collision filtering\Scripts\MyPlayer.cs
+      projectPath: Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering\Scripts\MyPlayer.cs
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering\Scripts\MyPlayer.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\KinematicCharacterController\Walkthrough\9-
+        Custom collision filtering\Scripts\MyPlayer.cs.meta
+      projectPath: Assets\KinematicCharacterController\Walkthrough\9- Custom collision
+        filtering\Scripts\MyPlayer.cs.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\MyAssets\Scripts\Enemies\TestEnemy\Skeleton.controller
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Scripts\Enemies\TestEnemy\Skeleton.controller
+      projectPath: Assets\MyAssets\Scripts\Enemies\TestEnemy\Skeleton.controller
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\MyAssets\Test.unity
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Test.unity
+      projectPath: Assets\MyAssets\Test.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\Plugins\ConsoleE.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\Plugins\ConsoleE.meta
+      projectPath: Assets\Plugins\ConsoleE.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\Plugins\ConsoleE\Editor.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\Plugins\ConsoleE\Editor.meta
+      projectPath: Assets\Plugins\ConsoleE\Editor.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\Plugins\ConsoleE\Editor\ConsoleE.dll
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\Plugins\ConsoleE\Editor\ConsoleE.dll
+      projectPath: Assets\Plugins\ConsoleE\Editor\ConsoleE.dll
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\Plugins\ConsoleE\Editor\ConsoleE.dll.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\Plugins\ConsoleE\Editor\ConsoleE.dll.meta
+      projectPath: Assets\Plugins\ConsoleE\Editor\ConsoleE.dll.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\Plugins\ConsoleE\Editor\Extensions.zip
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\Plugins\ConsoleE\Editor\Extensions.zip
+      projectPath: Assets\Plugins\ConsoleE\Editor\Extensions.zip
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\Plugins\ConsoleE\Editor\Extensions.zip.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\Plugins\ConsoleE\Editor\Extensions.zip.meta
+      projectPath: Assets\Plugins\ConsoleE\Editor\Extensions.zip.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\Plugins\ConsoleE\Editor\Internal.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\Plugins\ConsoleE\Editor\Internal.meta
+      projectPath: Assets\Plugins\ConsoleE\Editor\Internal.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\Plugins\ConsoleE\Editor\Internal\VsOpenTool
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\Plugins\ConsoleE\Editor\Internal\VsOpenTool
+      projectPath: Assets\Plugins\ConsoleE\Editor\Internal\VsOpenTool
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\Plugins\ConsoleE\Editor\Internal\VsOpenTool.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\Plugins\ConsoleE\Editor\Internal\VsOpenTool.meta
+      projectPath: Assets\Plugins\ConsoleE\Editor\Internal\VsOpenTool.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\Plugins\ConsoleE\Editor\readme.html
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\Plugins\ConsoleE\Editor\readme.html
+      projectPath: Assets\Plugins\ConsoleE\Editor\readme.html
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\Plugins\ConsoleE\Editor\readme.html.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\Plugins\ConsoleE\Editor\readme.html.meta
+      projectPath: Assets\Plugins\ConsoleE\Editor\readme.html.meta
+      originalPath: 
+      status: 4
+      staged: 0
+    - path: RustyBlade\Assets\PostProcessing\Tets.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\PostProcessing\Tets.asset
+      projectPath: Assets\PostProcessing\Tets.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\CurrentLayout.dwlt
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\InspectorExpandedItems.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\InspectorExpandedItems.asset
+      projectPath: Library\InspectorExpandedItems.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll.mdb
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\ScriptAssemblies\Assembly-CSharp-Editor.dll.mdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp-Editor.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\expandedItems
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\08\080c10a3703549c47b115b24b77e16ea
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\08\080c10a3703549c47b115b24b77e16ea
+      projectPath: Library\metadata\08\080c10a3703549c47b115b24b77e16ea
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\3b\3b1d4204ac28112448cff21d3c13fe71
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\3b\3b1d4204ac28112448cff21d3c13fe71
+      projectPath: Library\metadata\3b\3b1d4204ac28112448cff21d3c13fe71
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\49\49c21577d8fcba049bf2f94ab33e2dc2
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\49\49c21577d8fcba049bf2f94ab33e2dc2
+      projectPath: Library\metadata\49\49c21577d8fcba049bf2f94ab33e2dc2
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\68\68a4499f5dd18a84fba27fb469430ac0
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\68\68a4499f5dd18a84fba27fb469430ac0
+      projectPath: Library\metadata\68\68a4499f5dd18a84fba27fb469430ac0
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\76\76020eee813ed7844bcea94c5d5ce76a
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\76\76020eee813ed7844bcea94c5d5ce76a
+      projectPath: Library\metadata\76\76020eee813ed7844bcea94c5d5ce76a
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\7d\7d38693b396a5494d9950f061e87fb20
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\7d\7d38693b396a5494d9950f061e87fb20
+      projectPath: Library\metadata\7d\7d38693b396a5494d9950f061e87fb20
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\aa\aadf824e76564404c8d43d99803c60a1
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\aa\aadf824e76564404c8d43d99803c60a1
+      projectPath: Library\metadata\aa\aadf824e76564404c8d43d99803c60a1
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\be\bed07757df2c8024caad7a3dd56332d0
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\be\bed07757df2c8024caad7a3dd56332d0
+      projectPath: Library\metadata\be\bed07757df2c8024caad7a3dd56332d0
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\c3\c31f932f49615aa4a89e96c658a6e122
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\c3\c31f932f49615aa4a89e96c658a6e122
+      projectPath: Library\metadata\c3\c31f932f49615aa4a89e96c658a6e122
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\d2\d295472d4ce25404e9aed2627c34801f
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\d2\d295472d4ce25404e9aed2627c34801f
+      projectPath: Library\metadata\d2\d295472d4ce25404e9aed2627c34801f
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\d2\d295472d4ce25404e9aed2627c34801f.info
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\d2\d295472d4ce25404e9aed2627c34801f.info
+      projectPath: Library\metadata\d2\d295472d4ce25404e9aed2627c34801f.info
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\e2\e269b81cba6bb824b8219057530f5311
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\e2\e269b81cba6bb824b8219057530f5311
+      projectPath: Library\metadata\e2\e269b81cba6bb824b8219057530f5311
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\e4\e41027fbc298a1448a3f8ba0a536a53f
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\e4\e41027fbc298a1448a3f8ba0a536a53f
+      projectPath: Library\metadata\e4\e41027fbc298a1448a3f8ba0a536a53f
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\ProjectSettings\ProjectVersion.txt
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor.csproj.CoreCompileInputs.cache
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\obj\Debug\Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\obj\Debug\Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      projectPath: obj\Debug\Assembly-CSharp.csproj.CoreCompileInputs.cache
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 984512343fb717926207f6a58715bd4d4cb7d217
     mergeA: 
     mergeB: 
