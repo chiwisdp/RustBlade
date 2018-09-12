@@ -9,7 +9,6 @@ public class WeaponController : MonoBehaviour {
 	CharacterStats _charStats;
 	void Start(){
 		_charStats = GetComponent<PlayerStatsController>().characterStats;
-		Debug.Log(_charStats);
 	}
 	public void EquipItem (Item _itemToEquip) {
 		if(EquippedWeapon!= null)
@@ -30,7 +29,7 @@ public class WeaponController : MonoBehaviour {
 		return  _equippedItem.GetIsInUse();
 	}
 	public void PerformAction(){
-		if(_equippedItem !=null && _equippedItem.GetIsInUse())
+		if(_equippedItem !=null && !_equippedItem.GetIsInUse())
 		_equippedItem.PerformAction(CalculateDamage());
 	}
 	private int CalculateDamage()
@@ -39,7 +38,7 @@ public class WeaponController : MonoBehaviour {
         int damageToDeal = (_charStats.GetStat(BaseStat.BaseStatType.Power).GetCalculatedStatValue())
             + Random.Range(0, 3);
         damageToDeal += CalculateCrit(damageToDeal);
-        Debug.Log("Damage dealt: " + damageToDeal + "  "+( _charStats.GetStat(BaseStat.BaseStatType.Power).GetCalculatedStatValue()));
+        //Debug.Log("Damage dealt: " + damageToDeal + "  "+( _charStats.GetStat(BaseStat.BaseStatType.Power).GetCalculatedStatValue()));
         return damageToDeal;
     }
     private int CalculateCrit(int damage)

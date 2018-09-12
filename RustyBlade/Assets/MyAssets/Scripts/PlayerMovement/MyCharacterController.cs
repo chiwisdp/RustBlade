@@ -139,9 +139,8 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
                     }
                  case CharacterState.ItemUse:
                     {
+                        //DoAction1();
                         _currentChargeVelocity =Vector3.zero;
-                        DoAction1();
-
                         break;
                     }
             }
@@ -173,6 +172,8 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
             }
             if (inputs.Action1 && !_hasShieldUp && _isStopped)
             {
+                _isSwingSword =true;
+                DoAction0();
                 TransitionToState(CharacterState.ItemUse);
             }
 
@@ -302,7 +303,6 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
         /// </summary>
         public override void UpdateVelocity(ref Vector3 currentVelocity, float deltaTime)
         {
-            Debug.Log(CurrentCharacterState);
             switch (CurrentCharacterState)
             {
                 case CharacterState.Default:
@@ -409,10 +409,13 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
                 case CharacterState.ItemUse:
                     {
                         // If we have stopped and need to cancel velocity, do it here
-        
-                            // When charging, velocity is always constant
-                            currentVelocity = Vector3.zero;
-                        
+                        if (_isStopped)
+                        {
+                            // When stopped, do no velocity handling except gravity
+                            currentVelocity += Gravity * deltaTime;
+                        }
+                        // When charging, velocity is always constant
+                        currentVelocity = Vector3.zero;
                         break;
                     }
                 case CharacterState.Charging:
@@ -504,10 +507,17 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
                     }
                 case CharacterState.ItemUse:
                     {
+                        if (!_isStopped && !_hasShieldUp)
+                        {
+                            _mustStopVelocity = true;
+                            _isStopped = true;
+                        }
                         // Detect end of stopping phase and transition back to default movement state
-                        if (!GetComponent<WeaponController>().GetIsInUse())
+                        if (!GetComponent<WeaponController>().GetIsInUse() && !_isSwingSword)
                         {
                             TransitionToState(CharacterState.Default);
+                        } else  if (GetComponent<WeaponController>().GetIsInUse() && _isSwingSword){
+                            _isSwingSword = false;
                         }
                         break;
                 }
@@ -599,7 +609,7 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
         }
 
         void DoAction0(){
-
+            GetComponent<WeaponController>().PerformAction();
         }
 
         void StopAction0(){
@@ -607,7 +617,7 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
         }
 
         void DoAction1(){
-            GetComponent<WeaponController>().PerformAction();
+            //GetComponent<WeaponController>().PerformAction();
         }
     }
 }

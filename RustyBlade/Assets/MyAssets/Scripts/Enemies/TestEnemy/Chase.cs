@@ -17,13 +17,15 @@ public class Chase : MonoBehaviour {
 		if(Vector3.Distance(player.position, this.transform.position) <10 && angle <30f){
 			Vector3 direction = player.position - this.transform.position;
 			direction.y =0;
-			this.transform.rotation = Quaternion.Slerp(this.transform.rotation, Quaternion.LookRotation(direction), .1f);
 			anim.SetBool("isIdle", false);
 			if(direction.magnitude >5 ){
-				//walk
-				this.transform.Translate (0,0,0.051f);
-				anim.SetBool("isWalking", true);
-				anim.SetBool("isAttacking", false);
+				if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Attack 0")){
+					this.transform.Translate (0,0,0.051f);
+					anim.SetBool("isWalking", true);
+					anim.SetBool("isAttacking", false);
+					this.transform.rotation = Quaternion.Slerp(this.transform.rotation, Quaternion.LookRotation(direction), .1f);
+
+				}
 			}else{
 				//attack
 				anim.SetBool("isAttacking", true);

@@ -18,13 +18,14 @@ public class Sword : MonoBehaviour, IWeapon {
     {
 		CurrentDamage = _dmg;
 		if(_animator.GetCurrentAnimatorStateInfo(0).IsName("Sword_Idle"))
-		_animator.SetTrigger("base_attack");
+		{
+			_animator.SetTrigger("base_attack");
+		}
 	}
 	void OnTriggerEnter(Collider other)
 	{
 		if (other.tag == "Enviornment"){
 			SwordRecoil();
-			//Debug.Log("wall HITTTTTT");
 		}
 		if(other.tag == "Enemy")
 		{
@@ -33,12 +34,11 @@ public class Sword : MonoBehaviour, IWeapon {
 		}
 	}
 	void SwordRecoil(){
-		Debug.Log("HIT : " );
 		_animator.SetTrigger("wall_hit");
 	}
 
     public bool GetIsInUse()
     {
-        return (_animator.GetCurrentAnimatorStateInfo(0).IsName("Sword_Idle"));
+        return (_animator.GetCurrentAnimatorStateInfo(0).IsName("Sword_Swing"));
     }
 }
