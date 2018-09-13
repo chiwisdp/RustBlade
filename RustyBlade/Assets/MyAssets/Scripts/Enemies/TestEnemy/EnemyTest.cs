@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Chase : MonoBehaviour {
+public class EnemyTest : MonoBehaviour {
 	public Transform player;
 	static Animator anim;
 	// Use this for initialization

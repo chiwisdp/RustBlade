@@ -384,12 +384,6 @@
  <Reference Include="GitHub.Unity">
  <HintPath>C:/Users/chiwi/OneDrive/Documents/RustBlade/RustyBlade/Assets/Plugins/GitHub/Editor/GitHub.Unity.dll</HintPath>
  </Reference>
- <Reference Include="ICSharpCode.SharpZipLib">
- <HintPath>C:/Users/chiwi/OneDrive/Documents/RustBlade/RustyBlade/Assets/Plugins/GitHub/Editor/ICSharpCode.SharpZipLib.dll</HintPath>
- </Reference>
- <Reference Include="Mono.Posix">
- <HintPath>C:/Users/chiwi/OneDrive/Documents/RustBlade/RustyBlade/Assets/Plugins/GitHub/Editor/Mono.Posix.dll</HintPath>
- </Reference>
  <Reference Include="ReadOnlyCollectionsInterfaces">
  <HintPath>C:/Users/chiwi/OneDrive/Documents/RustBlade/RustyBlade/Assets/Plugins/GitHub/Editor/ReadOnlyCollectionsInterfaces.dll</HintPath>
  </Reference>
@@ -445,6 +439,8 @@
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{22935EE9-CEC7-D3A5-71C9-E15787DB7040}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
+      <Project>{F78138E7-A3AF-F59A-00A2-1306096F48B4}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -12,9 +12,117 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-09-12T22:31:32.632+09:00
-  initializedAtString: 2018-09-10T21:53:36.351+09:00
+  lastUpdatedAtString: 2018-09-13T17:43:36.329+09:00
+  initializedAtString: 2018-09-13T17:43:36.329+09:00
   log:
+  - commitID: de8ff88b03c6ea9041bec0dd19f3b4d7e294c6ba
+    mergeA: 
+    mergeB: 
+    authorName: chiwisdp
+    authorEmail: daniel@craterhouse.com
+    commitEmail: daniel@craterhouse.com
+    commitName: chiwisdp
+    summary: Fixed attack speed and added prelim enemy dmg
+    description: Fixed attack speed and added prelim enemy dmg
+    timeString: 2018-09-12T22:41:14.000+09:00
+    commitTimeString: 2018-09-12T22:41:14.000+09:00
+    changes:
+    - path: RustyBlade\Assets\MyAssets\Animation\Sword.controller
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Animation\Sword.controller
+      projectPath: Assets\MyAssets\Animation\Sword.controller
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\MyAssets\Scripts\Enemies\TestEnemy\Chase.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Scripts\Enemies\TestEnemy\Chase.cs
+      projectPath: Assets\MyAssets\Scripts\Enemies\TestEnemy\Chase.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\MyAssets\Scripts\PlayerMovement\MyCharacterController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Scripts\PlayerMovement\MyCharacterController.cs
+      projectPath: Assets\MyAssets\Scripts\PlayerMovement\MyCharacterController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\MyAssets\Scripts\PlayerMovement\PlayerStatsController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Scripts\PlayerMovement\PlayerStatsController.cs
+      projectPath: Assets\MyAssets\Scripts\PlayerMovement\PlayerStatsController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\MyAssets\Scripts\Weapon\Sword.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Scripts\Weapon\Sword.cs
+      projectPath: Assets\MyAssets\Scripts\Weapon\Sword.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\MyAssets\Scripts\Weapon\WeaponController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Scripts\Weapon\WeaponController.cs
+      projectPath: Assets\MyAssets\Scripts\Weapon\WeaponController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\MyAssets\Test.unity
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Test.unity
+      projectPath: Assets\MyAssets\Test.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\23\235082069226ea94baef1f813ba0f943
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\23\235082069226ea94baef1f813ba0f943
+      projectPath: Library\metadata\23\235082069226ea94baef1f813ba0f943
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\37\37b07131a37f1bf47a7ecee2ae173710
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\37\37b07131a37f1bf47a7ecee2ae173710
+      projectPath: Library\metadata\37\37b07131a37f1bf47a7ecee2ae173710
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\65\6538d47cbc74d5b4aa1eeef79ad66ec4
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\65\6538d47cbc74d5b4aa1eeef79ad66ec4
+      projectPath: Library\metadata\65\6538d47cbc74d5b4aa1eeef79ad66ec4
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\7d\7db3914c6e21b2243946f2730f94fe34
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\7d\7db3914c6e21b2243946f2730f94fe34
+      projectPath: Library\metadata\7d\7db3914c6e21b2243946f2730f94fe34
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\fd\fdab3c85519b65444844e73181b0a818
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\fd\fdab3c85519b65444844e73181b0a818
+      projectPath: Library\metadata\fd\fdab3c85519b65444844e73181b0a818
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: dd6c4586a4c2c5df7a9e481053f30f18706585bf
     mergeA: 
     mergeB: 
