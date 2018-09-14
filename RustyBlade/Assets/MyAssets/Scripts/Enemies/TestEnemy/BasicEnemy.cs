@@ -24,13 +24,13 @@ public class BasicEnemy : MonoBehaviour, IEnemy
 	void FixedUpdate() {
 	Vector3 pDirection = player.transform.position - this.transform.position;
 		float angle = Vector3.Angle(pDirection, this.transform.forward);
-		if(Vector3.Distance(player.transform.position, this.transform.position) <10 && angle <60f){
+		if(Vector3.Distance(player.transform.position, this.transform.position) <20 && angle <90f){
 			Vector3 direction = player.transform.position - this.transform.position;
 			direction.y =0;
 			anim.SetBool("isIdle", false);
 			if(direction.magnitude >5 ){
 				if (!anim.GetCurrentAnimatorStateInfo(0).IsName("Attack 0")){
-					this.transform.Translate (0,0,0.051f);
+					navAgent.SetDestination(player.transform.position);
 					anim.SetBool("isWalking", true);
 					anim.SetBool("isAttacking", false);
 					this.transform.rotation = Quaternion.Slerp(this.transform.rotation, Quaternion.LookRotation(direction), .1f);
