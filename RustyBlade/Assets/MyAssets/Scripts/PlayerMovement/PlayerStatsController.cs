@@ -16,7 +16,6 @@ public class PlayerStatsController : MonoBehaviour {
         this.currentHealth = this.maxHealth;
         characterStats = new CharacterStats(10, 10, 100,10);
         Debug.Log("characterStats: " +characterStats);
-        getPlayerMaxEnergy();
     }
 
     public float getPlayerHealthPercentage(){
@@ -36,7 +35,7 @@ public class PlayerStatsController : MonoBehaviour {
         this.currentHealth = this.maxHealth;
         //UIEventHandler.HealthChanged(this.currentHealth, this.maxHealth);
     }
-     public void getPlayerMaxEnergy(){
-        Debug.Log( "getPlayerMaxEnergy: "+characterStats.GetStat(BaseStat.BaseStatType.Energy).GetCalculatedStatValue());
+    public int getPlayerMaxEnergy(){
+        return characterStats.GetStat(BaseStat.BaseStatType.Energy).GetCalculatedStatValue();
     }
 }

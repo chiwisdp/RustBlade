@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2018-09-15T15:50:34.373+09:00
+  lastUpdatedAtString: 2018-09-15T16:50:34.388+09:00
   initializedAtString: 2018-09-14T21:24:01.794+09:00
   currentGitRemote:
     name: origin
@@ -34,4 +34,4 @@ MonoBehaviour:
   currentConfigRemote:
     name: origin
     url: https://github.com/chiwisdp/RustBlade.git
-  currentHead: b6234c7
+  currentHead: 62d67bf
