@@ -4,11 +4,12 @@ using System.Collections.Generic;
 public class CharacterStats {
     public List<BaseStat> stats = new List<BaseStat>();
 
-    public CharacterStats(int power, int toughness, int attackSpeed)
+    public CharacterStats(int power, int toughness, int energy, int attackSpeed)
     {
         stats = new List<BaseStat>() {
             new BaseStat(BaseStat.BaseStatType.Power, power, "Power"),
             new BaseStat(BaseStat.BaseStatType.Toughness, toughness, "Toughness"),
+            new BaseStat(BaseStat.BaseStatType.Energy, energy, "Energy"),
             new BaseStat(BaseStat.BaseStatType.AttackSpeed, attackSpeed, "Atk Spd")
         };
     }

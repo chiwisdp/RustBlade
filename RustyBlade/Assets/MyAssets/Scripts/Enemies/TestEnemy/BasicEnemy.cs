@@ -16,7 +16,7 @@ public class BasicEnemy : MonoBehaviour, IEnemy
 	static Animator anim;
 	private void Start() {
 		currentHealth = maxHealth;
-		_charStats = new CharacterStats (40, 10, 2);
+		_charStats = new CharacterStats (40, 10, 100,2);
 		anim = GetComponent<Animator>();
 		navAgent = GetComponent<NavMeshAgent>();
 		player = GameObject.Find("Hero").GetComponent<PlayerStatsController>();
@@ -24,7 +24,7 @@ public class BasicEnemy : MonoBehaviour, IEnemy
 	void FixedUpdate() {
 	Vector3 pDirection = player.transform.position - this.transform.position;
 		float angle = Vector3.Angle(pDirection, this.transform.forward);
-		if(Vector3.Distance(player.transform.position, this.transform.position) <20 && angle <90f){
+		if(Vector3.Distance(player.transform.position, this.transform.position) <15 && angle <90f){
 			Vector3 direction = player.transform.position - this.transform.position;
 			direction.y =0;
 			anim.SetBool("isIdle", false);

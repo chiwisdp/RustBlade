@@ -12,9 +12,315 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-09-14T21:37:12.129+09:00
+  lastUpdatedAtString: 2018-09-15T15:50:34.404+09:00
   initializedAtString: 2018-09-14T21:24:04.457+09:00
   log:
+  - commitID: b6234c78911c93b52b60f24b823597f68a60e494
+    mergeA: 
+    mergeB: 
+    authorName: chiwisdp
+    authorEmail: daniel@craterhouse.com
+    commitEmail: daniel@craterhouse.com
+    commitName: chiwisdp
+    summary: Prelim navmesh enemy
+    description: Prelim navmesh enemy
+    timeString: 2018-09-14T22:15:26.000+09:00
+    commitTimeString: 2018-09-14T22:15:26.000+09:00
+    changes:
+    - path: RustyBlade\Assembly-CSharp-Editor.csproj
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assembly-CSharp-Editor.csproj
+      projectPath: Assembly-CSharp-Editor.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assembly-CSharp.csproj
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assembly-CSharp.csproj
+      projectPath: Assembly-CSharp.csproj
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\MyAssets\Scripts\Enemies\TestEnemy\BasicEnemy.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Scripts\Enemies\TestEnemy\BasicEnemy.cs
+      projectPath: Assets\MyAssets\Scripts\Enemies\TestEnemy\BasicEnemy.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\MyAssets\Scripts\Enemies\TestEnemy\EnemyTest.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Scripts\Enemies\TestEnemy\EnemyTest.cs
+      projectPath: Assets\MyAssets\Scripts\Enemies\TestEnemy\EnemyTest.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\MyAssets\Test.unity
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Test.unity
+      projectPath: Assets\MyAssets\Test.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\MyAssets\Test\NavMesh.asset
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Test\NavMesh.asset
+      projectPath: Assets\MyAssets\Test\NavMesh.asset
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\CurrentLayout.dwlt
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\CurrentLayout.dwlt
+      projectPath: Library\CurrentLayout.dwlt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      projectPath: Library\ScriptAssemblies\BuiltinAssemblies.stamp
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\ScriptMapper
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\ScriptMapper
+      projectPath: Library\ScriptMapper
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\expandedItems
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\expandedItems
+      projectPath: Library\expandedItems
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\00\00000000000000009000000000000000
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\00\00000000000000009000000000000000
+      projectPath: Library\metadata\00\00000000000000009000000000000000
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\12\12fd8a0055b84bb59e84c9835a37e333
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\12\12fd8a0055b84bb59e84c9835a37e333
+      projectPath: Library\metadata\12\12fd8a0055b84bb59e84c9835a37e333
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\1b\1be7d194217e4ed4d95d90c1aeb4fcc6
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\1b\1be7d194217e4ed4d95d90c1aeb4fcc6
+      projectPath: Library\metadata\1b\1be7d194217e4ed4d95d90c1aeb4fcc6
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\1c\1c6d1fbb51834b64847b1b73a75bfc77
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\1c\1c6d1fbb51834b64847b1b73a75bfc77
+      projectPath: Library\metadata\1c\1c6d1fbb51834b64847b1b73a75bfc77
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\32\32188fd89022c154c81befa2f0e00be0
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\32\32188fd89022c154c81befa2f0e00be0
+      projectPath: Library\metadata\32\32188fd89022c154c81befa2f0e00be0
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\3a\3a84de5cd0624681b6b6dcd8921d912a
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\3a\3a84de5cd0624681b6b6dcd8921d912a
+      projectPath: Library\metadata\3a\3a84de5cd0624681b6b6dcd8921d912a
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\40\405b9b51bb344a128608d968297df79c
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\40\405b9b51bb344a128608d968297df79c
+      projectPath: Library\metadata\40\405b9b51bb344a128608d968297df79c
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\41\4113173d5e95493ab8765d7b08371de4
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\41\4113173d5e95493ab8765d7b08371de4
+      projectPath: Library\metadata\41\4113173d5e95493ab8765d7b08371de4
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\4a\4a3ecb1425d14502837abea459cf2b70
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\4a\4a3ecb1425d14502837abea459cf2b70
+      projectPath: Library\metadata\4a\4a3ecb1425d14502837abea459cf2b70
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
+      projectPath: Library\metadata\4b\4b3fa4bde7f1451a8218c03ee6a8ded8
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+      projectPath: Library\metadata\4b\4ba2329b63d54f0187bcaa12486b1b0f
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
+      projectPath: Library\metadata\53\53ebcfaa2e1e4e2dbc85882cd5a73fa1
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\57\5782f9e9e6e0bb94bac99aeea24814fc
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\57\5782f9e9e6e0bb94bac99aeea24814fc
+      projectPath: Library\metadata\57\5782f9e9e6e0bb94bac99aeea24814fc
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\5f\5f32cd94baa94578a686d4b9d6b660f7
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\5f\5f32cd94baa94578a686d4b9d6b660f7
+      projectPath: Library\metadata\5f\5f32cd94baa94578a686d4b9d6b660f7
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\6a\6a10b2909283487f913b00d94cd3faf5
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\6a\6a10b2909283487f913b00d94cd3faf5
+      projectPath: Library\metadata\6a\6a10b2909283487f913b00d94cd3faf5
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\76\7668179ede524d6396c8b7d84461ea29
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\76\7668179ede524d6396c8b7d84461ea29
+      projectPath: Library\metadata\76\7668179ede524d6396c8b7d84461ea29
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
+      projectPath: Library\metadata\80\80a3616ca19596e4da0f10f14d241e9f
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\84\844f815391db42d49455cbf1a7bfc434
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\84\844f815391db42d49455cbf1a7bfc434
+      projectPath: Library\metadata\84\844f815391db42d49455cbf1a7bfc434
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\87\870353891bb340e2b2a9c8707e7419ba
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\87\870353891bb340e2b2a9c8707e7419ba
+      projectPath: Library\metadata\87\870353891bb340e2b2a9c8707e7419ba
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\ad\adebbd281f1a4ef3a30be7f21937e02f
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\ad\adebbd281f1a4ef3a30be7f21937e02f
+      projectPath: Library\metadata\ad\adebbd281f1a4ef3a30be7f21937e02f
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\b5\b5da970776034f77a070d99423d68791
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\b5\b5da970776034f77a070d99423d68791
+      projectPath: Library\metadata\b5\b5da970776034f77a070d99423d68791
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\d2\d2170503dc57f492481ebe9334c68fcc
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\d2\d2170503dc57f492481ebe9334c68fcc
+      projectPath: Library\metadata\d2\d2170503dc57f492481ebe9334c68fcc
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\d3\d33d54853fd0f48e0ac8a63ea91e6626
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\d3\d33d54853fd0f48e0ac8a63ea91e6626
+      projectPath: Library\metadata\d3\d33d54853fd0f48e0ac8a63ea91e6626
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\dc\dc443db3e92b4983b9738c1131f555cb
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\dc\dc443db3e92b4983b9738c1131f555cb
+      projectPath: Library\metadata\dc\dc443db3e92b4983b9738c1131f555cb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\e4\e41027fbc298a1448a3f8ba0a536a53f
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\e4\e41027fbc298a1448a3f8ba0a536a53f
+      projectPath: Library\metadata\e4\e41027fbc298a1448a3f8ba0a536a53f
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\e4\e4bfeabebc5114952a57d908ff706b7e
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\e4\e4bfeabebc5114952a57d908ff706b7e
+      projectPath: Library\metadata\e4\e4bfeabebc5114952a57d908ff706b7e
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\e4\e4f4cf1b9b434137a499903a7a1d651a
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\e4\e4f4cf1b9b434137a499903a7a1d651a
+      projectPath: Library\metadata\e4\e4f4cf1b9b434137a499903a7a1d651a
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\ea\ead147da21254ff9a0a936bdd75e1680
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\ea\ead147da21254ff9a0a936bdd75e1680
+      projectPath: Library\metadata\ea\ead147da21254ff9a0a936bdd75e1680
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\ed\ed7343f30e3843b3afda8f8b02669cea
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\ed\ed7343f30e3843b3afda8f8b02669cea
+      projectPath: Library\metadata\ed\ed7343f30e3843b3afda8f8b02669cea
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
+      projectPath: Library\metadata\f5\f5f67c52d1564df4a8936ccd202a3bd8
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\f7\f70555f144d8491a825f0804e09c671c
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\f7\f70555f144d8491a825f0804e09c671c
+      projectPath: Library\metadata\f7\f70555f144d8491a825f0804e09c671c
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\f7\f7b54ff4a43d4fcf81b4538b678e0bcc
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\f7\f7b54ff4a43d4fcf81b4538b678e0bcc
+      projectPath: Library\metadata\f7\f7b54ff4a43d4fcf81b4538b678e0bcc
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\ProjectSettings\ProjectVersion.txt
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\ProjectSettings\ProjectVersion.txt
+      projectPath: ProjectSettings\ProjectVersion.txt
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\obj\Debug\Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\obj\Debug\Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp-Editor.csprojResolveAssemblyReference.cache
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+      projectPath: obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 9f88c911933e9318736ce3480f229764237df6d2
     mergeA: 
     mergeB: 

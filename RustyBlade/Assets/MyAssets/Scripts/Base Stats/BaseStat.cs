@@ -7,7 +7,7 @@ using Newtonsoft.Json.Converters;
 
 public class BaseStat
 {
-    public enum BaseStatType { Power, Toughness, AttackSpeed }
+    public enum BaseStatType { Power, Toughness, Energy, AttackSpeed }
 
     public List<StatBonus> BaseAdditives { get; set; }
     [JsonConverter(typeof(StringEnumConverter))]
@@ -49,7 +49,6 @@ public class BaseStat
         this.FinalValue = 0;
         this.BaseAdditives.ForEach(x => this.FinalValue += x.BonusValue);
         this.FinalValue += BaseValue;
-        Debug.Log("FinalValue "+FinalValue);
         return FinalValue;
     }
 

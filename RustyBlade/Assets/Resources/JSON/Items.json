@@ -18,6 +18,11 @@
           "StatName": "Tougness"
         },
         {
+          "StatType": "Energy",
+          "BaseValue": 50,
+          "StatName": "Energy"
+        },
+        {
           "StatType": "AttackSpeed",
           "BaseValue": 4,
           "StatName": "Atk Spd"
