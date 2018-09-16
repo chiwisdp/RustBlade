@@ -12,9 +12,82 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-09-15T16:50:35.154+09:00
+  lastUpdatedAtString: 2018-09-17T01:00:48.685+09:00
   initializedAtString: 2018-09-14T21:24:04.457+09:00
   log:
+  - commitID: ce602bc689519db8e8ac7a227b2dab237217c0bf
+    mergeA: 
+    mergeB: 
+    authorName: chiwisdp
+    authorEmail: daniel@craterhouse.com
+    commitEmail: daniel@craterhouse.com
+    commitName: chiwisdp
+    summary: Prelim energy v2
+    description: Prelim energy v2
+    timeString: 2018-09-15T16:53:17.000+09:00
+    commitTimeString: 2018-09-15T16:53:17.000+09:00
+    changes:
+    - path: RustyBlade\Assets\Camera & UI\PlayerHealthBar.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\Camera
+        & UI\PlayerHealthBar.cs.meta
+      projectPath: Assets\Camera & UI\PlayerHealthBar.cs.meta
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\MyAssets\Scripts\PlayerMovement\PlayerStatsController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Scripts\PlayerMovement\PlayerStatsController.cs
+      projectPath: Assets\MyAssets\Scripts\PlayerMovement\PlayerStatsController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\MyAssets\Test.unity
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Test.unity
+      projectPath: Assets\MyAssets\Test.unity
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\PlayerEnergy.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\PlayerEnergy.cs
+      projectPath: Assets\PlayerEnergy.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\PlayerEnergy.cs.meta
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\PlayerEnergy.cs.meta
+      projectPath: Assets\PlayerEnergy.cs.meta
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\fd\fdab3c85519b65444844e73181b0a818
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\fd\fdab3c85519b65444844e73181b0a818
+      projectPath: Library\metadata\fd\fdab3c85519b65444844e73181b0a818
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: 62d67bf31a37be3c7f9ced3d7d2d335e1d6b7a49
     mergeA: 
     mergeB: 

@@ -7,7 +7,9 @@ public class WeaponController : MonoBehaviour {
 	public GameObject EquippedWeapon {get; set;}
 	IWeapon _equippedItem;
 	CharacterStats _charStats;
+	PlayerEnergy _energyController;
 	void Start(){
+		_energyController = GetComponent<PlayerEnergy>();
 		_charStats = GetComponent<PlayerStatsController>().characterStats;
 	}
 	public void EquipItem (Item _itemToEquip) {
@@ -23,14 +25,21 @@ public class WeaponController : MonoBehaviour {
 		EquippedWeapon.transform.SetParent(_playerHand.transform);
 		_equippedItem.Stats = _itemToEquip.Stats;
 		_charStats.AddStatBonus(_itemToEquip.Stats);
-		Debug.Log(_equippedItem.Stats[0].BaseValue);
+		Debug.Log(_equippedItem.Stats[2].StatName+"  " +_equippedItem.Stats[2].BaseValue);
+		Debug.Log(_itemToEquip.Stats+ "  "+ _charStats.GetStat(BaseStat.BaseStatType.Energy));
 	}
 	public bool GetIsInUse(){
 		return  _equippedItem.GetIsInUse();
 	}
+	public int GetEnergyWeaponCost(){
+		return  _equippedItem.Stats[2].BaseValue;
+	}
 	public void PerformAction(){
 		if(_equippedItem !=null && !_equippedItem.GetIsInUse())
-		_equippedItem.PerformAction(CalculateDamage());
+		{
+			_equippedItem.PerformAction(CalculateDamage());
+			_energyController.UseEnergy(GetEnergyWeaponCost());
+		}
 	}
 	private int CalculateDamage()
     {
@@ -38,12 +47,11 @@ public class WeaponController : MonoBehaviour {
         int damageToDeal = (_charStats.GetStat(BaseStat.BaseStatType.Power).GetCalculatedStatValue())
             + Random.Range(0, 3);
         damageToDeal += CalculateCrit(damageToDeal);
-        //Debug.Log("Damage dealt: " + damageToDeal + "  "+( _charStats.GetStat(BaseStat.BaseStatType.Power).GetCalculatedStatValue()));
         return damageToDeal;
     }
     private int CalculateCrit(int damage)
     {
-        if (Random.value <= .10f)
+        if (Random.value <= .50f)
         {
             int critDamage = (int)(damage * Random.Range(.5f, .75f));
             return critDamage;

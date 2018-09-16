@@ -98,9 +98,11 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
         public GameObject _swordObject;
          private bool _isSwingSword =false;
          private WeaponController _weaponController;
+         private PlayerEnergy _energyController;
         private void Start()
         {
              _weaponController = GetComponent<WeaponController>();
+             _energyController = GetComponent<PlayerEnergy>();
             _shieldDownPos = _shieldObject.transform.localPosition;
             _shieldUpPos= new Vector3(_shieldDownPos.x,_shieldDownPos.y, .75f);
             // Handle initial state
@@ -513,10 +515,10 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
                             _isStopped = true;
                         }
                         // Detect end of stopping phase and transition back to default movement state
-                        if (!GetComponent<WeaponController>().GetIsInUse() && !_isSwingSword)
+                        if (!_weaponController.GetIsInUse() && !_isSwingSword)
                         {
                             TransitionToState(CharacterState.Default);
-                        } else  if (GetComponent<WeaponController>().GetIsInUse() && _isSwingSword){
+                        } else  if (_weaponController.GetIsInUse() && _isSwingSword){
                             _isSwingSword = false;
                         }
                         break;
@@ -608,8 +610,18 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
             _shieldObject.transform.localPosition=_shieldDownPos;
         }
 
+        void ChargeEnergy(){
+
+        }
+        void StopChargeEnergy(){
+            
+        }
+
         void DoAction0(){
-            GetComponent<WeaponController>().PerformAction();
+            Debug.Log("Current energy : "+ _energyController.GetCurrentEnergy() + "   WeaponEnergyCost : "+ _weaponController.GetEnergyWeaponCost());
+            if( _weaponController.GetEnergyWeaponCost() <=_energyController.GetCurrentEnergy()){
+                _weaponController.PerformAction();
+            }
         }
 
         void StopAction0(){
