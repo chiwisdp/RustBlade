@@ -145,7 +145,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0.23211932, b: 1, a: 1}
   m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -2348,7 +2348,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _energyBar: {fileID: 60028756}
-  _currentEnergy: 0
+  regenEnergyPerSec: 1
+  multiplierRegen: 20
   temp_currentEnergy: 0
 --- !u!1 &1354290987
 GameObject:

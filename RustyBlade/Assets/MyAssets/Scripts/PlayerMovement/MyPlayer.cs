@@ -70,6 +70,7 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
             characterInputs.CrouchUp = Input.GetKeyUp(KeyCode.C);
             characterInputs.ChargingDown = Input.GetButtonDown("Action4");
             characterInputs.Shield = Input.GetButton("Action0");
+            characterInputs.EnergyCharge = Input.GetButton("Action2");
             characterInputs.Action1 = Input.GetButtonDown("Action1");
             characterInputs.Action2 = Input.GetButton("Action2");
             characterInputs.Action3 = Input.GetButton("Action3");

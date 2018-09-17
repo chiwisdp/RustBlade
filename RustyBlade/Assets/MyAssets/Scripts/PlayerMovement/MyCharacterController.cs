@@ -10,6 +10,7 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
     {
         Default,
         Charging,
+        EnergyCharge,
         ItemUse,
 
     }
@@ -24,6 +25,7 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
         public bool CrouchUp;
         public bool ChargingDown;
         public bool Shield;
+        public bool EnergyCharge;
         public bool Action0;
         public bool Action1;
         public bool Action2;
@@ -86,6 +88,7 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
 
         private Vector3 _currentChargeVelocity;
         private bool _isStopped =true;
+        private bool _isEnergyCharching = false;
         private bool _mustStopVelocity = false;
         private float _timeSinceStartedCharge = 0;
         private float _timeSinceStopped = 0;
@@ -145,6 +148,12 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
                         _currentChargeVelocity =Vector3.zero;
                         break;
                     }
+                case CharacterState.EnergyCharge:
+                    {
+                        _isEnergyCharching = true;
+                        _currentChargeVelocity =Vector3.zero;
+                        break;
+                    }
             }
         }
 
@@ -178,7 +187,16 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
                 DoAction0();
                 TransitionToState(CharacterState.ItemUse);
             }
-
+            if (inputs.EnergyCharge && _isStopped && !_hasShieldUp)
+            {
+                _isEnergyCharching= true;
+                TransitionToState(CharacterState.EnergyCharge);
+            }
+            else if ( _isEnergyCharching){
+                TransitionToState(CharacterState.Default);
+                _energyController.StopCharging();
+                _isEnergyCharching = false;
+            }
 
             // Clamp input
             Vector3 moveInputVector = Vector3.ClampMagnitude(new Vector3(inputs.MoveAxisRight, 0f, inputs.MoveAxisForward), 1f);
@@ -248,11 +266,12 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
                     case CharacterState.ItemUse:
                     {
                         // Update times
-                        _timeSinceStartedCharge += deltaTime;
-                        if (_isStopped)
-                        {
-                            _timeSinceStopped += deltaTime;
-                        }
+                        break;
+                    }
+                    case CharacterState.EnergyCharge:
+                    {
+                        // Update times
+
                         break;
                     }
             }
@@ -420,6 +439,18 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
                         currentVelocity = Vector3.zero;
                         break;
                     }
+                case CharacterState.EnergyCharge:
+                    {
+                        // If we have stopped and need to cancel velocity, do it here
+                        if (_isStopped)
+                        {
+                            // When stopped, do no velocity handling except gravity
+                            currentVelocity += Gravity * deltaTime;
+                        }
+                        // When charging, velocity is always constant
+                        currentVelocity = Vector3.zero;
+                        break;
+                    }
                 case CharacterState.Charging:
                     {
                         // If we have stopped and need to cancel velocity, do it here
@@ -522,7 +553,26 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
                             _isSwingSword = false;
                         }
                         break;
-                }
+                    }
+                case CharacterState.EnergyCharge:
+                    {
+                        if (!_isStopped && !_hasShieldUp)
+                        {
+                            _mustStopVelocity = true;
+                            _isStopped = true;
+                        }
+                        if(!_isEnergyCharching){
+                            _isEnergyCharching = true;
+                            
+                        }
+                        _energyController.ChargeEnegy();
+                        // Detect end of stopping phase and transition back to default movement state
+                        if (!_weaponController.GetIsInUse() && !_isSwingSword)
+                        {
+                            //TransitionToState(CharacterState.Default);
+                        }
+                        break;
+                    }
                 case CharacterState.Charging:
                     {
                         // Detect being stopped by elapsed time
@@ -610,15 +660,11 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
             _shieldObject.transform.localPosition=_shieldDownPos;
         }
 
-        void ChargeEnergy(){
-
+        void ToggleChargeEnergy(){
+            _energyController.ChargeEnegy();
         }
-        void StopChargeEnergy(){
-            
-        }
-
         void DoAction0(){
-            Debug.Log("Current energy : "+ _energyController.GetCurrentEnergy() + "   WeaponEnergyCost : "+ _weaponController.GetEnergyWeaponCost());
+            //Debug.Log("Current energy : "+ _energyController.GetCurrentEnergy() + "   WeaponEnergyCost : "+ _weaponController.GetEnergyWeaponCost());
             if( _weaponController.GetEnergyWeaponCost() <=_energyController.GetCurrentEnergy()){
                 _weaponController.PerformAction();
             }
