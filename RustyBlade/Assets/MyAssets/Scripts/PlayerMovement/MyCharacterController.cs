@@ -181,9 +181,9 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
             {
                 TransitionToState(CharacterState.Charging);
             }
-            if (inputs.Action1 && !_hasShieldUp && _isStopped)
+            if (inputs.Action1 && !_hasShieldUp && _isStopped && ( _weaponController.GetEnergyWeaponCost() <=_energyController.GetCurrentEnergy()))
             {
-                _isSwingSword =true;
+                _isSwingSword = true;
                 DoAction0();
                 TransitionToState(CharacterState.ItemUse);
             }
@@ -665,9 +665,9 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
         }
         void DoAction0(){
             //Debug.Log("Current energy : "+ _energyController.GetCurrentEnergy() + "   WeaponEnergyCost : "+ _weaponController.GetEnergyWeaponCost());
-            if( _weaponController.GetEnergyWeaponCost() <=_energyController.GetCurrentEnergy()){
+            
                 _weaponController.PerformAction();
-            }
+            
         }
 
         void StopAction0(){

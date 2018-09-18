@@ -13,14 +13,19 @@ public class PlayerEnergy : MonoBehaviour {
 	public float temp_currentEnergy =0;
 	bool _isCharging = false;
 	void Start () {
-		_maxEnergy = GetComponent<PlayerStatsController>().getPlayerMaxEnergy();
+		_maxEnergy = GetComponent<PlayerStatsController>().getPlayerMaxEnergy()*2;
 		_currentEnergy = _maxEnergy;
 	}
 	void Update () {
 		//chargeEnergy
 		if(_currentEnergy<_maxEnergy){
 			UpdateEnergyBarUI();
-			RegenEnergy();
+			if(_currentEnergy<(_maxEnergy/2f))
+			{
+				RegenEnergy();
+			}else if (_currentEnergy>=(_maxEnergy/2f) &&boostedRegenEnergyPerSec>1){
+				RegenEnergy();
+			}
 		}
 	}
 	private void RegenEnergy(){
@@ -32,7 +37,7 @@ public class PlayerEnergy : MonoBehaviour {
 	}
 	public void UseEnergy (int _energyUsed){
 		float _changedEnergy = _currentEnergy-_energyUsed;
-			_currentEnergy = (int)Mathf.Clamp(_changedEnergy, 0, 100);
+			_currentEnergy = (int)Mathf.Clamp(_changedEnergy, 0, _maxEnergy);
 			UpdateEnergyBarUI();
 			
 	}
