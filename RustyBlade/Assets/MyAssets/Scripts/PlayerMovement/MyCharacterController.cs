@@ -181,10 +181,16 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
             {
                 TransitionToState(CharacterState.Charging);
             }
-            if (inputs.Action1 && !_hasShieldUp && _isStopped && ( _weaponController.GetEnergyWeaponCost() <=_energyController.GetCurrentEnergy()))
+            if (inputs.Action1 && !_hasShieldUp && _isStopped && ( _weaponController.GetEnergyWeaponCost(0) <=_energyController.GetCurrentEnergy()))
             {
                 _isSwingSword = true;
                 DoAction0();
+                TransitionToState(CharacterState.ItemUse);
+            }
+            if (inputs.Action2 && !_hasShieldUp && _isStopped && ( _weaponController.GetEnergyWeaponCost(1) <=_energyController.GetCurrentEnergy()))
+            {
+                _isSwingSword = true;
+                DoAction1();
                 TransitionToState(CharacterState.ItemUse);
             }
             if (inputs.EnergyCharge && _isStopped && !_hasShieldUp)
@@ -665,8 +671,7 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
         }
         void DoAction0(){
             //Debug.Log("Current energy : "+ _energyController.GetCurrentEnergy() + "   WeaponEnergyCost : "+ _weaponController.GetEnergyWeaponCost());
-            
-                _weaponController.PerformAction();
+                _weaponController.PerformAction(0);
             
         }
 
@@ -675,7 +680,7 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
         }
 
         void DoAction1(){
-            //GetComponent<WeaponController>().PerformAction();
+             _weaponController.PerformAction(1);
         }
     }
 }

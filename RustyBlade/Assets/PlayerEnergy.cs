@@ -14,7 +14,7 @@ public class PlayerEnergy : MonoBehaviour {
 	bool _isCharging = false;
 	void Start () {
 		_maxEnergy = GetComponent<PlayerStatsController>().getPlayerMaxEnergy()*2;
-		_currentEnergy = _maxEnergy;
+		_currentEnergy = _maxEnergy/2;
 	}
 	void Update () {
 		//chargeEnergy

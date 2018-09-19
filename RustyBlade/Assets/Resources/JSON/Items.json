@@ -19,12 +19,42 @@
         },
         {
           "StatType": "Energy",
-          "BaseValue": 40,
+          "BaseValue": 45,
           "StatName": "Energy"
         },
         {
           "StatType": "AttackSpeed",
           "BaseValue": 4,
+          "StatName": "Atk Spd"
+        }
+      ]
+    },
+    {
+      "objectSlug": "dagger",
+      "itemName": "Dagger",
+      "description": "A small, sharp blade.",
+      "itemType": "Weapon",
+      "actionName": "Equip",
+      "itemModifier": 0,
+      "Stats": [
+        {
+          "StatType": "Power",
+          "BaseValue": 5,
+          "StatName": "Power"
+        },
+        {
+          "StatType": "Toughness",
+          "BaseValue": 4,
+          "StatName": "Tougness"
+        },
+        {
+          "StatType": "Energy",
+          "BaseValue": 15,
+          "StatName": "Energy"
+        },
+        {
+          "StatType": "AttackSpeed",
+          "BaseValue": 1,
           "StatName": "Atk Spd"
         }
       ]

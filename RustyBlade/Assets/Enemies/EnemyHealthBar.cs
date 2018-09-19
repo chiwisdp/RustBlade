@@ -18,7 +18,6 @@ public class EnemyHealthBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Debug.Log(enemy);
         float xValue = -(enemy.getEnemyHealthPercentage() / 2f) - 0.5f;
         healthBarRawImage.uvRect = new Rect(xValue, 0f, 0.5f, 1f);
     }

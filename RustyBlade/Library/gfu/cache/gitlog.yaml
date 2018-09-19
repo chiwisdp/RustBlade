@@ -12,9 +12,63 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 3
-  lastUpdatedAtString: 2018-09-18T22:42:53.160+09:00
+  lastUpdatedAtString: 2018-09-20T00:42:15.239+09:00
   initializedAtString: 2018-09-18T22:42:53.160+09:00
   log:
+  - commitID: ffa3cd9478a6e3d0864fd258232c9e68b130ec90
+    mergeA: 
+    mergeB: 
+    authorName: chiwisdp
+    authorEmail: daniel@craterhouse.com
+    commitEmail: daniel@craterhouse.com
+    commitName: chiwisdp
+    summary: Double energy through charge
+    description: Double energy through charge
+    timeString: 2018-09-18T23:37:18.000+09:00
+    commitTimeString: 2018-09-18T23:37:18.000+09:00
+    changes:
+    - path: RustyBlade\Assets\MyAssets\Scripts\PlayerMovement\MyCharacterController.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\MyAssets\Scripts\PlayerMovement\MyCharacterController.cs
+      projectPath: Assets\MyAssets\Scripts\PlayerMovement\MyCharacterController.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Assets\PlayerEnergy.cs
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Assets\PlayerEnergy.cs
+      projectPath: Assets\PlayerEnergy.cs
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      projectPath: Library\ScriptAssemblies\Assembly-CSharp.dll.mdb
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\gfu\cache\gitlog.yaml
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\gfu\cache\gitlog.yaml
+      projectPath: Library\gfu\cache\gitlog.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\gfu\cache\repoinfo.yaml
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\gfu\cache\repoinfo.yaml
+      projectPath: Library\gfu\cache\repoinfo.yaml
+      originalPath: 
+      status: 3
+      staged: 0
+    - path: RustyBlade\Library\metadata\23\235082069226ea94baef1f813ba0f943
+      fullPath: C:\Users\chiwi\OneDrive\Documents\RustBlade\RustyBlade\Library\metadata\23\235082069226ea94baef1f813ba0f943
+      projectPath: Library\metadata\23\235082069226ea94baef1f813ba0f943
+      originalPath: 
+      status: 3
+      staged: 0
   - commitID: d5c6a73e329e46b979e8df5054c2a77c664df30c
     mergeA: 
     mergeB: 

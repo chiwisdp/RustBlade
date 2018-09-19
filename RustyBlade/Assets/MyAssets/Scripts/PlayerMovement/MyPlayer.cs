@@ -33,14 +33,14 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
             {
                 Cursor.lockState = CursorLockMode.Locked;
             }
-            if (Input.GetKeyDown(KeyCode.E))
+            /* if (Input.GetKeyDown(KeyCode.E))
             {
                 Item item = ItemDatabase.Instance.GetItem("sword");
                 //Debug.Log(item.Stats);
 		        FindObjectOfType<InventoryController>().EquipItem(item);
-            }
+            } */
 
-            HandleCameraInput();
+            //HandleCameraInput();
             HandleCharacterInput();
         }
 
@@ -70,9 +70,9 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
             characterInputs.CrouchUp = Input.GetKeyUp(KeyCode.C);
             characterInputs.ChargingDown = Input.GetButtonDown("Action4");
             characterInputs.Shield = Input.GetButton("Action0");
-            characterInputs.EnergyCharge = Input.GetButton("Action2");
+            characterInputs.EnergyCharge = Input.GetButton("Action3");
             characterInputs.Action1 = Input.GetButtonDown("Action1");
-            characterInputs.Action2 = Input.GetButton("Action2");
+            characterInputs.Action2 = Input.GetButtonDown("Action2");
             characterInputs.Action3 = Input.GetButton("Action3");
             characterInputs.Action4 = Input.GetButton("Action4");
             characterInputs.Action5 = Input.GetButton("Action5");
