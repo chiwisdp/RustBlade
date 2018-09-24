@@ -4,7 +4,7 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: cliff_snow_fog_2
   m_Shader: {fileID: 4800000, guid: d8dc5b44f974a407888d976711c36e82, type: 3}

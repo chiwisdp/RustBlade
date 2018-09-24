@@ -525,7 +525,7 @@ VertexOutputForwardAdd vertForwardAdd (VertexInput v)
 
 half4 fragForwardAddInternal (VertexOutputForwardAdd i)
 {
-	FRAGMENT_SETUP_FWDADD(s)
+	FRAGMENT_SETUP_FWDADD(s);
 
 	UnityLight light = AdditiveLight (IN_LIGHTDIR_FWDADD(i), LIGHT_ATTENUATION(i));
 	UnityIndirect noIndirect = ZeroIndirect ();

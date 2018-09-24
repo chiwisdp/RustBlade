@@ -3,7 +3,7 @@
 --- !u!1113 &111300000
 LightmapParameters:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: stones_LM
   serializedVersion: 3
