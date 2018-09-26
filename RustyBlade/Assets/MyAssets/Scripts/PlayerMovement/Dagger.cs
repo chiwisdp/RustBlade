@@ -9,10 +9,13 @@ public class Dagger : MonoBehaviour, IWeapon {
     public List<BaseStat> Stats {get; set;}
 	public CharacterStats CharacterStats { get; set; }
 	public int CurrentDamage { get; set; }
+	PlayerEffectsController _effectsController;
 
     private void Awake()
 	{
 		_animator=GetComponent<Animator>();
+		_effectsController = FindObjectOfType<PlayerEffectsController>();
+
 	}
     public void PerformAction(int _dmg)
     {
@@ -36,7 +39,10 @@ public class Dagger : MonoBehaviour, IWeapon {
 	void SwordRecoil(){
 		_animator.SetTrigger("wall_hit");
 	}
-
+	void ShowEffect()
+	{
+		_effectsController.DisplayDaggerSwingEffect();
+	}
     public bool GetIsInUse()
     {
         return (_animator.GetCurrentAnimatorStateInfo(0).IsName("Dagger_Swing"));

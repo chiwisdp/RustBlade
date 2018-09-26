@@ -12,8 +12,10 @@ public class PlayerEnergy : MonoBehaviour {
 	private float _currentEnergy =0;
 	public float temp_currentEnergy =0;
 	bool _isCharging = false;
+	PlayerEffectsController _effectController;
 	void Start () {
 		_maxEnergy = GetComponent<PlayerStatsController>().getPlayerMaxEnergy()*2;
+		_effectController = GetComponent<PlayerEffectsController>();
 		_currentEnergy = _maxEnergy/2;
 	}
 	void Update () {
@@ -48,13 +50,14 @@ public class PlayerEnergy : MonoBehaviour {
 	public void ChargeEnegy (){
 		if(boostedRegenEnergyPerSec != multiplierRegen )
 		boostedRegenEnergyPerSec = multiplierRegen;
-		
+		_effectController.DisplayEnergyChargeEffect();
 		Debug.Log("ToggleChargeEnegy : "+boostedRegenEnergyPerSec);
 
 	}
 	public void StopCharging(){
 		if(boostedRegenEnergyPerSec == multiplierRegen )
 		boostedRegenEnergyPerSec =1f;
+		_effectController.TurnOffEnergyChargeEffect();
 	}
 	public int GetCurrentEnergy(){
 		return (int)_currentEnergy;

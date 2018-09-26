@@ -57,6 +57,11 @@
      <Compile Include="Assets\Camera &amp; UI\PlayerHealthBar.cs" />
      <Compile Include="Assets\Enemies\EnemyHealthBar.cs" />
      <Compile Include="Assets\Enemies\EnemyUI.cs" />
+     <Compile Include="Assets\FX Mega Pack 2\Scripts\LookAtCamera.cs" />
+     <Compile Include="Assets\FX Mega Pack 2\Scripts\ParticleSpawner.cs" />
+     <Compile Include="Assets\FX Mega Pack 2\Scripts\RandomRotate.cs" />
+     <Compile Include="Assets\FX Mega Pack 2\Scripts\RotateY.cs" />
+     <Compile Include="Assets\FX Mega Pack 2\Scripts\SmoothCameraOrbit.cs" />
      <Compile Include="Assets\Hard Slashes Vol1\Demo Scene\DemoManager.cs" />
      <Compile Include="Assets\Hard Slashes Vol1\SelfDestruct.cs" />
      <Compile Include="Assets\Hit &amp; Slashes Vol.3\Demo Scene\ButtonAnimation.cs" />
@@ -231,6 +236,7 @@
      <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFXM_MobileParticleAdd_Alpha8.shader" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\ParadeRender.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\LutGen.shader" />
+     <None Include="Assets\FX Mega Pack 2\FX Mega Pack 2 - Readme.txt" />
      <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramRender.shader" />
      <None Include="Assets\MeleeWeaponTrail\README.txt" />
      <None Include="Assets\PostProcessing\Editor Resources\UI\CurveBackground.shader" />
@@ -281,6 +287,7 @@
      <None Include="Assets\PostProcessing\Resources\Shaders\EyeHistogram.compute" />
      <None Include="Assets\PostProcessing\Resources\Shaders\TAA.cginc" />
      <None Include="Assets\Materials\UI-Default-No-Alpha.shader" />
+     <None Include="Assets\FX Mega Pack 2\Shaders\Mobile Vertex Color Cull Off.shader" />
      <None Include="Assets\micro_knight_lp\models\micro-knight-animation-list.txt" />
      <None Include="Assets\JMO Assets\Cartoon FX\Shaders\CFX4 Particle AlphaBlend+Add VColor.shader" />
      <None Include="Assets\PostProcessing\Resources\Shaders\EyeAdaptation.cginc" />
