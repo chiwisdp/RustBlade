@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 namespace HardSlashes
 {
@@ -7,10 +8,15 @@ namespace HardSlashes
 	public class SelfDestruct : MonoBehaviour {
 		public float selfdestruct_in = 4; // Setting this to 0 means no selfdestruct.
 
-		void Start () {
+		void OnEnable () {
 			if ( selfdestruct_in != 0){ 
-				Destroy (gameObject, selfdestruct_in);
+			 StartCoroutine(	TurnOff ( selfdestruct_in));
 			}
+		}
+
+		IEnumerator TurnOff(float waitTime){
+			yield return new WaitForSeconds(waitTime);
+			gameObject.SetActive(false);
 		}
 	}
 

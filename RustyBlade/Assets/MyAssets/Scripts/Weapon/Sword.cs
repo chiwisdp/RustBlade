@@ -10,10 +10,12 @@ public class Sword : MonoBehaviour, IWeapon {
 	public CharacterStats CharacterStats { get; set; }
 	public int CurrentDamage { get; set; }
 	MeleeWeaponTrail _trail;
+	PlayerEffectsController _effectsController;
     private void Awake()
 	{
 		_animator=GetComponent<Animator>();
 		_trail = GetComponent<MeleeWeaponTrail>();
+		_effectsController = FindObjectOfType<PlayerEffectsController>();
 	}
     public void PerformAction(int _dmg)
     {
@@ -46,4 +48,8 @@ public class Sword : MonoBehaviour, IWeapon {
     {
         return (_animator.GetCurrentAnimatorStateInfo(0).IsName("Sword_Swing"));
     }
+	void ShowEffect()
+	{
+		_effectsController.DisplaySwordSwingEffect();
+	}
 }

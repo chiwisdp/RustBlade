@@ -35,9 +35,9 @@ public class WeaponController : MonoBehaviour {
 		_charStats.AddStatBonus(_itemToEquip.Stats);
 		weaponnum++;
 	}
-	private void Update() {
+	/* private void Update() {
 		Debug.Log(( _equippedItem[0].GetIsInUse()|| _equippedItem[1].GetIsInUse()));
-	}
+	} */
 	public bool GetIsInUse(){
 		return ( _equippedItem[0].GetIsInUse()|| _equippedItem[1].GetIsInUse());
 	}
