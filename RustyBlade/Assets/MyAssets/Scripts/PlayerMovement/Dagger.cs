@@ -5,7 +5,7 @@ using UnityEngine;
 public class Dagger : MonoBehaviour, IWeapon {
 	private Animator _animator;
 	public int base_dmg;
-
+	public Renderer _weapon;
     public List<BaseStat> Stats {get; set;}
 	public CharacterStats CharacterStats { get; set; }
 	public int CurrentDamage { get; set; }
@@ -47,4 +47,7 @@ public class Dagger : MonoBehaviour, IWeapon {
     {
         return (_animator.GetCurrentAnimatorStateInfo(0).IsName("Dagger_Swing"));
     }
+	public void ToggleWeaponDisplay(bool _displayStatus){
+		_weapon.enabled = _displayStatus;
+	}
 }

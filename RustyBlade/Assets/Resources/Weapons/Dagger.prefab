@@ -252,3 +252,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   base_dmg: 0
+  _weapon: {fileID: 23816234563270260}

@@ -33,11 +33,9 @@ public class WeaponController : MonoBehaviour {
 		EquippedWeapon.transform.SetParent(_playerHand.transform);
 		_equippedItem[weaponnum].Stats = _itemToEquip.Stats;
 		_charStats.AddStatBonus(_itemToEquip.Stats);
+		_equippedItem[weaponnum].ToggleWeaponDisplay(false);
 		weaponnum++;
 	}
-	/* private void Update() {
-		Debug.Log(( _equippedItem[0].GetIsInUse()|| _equippedItem[1].GetIsInUse()));
-	} */
 	public bool GetIsInUse(){
 		return ( _equippedItem[0].GetIsInUse()|| _equippedItem[1].GetIsInUse());
 	}
@@ -50,6 +48,19 @@ public class WeaponController : MonoBehaviour {
 			_equippedItem[weaponnum].PerformAction(CalculateDamage());
 			_energyController.UseEnergy(GetEnergyWeaponCost(weaponnum));
 			Debug.Log(GetEnergyWeaponCost(weaponnum));
+			for (int i = 0; i < _equippedItem.Length-1; i++)
+			{
+				if(i == weaponnum){
+					_equippedItem[weaponnum].ToggleWeaponDisplay(true);
+					Debug.Log("daddy "+i);
+				}
+				else{
+					Debug.Log("baby 1 "+i);
+					_equippedItem[i].ToggleWeaponDisplay(false);
+					Debug.Log("baby "+i);
+				}
+				Debug.Log(i);
+			}
 		}
 	}
 	private int CalculateDamage()

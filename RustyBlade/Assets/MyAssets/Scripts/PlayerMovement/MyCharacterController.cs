@@ -102,6 +102,7 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
          private bool _isSwingSword =false;
          private WeaponController _weaponController;
          private PlayerEnergy _energyController;
+         public int _rollEnergyCost=0;
         private void Start()
         {
              _weaponController = GetComponent<WeaponController>();
@@ -132,10 +133,12 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
             {
                 case CharacterState.Default:
                     {
+                        _energyController.ToggleCanCharge(true);
                         break;
                     }
                 case CharacterState.Charging:
                     {
+                         _energyController.ToggleCanCharge(false);
                         _currentChargeVelocity = Motor.CharacterForward * ChargeSpeed;
                         _isStopped = false;
                         _timeSinceStartedCharge = 0f;
@@ -145,12 +148,14 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
                  case CharacterState.ItemUse:
                     {
                         //DoAction1();
+                         _energyController.ToggleCanCharge(false);
                         _currentChargeVelocity =Vector3.zero;
                         break;
                     }
                 case CharacterState.EnergyCharge:
                     {
                         _isEnergyCharching = true;
+                         _energyController.ToggleCanCharge(true);
                         _currentChargeVelocity =Vector3.zero;
                         break;
                     }
@@ -177,23 +182,24 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
         public void SetInputs(ref PlayerCharacterInputs inputs)
         {
             // Handle state transition from input
-            if (inputs.ChargingDown && !_hasShieldUp && (Motor.GroundingStatus.IsStableOnGround) && !_isSwingSword)
+            if (CurrentCharacterState == CharacterState.Default && inputs.ChargingDown && !_hasShieldUp && (Motor.GroundingStatus.IsStableOnGround) && !_isSwingSword && (_rollEnergyCost <= _energyController.GetCurrentEnergy()))
             {
+                _energyController.UseEnergy(_rollEnergyCost);
                 TransitionToState(CharacterState.Charging);
             }
-            if (inputs.Action1 && !_hasShieldUp && _isStopped && ( _weaponController.GetEnergyWeaponCost(0) <=_energyController.GetCurrentEnergy()))
+            if (CurrentCharacterState == CharacterState.Default && inputs.Action1 && !_hasShieldUp && _isStopped && ( _weaponController.GetEnergyWeaponCost(0) <=_energyController.GetCurrentEnergy()))
             {
                 _isSwingSword = true;
                 DoAction0();
                 TransitionToState(CharacterState.ItemUse);
             }
-            if (inputs.Action2 && !_hasShieldUp && _isStopped && ( _weaponController.GetEnergyWeaponCost(1) <=_energyController.GetCurrentEnergy()))
+            if ( CurrentCharacterState == CharacterState.Default && inputs.Action2 && !_hasShieldUp && _isStopped && ( _weaponController.GetEnergyWeaponCost(1) <=_energyController.GetCurrentEnergy()))
             {
                 _isSwingSword = true;
                 DoAction1();
                 TransitionToState(CharacterState.ItemUse);
             }
-            if (inputs.EnergyCharge && _isStopped && !_hasShieldUp)
+            if ( CurrentCharacterState != CharacterState.ItemUse && CurrentCharacterState != CharacterState.Charging && inputs.EnergyCharge && _isStopped && !_hasShieldUp)
             {
                 _isEnergyCharching= true;
                 TransitionToState(CharacterState.EnergyCharge);

@@ -12,15 +12,19 @@ public class PlayerEnergy : MonoBehaviour {
 	private float _currentEnergy =0;
 	public float temp_currentEnergy =0;
 	bool _isCharging = false;
+	bool _canCharge;
 	PlayerEffectsController _effectController;
 	void Start () {
 		_maxEnergy = GetComponent<PlayerStatsController>().getPlayerMaxEnergy()*2;
 		_effectController = GetComponent<PlayerEffectsController>();
 		_currentEnergy = _maxEnergy/2;
 	}
+	public void ToggleCanCharge(bool _energybool){
+		_canCharge =_energybool;
+	}
 	void Update () {
 		//chargeEnergy
-		if(_currentEnergy<_maxEnergy){
+		if(_canCharge &&(_currentEnergy<_maxEnergy)){
 			UpdateEnergyBarUI();
 			if(_currentEnergy<(_maxEnergy/2f))
 			{
@@ -49,17 +53,23 @@ public class PlayerEnergy : MonoBehaviour {
 	}
 	public void ChargeEnegy (){
 		if(boostedRegenEnergyPerSec != multiplierRegen )
-		boostedRegenEnergyPerSec = multiplierRegen;
-		_effectController.DisplayEnergyChargeEffect();
-		Debug.Log("ToggleChargeEnegy : "+boostedRegenEnergyPerSec);
-
+		{
+			boostedRegenEnergyPerSec = multiplierRegen;
+			_effectController.DisplayEnergyChargeEffect();
+			Debug.Log("ToggleChargeEnegy : "+boostedRegenEnergyPerSec);
+		}
 	}
 	public void StopCharging(){
 		if(boostedRegenEnergyPerSec == multiplierRegen )
-		boostedRegenEnergyPerSec =1f;
-		_effectController.TurnOffEnergyChargeEffect();
+		{
+			boostedRegenEnergyPerSec =1f;
+			_effectController.TurnOffEnergyChargeEffect();
+		}
 	}
 	public int GetCurrentEnergy(){
 		return (int)_currentEnergy;
+	}
+	public bool GetCanChargeEnergy(){
+		return (_currentEnergy>= _maxEnergy);
 	}
 }

@@ -5,6 +5,7 @@ using UnityEngine;
 public class Sword : MonoBehaviour, IWeapon {
 	private Animator _animator;
 	public int base_dmg;
+	public Renderer _weapon;
 
     public List<BaseStat> Stats {get; set;}
 	public CharacterStats CharacterStats { get; set; }
@@ -51,5 +52,9 @@ public class Sword : MonoBehaviour, IWeapon {
 	void ShowEffect()
 	{
 		_effectsController.DisplaySwordSwingEffect();
+	}
+
+	public void ToggleWeaponDisplay(bool _displayStatus){
+		_weapon.enabled = _displayStatus;
 	}
 }
