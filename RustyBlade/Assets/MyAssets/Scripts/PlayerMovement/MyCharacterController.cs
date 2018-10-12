@@ -102,11 +102,14 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
          private bool _isSwingSword =false;
          private WeaponController _weaponController;
          private PlayerEnergy _energyController;
+
+         private PlayerAnimationController _animController;
          public int _rollEnergyCost=0;
         private void Start()
         {
              _weaponController = GetComponent<WeaponController>();
              _energyController = GetComponent<PlayerEnergy>();
+             _animController = GetComponent<PlayerAnimationController>();
             _shieldDownPos = _shieldObject.transform.localPosition;
             _shieldUpPos= new Vector3(_shieldDownPos.x,_shieldDownPos.y, .75f);
             // Handle initial state
@@ -353,6 +356,11 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
 
                             // Smooth movement Velocity
                             currentVelocity = Vector3.Lerp(currentVelocity, targetMovementVelocity, 1 - Mathf.Exp(-StableMovementSharpness * deltaTime));
+                             _animController.Walking();
+                             if(!Input.GetButton("Horizontal") && !Input.GetButton("Vertical"))
+                            {
+                                  _animController.PlayIdle();
+                             }
                         }
                         else
                         {
@@ -552,6 +560,7 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
                     }
                 case CharacterState.ItemUse:
                     {
+                        _animController.PlayIdle();
                         if (!_isStopped && !_hasShieldUp)
                         {
                             _mustStopVelocity = true;
@@ -568,6 +577,7 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
                     }
                 case CharacterState.EnergyCharge:
                     {
+                         _animController.PlayIdle();
                         if (!_isStopped && !_hasShieldUp)
                         {
                             _mustStopVelocity = true;
@@ -587,6 +597,7 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
                     }
                 case CharacterState.Charging:
                     {
+                         _animController.Walking();
                         // Detect being stopped by elapsed time
                         if (!_isStopped && !_hasShieldUp && _timeSinceStartedCharge > MaxChargeTime)
                         {

@@ -31,8 +31,9 @@ public class SmoothCameraOrbit : MonoBehaviour
     public int zoomRate = 40;
     public float panSpeed = 0.3f;
     public float zoomDampening = 5.0f;
-	public float autoRotate = 1;
-
+	public float autoRotate = 1f;
+	public float autoRotateSpeed = 0.1f;
+	
     private float xDeg = 0.0f;
     private float yDeg = 0.0f;
     private float currentDistance;
@@ -104,7 +105,7 @@ public class SmoothCameraOrbit : MonoBehaviour
 			if(idleTimer > autoRotate && autoRotate > 0){
 				idleSmooth+=(0.02f +idleSmooth)*0.005f;
 				idleSmooth = Mathf.Clamp(idleSmooth, 0, 1);
-				xDeg += xSpeed * 0.001f * idleSmooth;
+				xDeg += xSpeed * Time.deltaTime * idleSmooth * autoRotateSpeed;
 			}
 			///////// Smooth idle rotation ends
 			
