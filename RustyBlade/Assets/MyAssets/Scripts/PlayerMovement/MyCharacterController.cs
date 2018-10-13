@@ -689,6 +689,7 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
         void DoAction0(){
             //Debug.Log("Current energy : "+ _energyController.GetCurrentEnergy() + "   WeaponEnergyCost : "+ _weaponController.GetEnergyWeaponCost());
                 _weaponController.PerformAction(0);
+                _animController.SwordAttack();
             
         }
 
