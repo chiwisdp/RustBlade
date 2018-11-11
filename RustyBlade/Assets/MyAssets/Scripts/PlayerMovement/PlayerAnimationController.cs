@@ -9,34 +9,56 @@ public class PlayerAnimationController : MonoBehaviour {
 	void Start () {
 		
 	}
-
-	void FixedUpdate()
-	{
-		if (!_animator.GetCurrentAnimatorStateInfo(0).IsName("SwordSwing")){
-			//PlayIdle();
-		}
-	}
 	public void SwordAttack(){
 		Debug.Log("SWORD");
 		_animator.SetBool("isSwordAttack", true);
+		_animator.SetBool("isDaggerAttack", false);
 		_animator.SetBool("isIdle", false);
 		_animator.SetBool("isWalking", false);
+		_animator.SetBool("isRoll", false);
 	}
 	public void DaggerAttack(){
-
+		_animator.SetBool("isDaggerAttack", true);
+		_animator.SetBool("isIdle", false);
+		_animator.SetBool("isSwordAttack", false);
+		_animator.SetBool("isWalking", false);
+		_animator.SetBool("isRoll", false);
 	}
 	public void PlayIdle(){
 		_animator.SetBool("isIdle", true);
+		_animator.SetBool("isDaggerAttack", false);
 		_animator.SetBool("isSwordAttack", false);
 		_animator.SetBool("isWalking", false);
+		_animator.SetBool("isRoll", false);
 	}
 	public void Walking(){
 		_animator.SetBool("isIdle", false);
 		_animator.SetBool("isWalking", true);
+		_animator.SetBool("isDaggerAttack", false);
 		_animator.SetBool("isSwordAttack", false);
+		_animator.SetBool("isRoll", false);
+	}
+	public void PlayRoll(){
+		_animator.SetBool("isIdle", false);
+		_animator.SetBool("isWalking", false);
+		_animator.SetBool("isSwordAttack", false);
+		_animator.SetBool("isRoll", true);
+		_animator.SetBool("isDaggerAttack", false);
 	}
 	// Update is called once per frame
-	void Update () {
-		
+	public bool getIsSwordAttack(){
+		return _animator.GetCurrentAnimatorStateInfo(0).IsName("SwordSwing");
+	}
+	public bool getIsIdle(){
+		return _animator.GetCurrentAnimatorStateInfo(0).IsName("Idle");
+	}
+	public bool getIsWalk(){
+		return _animator.GetCurrentAnimatorStateInfo(0).IsName("WalkAni");
+	}
+	public bool getIsRoll(){
+		return _animator.GetCurrentAnimatorStateInfo(0).IsName("Roll");
+	}
+	public bool getIsDagger(){
+		return _animator.GetCurrentAnimatorStateInfo(0).IsName("Dagger");
 	}
 }

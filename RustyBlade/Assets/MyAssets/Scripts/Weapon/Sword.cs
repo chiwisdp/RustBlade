@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Sword : MonoBehaviour, IWeapon {
-	private Animator _animator;
+	private PlayerAnimationController _animator;
 	public int base_dmg;
 	public Renderer _weapon;
 
@@ -14,21 +14,14 @@ public class Sword : MonoBehaviour, IWeapon {
 	PlayerEffectsController _effectsController;
     private void Awake()
 	{
-		_animator=GetComponent<Animator>();
+		_animator=FindObjectOfType<PlayerAnimationController>();
 		_trail = GetComponent<MeleeWeaponTrail>();
 		_effectsController = FindObjectOfType<PlayerEffectsController>();
 	}
     public void PerformAction(int _dmg)
     {
 		CurrentDamage = _dmg;
-		if(_animator.GetCurrentAnimatorStateInfo(0).IsName("Sword_Idle"))
-		{
-			_animator.SetTrigger("base_attack");
-			_trail.Emit = true;
-		}
-		else{
-			_trail.Emit = false;
-		}
+		_animator.SwordAttack();
 	}
 	void OnTriggerEnter(Collider other)
 	{
@@ -42,12 +35,12 @@ public class Sword : MonoBehaviour, IWeapon {
 		}
 	}
 	void SwordRecoil(){
-		_animator.SetTrigger("wall_hit");
+		//_animator.SetTrigger("wall_hit");
 	}
 
     public bool GetIsInUse()
     {
-        return (_animator.GetCurrentAnimatorStateInfo(0).IsName("Sword_Swing"));
+        return (_animator.getIsSwordAttack());
     }
 	void ShowEffect()
 	{

@@ -27,8 +27,8 @@ public class WeaponController : MonoBehaviour {
 			//Destroy(_playerHand.transform.GetChild(0).gameObject);
 		}
 		EquippedWeapon = (GameObject)Instantiate(Resources.Load<GameObject>("Weapons/"+_itemToEquip.ItemName),
-		new Vector3(_playerHand.transform.position.x,_playerHand.transform.position.y+1,_playerHand.transform.position.z)
-		,_playerHand.transform.rotation);
+		new Vector3(_playerHand.transform.position.x, _playerHand.transform.position.y-1f, _playerHand.transform.position.z)
+		,Quaternion.identity);
 		_equippedItem[weaponnum] = EquippedWeapon.GetComponent<IWeapon>();
 		EquippedWeapon.transform.SetParent(_playerHand.transform);
 		_equippedItem[weaponnum].Stats = _itemToEquip.Stats;
