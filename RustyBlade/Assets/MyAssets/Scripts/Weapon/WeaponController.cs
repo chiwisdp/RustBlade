@@ -42,6 +42,12 @@ public class WeaponController : MonoBehaviour {
 	public int GetEnergyWeaponCost(int weaponnum){
 		return  _equippedItem[weaponnum].Stats[2].BaseValue;
 	}
+	public void EnbableHitBox(){
+		_equippedItem[weaponnum].EnableHitBox();
+	}
+	public void DisableHitBox(){
+		_equippedItem[weaponnum].DisableHitBox();
+	}
 	public void PerformAction(int weaponnum){
 		Debug.Log("GetIsInUse: "+GetIsInUse());
 		if(_equippedItem !=null && !GetIsInUse())

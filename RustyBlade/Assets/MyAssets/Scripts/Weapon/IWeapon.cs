@@ -6,5 +6,7 @@ public interface IWeapon
     void PerformAction(int _dmg);
     bool GetIsInUse();
 	void ToggleWeaponDisplay(bool _displayStatus);
+    void EnableHitBox();
+    void DisableHitBox();
     List<BaseStat> Stats {get; set;}
 }

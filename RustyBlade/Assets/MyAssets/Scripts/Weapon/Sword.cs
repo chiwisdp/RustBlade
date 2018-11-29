@@ -37,7 +37,12 @@ public class Sword : MonoBehaviour, IWeapon {
 	void SwordRecoil(){
 		//_animator.SetTrigger("wall_hit");
 	}
-
+	public void EnableHitBox(){
+		Debug.Log("hello");
+	}
+	public void DisableHitBox(){
+		Debug.Log("Adios");
+	}
     public bool GetIsInUse()
     {
         return (_animator.getIsSwordAttack());

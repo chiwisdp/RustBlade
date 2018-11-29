@@ -43,6 +43,12 @@ public class Dagger : MonoBehaviour, IWeapon {
 	{
 		_effectsController.DisplayDaggerSwingEffect();
 	}
+	public void EnableHitBox(){
+		Debug.Log("hello");
+	}
+	public void DisableHitBox(){
+		Debug.Log("Adios");
+	}
     public bool GetIsInUse()
     {
         return (_animator.GetCurrentAnimatorStateInfo(0).IsName("Dagger_Swing"));
