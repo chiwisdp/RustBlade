@@ -43,6 +43,7 @@ public class WeaponController : MonoBehaviour {
 		return  _equippedItem[weaponnum].Stats[2].BaseValue;
 	}
 	public void PerformAction(int weaponnum){
+		Debug.Log("GetIsInUse: "+GetIsInUse());
 		if(_equippedItem !=null && !GetIsInUse())
 		{
 			_equippedItem[weaponnum].PerformAction(CalculateDamage());

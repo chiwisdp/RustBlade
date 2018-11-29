@@ -10,7 +10,6 @@ public class PlayerAnimationController : MonoBehaviour {
 		
 	}
 	public void SwordAttack(){
-		Debug.Log("SWORD");
 		_animator.SetBool("isSwordAttack", true);
 		_animator.SetBool("isDaggerAttack", false);
 		_animator.SetBool("isIdle", false);
@@ -44,6 +43,9 @@ public class PlayerAnimationController : MonoBehaviour {
 		_animator.SetBool("isSwordAttack", false);
 		_animator.SetBool("isRoll", true);
 		_animator.SetBool("isDaggerAttack", false);
+	}
+	private void Update() {
+		Debug.Log("getIsSwordAttack() : " + getIsSwordAttack());
 	}
 	// Update is called once per frame
 	public bool getIsSwordAttack(){

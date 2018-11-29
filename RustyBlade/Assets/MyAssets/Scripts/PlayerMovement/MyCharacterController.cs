@@ -184,6 +184,12 @@ namespace KinematicCharacterController.Walkthrough.ChargingState
         /// </summary>
         public void SetInputs(ref PlayerCharacterInputs inputs)
         {
+            Debug.Log(" Character controller : CurrentCharacterState: "+CurrentCharacterState
+            +" inputs.Action1: " +inputs.Action1
+            + " _hasShieldUp: "+_hasShieldUp
+            + " _isStopped: " +_isStopped
+            + " ( _weaponController.GetEnergyWeaponCost(0) <=_energyController.GetCurrentEnergy()): "+ ( _weaponController.GetEnergyWeaponCost(0) <=_energyController.GetCurrentEnergy())
+            + " _isSwingSword: "+ _isSwingSword);
             // Handle state transition from input
             if (CurrentCharacterState == CharacterState.Default && inputs.ChargingDown && !_hasShieldUp && (Motor.GroundingStatus.IsStableOnGround) && !_isSwingSword && (_rollEnergyCost <= _energyController.GetCurrentEnergy()))
             {
