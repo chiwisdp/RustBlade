@@ -12,11 +12,13 @@ public class Sword : MonoBehaviour, IWeapon {
 	public int CurrentDamage { get; set; }
 	MeleeWeaponTrail _trail;
 	PlayerEffectsController _effectsController;
+	Collider m_Collider;
     private void Awake()
 	{
 		_animator=FindObjectOfType<PlayerAnimationController>();
-		_trail = GetComponent<MeleeWeaponTrail>();
 		_effectsController = FindObjectOfType<PlayerEffectsController>();
+		 m_Collider = GetComponent<Collider>();
+		 m_Collider.enabled = false;
 	}
     public void PerformAction(int _dmg)
     {
@@ -38,10 +40,10 @@ public class Sword : MonoBehaviour, IWeapon {
 		//_animator.SetTrigger("wall_hit");
 	}
 	public void EnableHitBox(){
-		Debug.Log("hello");
+		m_Collider.enabled = true;		
 	}
 	public void DisableHitBox(){
-		Debug.Log("Adios");
+		m_Collider.enabled = false;
 	}
     public bool GetIsInUse()
     {

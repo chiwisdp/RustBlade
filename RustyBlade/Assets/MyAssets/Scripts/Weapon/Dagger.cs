@@ -10,11 +10,13 @@ public class Dagger : MonoBehaviour, IWeapon {
 	public CharacterStats CharacterStats { get; set; }
 	public int CurrentDamage { get; set; }
 	PlayerEffectsController _effectsController;
-
+	Collider m_Collider;
     private void Awake()
 	{
 		_animator=GetComponent<Animator>();
 		_effectsController = FindObjectOfType<PlayerEffectsController>();
+		m_Collider = GetComponent<Collider>();
+		m_Collider.enabled = false;
 
 	}
     public void PerformAction(int _dmg)
@@ -44,10 +46,10 @@ public class Dagger : MonoBehaviour, IWeapon {
 		_effectsController.DisplayDaggerSwingEffect();
 	}
 	public void EnableHitBox(){
-		Debug.Log("hello");
+		m_Collider.enabled = true;
 	}
 	public void DisableHitBox(){
-		Debug.Log("Adios");
+		m_Collider.enabled = false;
 	}
     public bool GetIsInUse()
     {

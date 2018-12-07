@@ -9,6 +9,7 @@ public class WeaponController : MonoBehaviour {
 	int weaponnum;
 	CharacterStats _charStats;
 	PlayerEnergy _energyController;
+	int _currentWeaponUsed;
 	void Start(){
 		_energyController = GetComponent<PlayerEnergy>();
 		_charStats = GetComponent<PlayerStatsController>().characterStats;
@@ -43,13 +44,14 @@ public class WeaponController : MonoBehaviour {
 		return  _equippedItem[weaponnum].Stats[2].BaseValue;
 	}
 	public void EnbableHitBox(){
-		_equippedItem[weaponnum].EnableHitBox();
+		_equippedItem[_currentWeaponUsed].EnableHitBox();
 	}
 	public void DisableHitBox(){
-		_equippedItem[weaponnum].DisableHitBox();
+		_equippedItem[_currentWeaponUsed].DisableHitBox();
 	}
 	public void PerformAction(int weaponnum){
 		Debug.Log("GetIsInUse: "+GetIsInUse());
+		_currentWeaponUsed = weaponnum;
 		if(_equippedItem !=null && !GetIsInUse())
 		{
 			_equippedItem[weaponnum].PerformAction(CalculateDamage());
