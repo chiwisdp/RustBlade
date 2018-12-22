@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -12,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2018-12-10T18:24:54.660+09:00
-  initializedAtString: 2018-12-05T20:14:41.171+09:00
+  lastUpdatedAtString: 2018-12-23T01:55:14.898+09:00
+  initializedAtString: 2018-12-23T01:55:14.898+09:00
   currentGitRemote:
     name: origin
     url: https://github.com/chiwisdp/RustBlade.git
